@@ -1,0 +1,40 @@
+# Allow-list. This folder is a full game install: the Ikemen GO engine, 100+ GB of third-party characters, stages and
+# sounds, a screenpack, saves and logs. None of that is ours to publish. Only the original work below is tracked.
+/*
+!/.gitattributes
+!/.github
+!/.gitignore
+!/CHANGELOG.md
+!/LICENSE
+!/README.md
+!/SECURITY.md
+!/data
+!/docs
+!/external
+!/patches
+!/requirements-ci.txt
+!/requirements.txt
+!/tests
+!/woo
+
+/data/*
+!/data/woo_brain.zss
+
+/external/*
+!/external/mods
+/external/mods/*
+!/external/mods/woo_brain.lua
+
+/woo/*
+!/woo/duos.txt
+!/woo/lore.txt
+!/woo/lore_extra.txt
+!/woo/profiles.ini
+!/woo/series.txt
+!/woo/tools
+
+__pycache__/
+*.pyc
+
+# local admin helper for the author's install (changes folder permissions): not published
+/woo/tools/grant_write.cmd

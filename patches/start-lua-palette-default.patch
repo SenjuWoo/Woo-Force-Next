@@ -1,0 +1,18 @@
+--- external/script/start.lua
++++ external/script/start.lua
+@@ -613,6 +613,15 @@
+ 				return v
+ 			end
+ 		end
++		-- woo: a blank `pal.defaults =` (58+ chars, Senju_Tsunade) left this list empty and fell through to the
++		-- random pick below: AI fighters showed random recolours, junk ones included. Canon look = first free slot.
++		if #charData.pal_defaults == 0 then
++			for _, v in ipairs(availablePals) do
++				if not t_assignedPals[v] then
++					return v
++				end
++			end
++		end
+ 	end
+ 
+ 	-- random palette

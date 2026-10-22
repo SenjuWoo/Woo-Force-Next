@@ -1,0 +1,69 @@
+# Woo Force brain - input bridge and power scaling (Ikemen GO 1.0).
+# external/mods/woo_brain.lua decides every frame and writes these maps; nothing here
+# runs for a fighter the brain has not switched on.
+#   map(_woo_on)   1 = brain pilots this fighter (it presses the buttons below)
+#   map(_woo_keys) input bitmask: U=1 D=2 B=4 F=8 a=16 b=32 c=64 x=128 y=256 z=512 s=1024 d=2048 w=4096
+#   map(_woo_atk), map(_woo_def) power-tier multipliers, applied once per round
+# B/F are facing-relative, so the brain never has to care which way the fighter faces.
+
+[StateDef -4]
+
+ignoreHitPause if !isHelper && map(_woo_on) {
+	let k = floor(map(_woo_keys));
+	if $k & 1 { assertInput{flag: U} }
+	if $k & 2 { assertInput{flag: D} }
+	if $k & 4 { assertInput{flag: B} }
+	if $k & 8 { assertInput{flag: F} }
+	if $k & 16 { assertInput{flag: a} }
+	if $k & 32 { assertInput{flag: b} }
+	if $k & 64 { assertInput{flag: c} }
+	if $k & 128 { assertInput{flag: x} }
+	if $k & 256 { assertInput{flag: y} }
+	if $k & 512 { assertInput{flag: z} }
+	if $k & 1024 { assertInput{flag: s} }
+	if $k & 2048 { assertInput{flag: d} }
+	if $k & 4096 { assertInput{flag: w} }
+}
+
+# Finisher veto: the brain cancelled a super into idle (map(_woo_ctrl) = 1); give control back as a move's end would.
+ignoreHitPause if !isHelper && map(_woo_ctrl) {
+	ctrlSet{value: 1}
+	map(_woo_ctrl) := 0;
+}
+
+# Multiply whatever the character set for itself, once, when the fight starts.
+ignoreHitPause if !isHelper && roundState = 2 && map(_woo_atk) > 0 && map(_woo_scaled) = 0 {
+	attackMulSet{value: attackMul * map(_woo_atk)}
+	defenceMulSet{value: defenceMul * map(_woo_def)}
+	map(_woo_scaled) := 1;
+}
+
+# Fighting spirit, once per round: the brain sets map(_woo_clutch) when a fighter drops to 25% life and
+# map(_woo_cf) to the swing (4-16%, bigger for the underdog). Reset by the brain on every new round.
+ignoreHitPause if !isHelper && roundState = 2 && map(_woo_clutch) = 1 && map(_woo_clutched) = 0 {
+	attackMulSet{value: attackMul * (1 + map(_woo_cf))}
+	defenceMulSet{value: defenceMul * (1 + map(_woo_cf))}
+	map(_woo_clutched) := 1;
+}
+
+# Combo breaker, every fighter: a combo that has taken 45% of the victim's life, or kept it in hitstun for
+# 10 s, ends there; the victim is untouchable until it recovers + 2 s, and one held in the attacker's
+# custom state goes back to its own fall state. One combo can no longer decide a round. Hit counts are
+# not used: low-damage multi-hits and HitAdd make 300+ "hits" that took a third of a life bar (Sanemi Oni
+# vs Reggie, 2026-10-10).
+ignoreHitPause if !isHelper && roundState = 2 {
+	if moveType = H {
+		map(_woo_ht) := map(_woo_ht) + 1;
+		if receivedHits > map(_woo_maxhits) { map(_woo_maxhits) := receivedHits; }
+	} else {
+		map(_woo_ht) := 0;
+		map(_woo_broke) := 0;
+	}
+	if moveType = H && map(_woo_broke) = 0 && (receivedDamage >= lifeMax * 0.45 || map(_woo_ht) >= 600) {
+		map(_woo_broke) := 1;
+		map(_woo_breaks) := map(_woo_breaks) + 1;
+		if stateOwner, id != id { selfState{value: 5050} }
+	}
+	# untouchable until back on its feet, then 2 s more
+	if map(_woo_broke) { notHitBy{value: SCA; time: 120} }
+}

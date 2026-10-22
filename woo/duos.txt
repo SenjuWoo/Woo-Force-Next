@@ -1,0 +1,122 @@
+# Woo Force brain - canon duos and teams. One clique per line: lore keys (woo/lore.txt) separated by commas.
+# Everyone in a line becomes a *partner* of everyone else in it (both ways), on top of lore.txt's own partners.
+# Partners know each other's moves (familiarity 0.8), relay each other's combos without hesitation, cover each
+# other, open their supers together (unison) and finish a combo as a pair. roster_analyzer.py merges this file.
+# Edit freely, then re-run woo/tools/roster_analyzer.py. Unknown keys are reported, not fatal.
+
+# ---------------------------------------------------------------- Naruto
+naruto, minato, jiraiya
+naruto, kakashi, sasuke, sakura
+minato, kakashi, obito
+minato, jiraiya
+hashirama, tobirama, tsunade, hiruzen
+tsunade, jiraiya, orochimaru
+tsunade, sakura
+itachi, sasuke
+itachi, shisui, kisame
+obito, madara
+madara, izuna
+naruto, hinata
+naruto, killer_bee
+naruto, gaara
+gaara, temari, kankuro
+rock_lee, might_guy, neji, tenten
+might_guy, kakashi
+shikamaru, choji, ino
+kiba, hinata, shino
+deidara, sasori
+hidan, kakuzu
+pain, konan
+sasuke, suigetsu, karin, juugo
+boruto, sarada, mitsuki
+boruto, naruto
+boruto, kawaki
+hagoromo, hamura
+indra, ashura
+# ---------------------------------------------------------------- One Piece
+luffy, zoro, sanji, nami, usopp, chopper, robin, franky, brook, jinbe
+luffy, ace, sabo
+whitebeard, marco, ace
+shanks, benn_beckman
+roger, rayleigh
+law, luffy, kid
+garp, sengoku
+kaido, king, queen
+big_mom, katakuri, cracker
+# ---------------------------------------------------------------- Dragon Ball
+goku, vegeta, gohan, krillin, piccolo
+goku, vegeta, gogeta, vegito
+goku, gohan, goten
+vegeta, trunks
+trunks, goten, gotenks
+gohan, piccolo
+piccolo, krillin, tien, yamcha
+bardock, goku, raditz
+vegeta, nappa, raditz
+beerus, whis
+frieza, cooler, king_cold
+jiren, toppo, dyspo
+cabba, kale, caulifla, kefla
+zeno, daishinkan
+goku_black, zamasu
+# ---------------------------------------------------------------- Bleach
+ichigo, rukia, renji, ishida, orihime, chad
+ichigo, isshin
+byakuya, rukia, renji
+kenpachi, yachiru
+shunsui, ukitake
+hitsugaya, matsumoto
+soi_fon, yoruichi
+urahara, yoruichi
+aizen, gin, tousen
+# ---------------------------------------------------------------- Jujutsu Kaisen
+gojo, geto
+gojo, itadori, megumi, nobara
+yuta, maki, panda, inumaki
+toji, megumi
+# ---------------------------------------------------------------- Demon Slayer
+tanjiro, nezuko, zenitsu, inosuke
+tanjiro, giyu
+rengoku, tengen
+yoriichi, kokushibo
+# ---------------------------------------------------------------- My Hero Academia
+deku, bakugo, todoroki, uraraka, iida
+all_might, deku
+endeavor, todoroki, dabi
+shigaraki, all_for_one
+# ---------------------------------------------------------------- Hunter x Hunter / JoJo / OPM / others
+gon, killua, kurapika, leorio
+gon, ging
+chrollo, feitan
+jonathan, zeppeli
+joseph, caesar
+jotaro, joseph, kakyoin, polnareff, avdol
+josuke, okuyasu, koichi, rohan
+giorno, bucciarati, mista, narancia, fugo, abbacchio
+jolyne, weather_report, ermes
+johnny, gyro
+saitama, genos
+bang, bomb
+tatsumaki, fubuki
+meliodas, ban, king_7ds, diane, gowther, merlin, escanor, elizabeth
+eren, mikasa, armin
+levi, erwin, hange
+reiner, bertholdt, annie
+porco, pieck
+seiya, shiryu_ss, hyoga, shun, ikki
+natsu, happy, lucy, erza, gray_ft, wendy
+gajeel, juvia, levy
+jellal, erza
+asta, yuno, noelle, yami
+edward_elric, alphonse
+roy_mustang, riza, armstrong
+yusuke, kuwabara, hiei
+kirito, asuna
+kazuma_konosuba, megumin, aqua
+subaru, rem, ram, emilia
+naofumi, raphtalia
+rimuru, veldora, shizu
+ainz, albedo
+rudeus, sylphiette, eris, roxy
+saber, shirou, rin
+kenshin, sanosuke

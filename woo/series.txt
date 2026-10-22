@@ -1,0 +1,182 @@
+# Woo Force - fandom of every character, and the order fandoms take on the select screen.
+# Read by woo/tools/roster_analyzer.py (profile "series", summary.csv) and woo/tools/select_order.py.
+# A character's series comes from, first match wins:
+#   [defs]  character folder names (where a lore key is shared by different characters or wrong)
+#   [keys]  woo/lore.txt keys
+#   the woo/lore.txt section the key sits in, when that section is named after one series
+# Edit, then run roster_analyzer.py and select_order.py.
+
+[order]
+# Shonen Jump and the anime that fit the Jump Force roster first; game, western, original and edit
+# characters last. Fandoms not listed go after the listed anime, alphabetically.
+dragon ball
+naruto
+one piece
+bleach
+jujutsu kaisen
+demon slayer
+my hero academia
+hunter x hunter
+jojo
+one punch man
+mob psycho 100
+seven deadly sins
+black clover
+chainsaw man
+yu yu hakusho
+saint seiya
+fist of the north star
+rurouni kenshin
+attack on titan
+tokyo ghoul
+fullmetal alchemist
+death note
+fairy tail
+gintama
+fate / type-moon
+sword art online
+tensura
+overlord
+re:zero
+konosuba
+shield hero
+mushoku tensei
+eminence in shadow
+misfit of demon king academy
+a certain magical index
+date a live
+inuyasha
+hellsing
+berserk
+record of ragnarok
+dr. stone
+magi
+fire force
+shaman king
+akame ga kill
+undead unluck
+yu-gi-oh
+other anime
+# ---- games, western, original, edits
+yakuza
+devil may cry
+persona
+nier
+street fighter
+king of fighters
+guilty gear
+skullgirls
+blazblue
+tekken
+dead or alive
+tales of
+darkstalkers
+final fantasy
+under night in-birth
+touhou
+other games
+marvel
+dc
+ben 10
+nintendo
+pokemon
+original
+
+[keys]
+demon slayer = inosuke, muichiro
+gintama = hijikata
+fullmetal alchemist = barry_fma
+other anime = saiki, yuno_gasai, lucy_diclonius
+touhou = reimu
+pokemon = gengar, raichu
+hunter x hunter = chrollo, biscuit, hanzo_hxh, kaito, shizuku, genthru
+one punch man = king_opm, mumen_rider, sweet_mask, child_emperor, drive_knight, pig_god, puri_puri, darkshine,
+    watchdog_man, zombieman, metal_knight, tank_top_master, smile_man, spring_mustachio, marugori, mosquito_girl,
+    deep_sea_king, vaccine_man, do_s, gouketsu, black_sperm, platinum_sperm, homeless_emperor, rover, orochi_opm,
+    suiryu, sonic
+mob psycho 100 = mob, reigen, teru
+attack on titan = eren, levi, mikasa, armin, erwin, reiner, annie, zeke, hange, porco, pieck, bertholdt
+saint seiya = seiya, hyoga, shun, ikki, saga, shaka
+tokyo ghoul = kaneki, arima, touka, nishiki, takizawa, juuzou
+yu yu hakusho = yusuke, kuwabara, hiei, toguro, genkai, chu, jin_yyh
+fullmetal alchemist = edward_elric, alphonse, roy_mustang, king_bradley, envy, armstrong, izumi_curtis, scar,
+    gluttony, lust, greed, riza
+fate / type-moon = saber, gilgamesh, archer, heroine_x, lancer, jeanne, mordred, kirei, lancelot, hassan, bb, medusa,
+    astolfo, ushiwakamaru, shirou, chloe_fate, rin, abigail, tohno, arcueid, ciel, ryougi_shiki
+tensura = rimuru, veldora, shizu
+overlord = ainz, albedo
+misfit of demon king academy = anos
+sword art online = kirito, asuna, eugeo, alice_sao, yuuki_sao, leafa
+shield hero = naofumi, raphtalia, fitoria
+re:zero = subaru, reinhard, rem, ram, beatrice, emilia
+eminence in shadow = cid, alpha, beta, delta
+a certain magical index = accelerator, misaka, kuroko, touma, fiamma
+fairy tail = erza, gray_ft, gajeel, gildarts, acnologia
+hellsing = alucard
+berserk = guts, griffith, zodd, serpico
+devil may cry = dante, vergil
+fist of the north star = kenshiro
+akame ga kill = akame, esdeath
+chainsaw man = makima, denji, power, katana_man
+inuyasha = naraku, sesshomaru
+rurouni kenshin = kenshin, sanosuke, shishio, enishi
+yakuza = kiryu
+konosuba = kazuma_konosuba, megumin, aqua
+mushoku tensei = rudeus, sylphiette, eris, roxy
+date a live = kurumi, tohka
+jujutsu kaisen = miwa, noritoshi, shoko, ryu_ishigori, takako_uro, regge, agito, momo_nishimiya
+death note = light_yagami, l_lawliet
+seven deadly sins = elaine, hawk, fraudrin, grayroad, drole, galand, melascula, mael
+black clover = zora, gauche, gordon, finral, langris, fana, vangeance, dorothy
+my hero academia = tsuyu, hagakure, mineta, nana_shimura, nomu, u_one_for_all
+magi = aladdin, alibaba, morgiana, ren_kouen, kougyoku, judal, sinbad
+undead unluck = andy, victor
+shaman king = yoh, hao
+dr. stone = senku, kohaku
+record of ragnarok = zeus, buddha, ying_zheng
+fire force = shinra, tamaki
+yu-gi-oh = joey, kaiba, jaden, zane
+other anime = goblin_slayer, sung_jinwoo, thorfinn, gabimaru, ayanokoji, afro_samurai, emi_yusa, altair, maka,
+    devilman, neuro, koro_sensei, akuto_sai, rin_okumura, shinichi_izumi, rokuro, tsuna, tetsuo, train, tsukiumi, tanya,
+    taikoubou, jin_mori, ryuko, hyakkimaru, david_martinez, ippo, tohru, rias, yor, tatsuya, kazuki, tokiko, yato,
+    medaka, weiss, miku, shadow, u_marin, u_corochi0_6, u_haman_karn, u_momotaro, u_tora_vore, u_simakaze,
+    u_kuromaru_girl_plus, u_kuromaru_plus_press14_2, u_v_kuromaru
+persona = aigis
+nier = yorha_2b
+street fighter = honda, chun_li, mika, poison, u_ingrid
+king of fighters = mai, shermie, u_angel, u_hinako, u_shen, u_wet_athenaxi, u_wet_b_jenet, u_yuri, u_d_athena
+guilty gear = ramlethal, may_gg, i_no, dizzy
+skullgirls = cerebella, squigly, valentine
+blazblue = u_noel_s
+tekken = u_lumina
+dead or alive = kasumi
+tales of = u_colette, u_farah
+darkstalkers = u_lei_lei
+final fantasy = tifa
+under night in-birth = hyde
+touhou = reisen, sakuya
+other games = mei_fang, ornn, u_the_boss, u_mancubus, u_spidermastermind, u_nurse_attack
+marvel = spider_gwen, psylocke, mystique, rogue, storm, spiral, black_widow, u_moondragon
+dc = starfire, catwoman, hawkgirl, cheetah, u_cassie_sandsmark, u_joker
+ben 10 = u_gwen_tennyson
+nintendo = bowser, u_krystal
+pokemon = hypno, pikachu, pichu, squirtle, charizard, ivysaur, snorlax, greninja, lucario, incineroar, blastoise,
+    haunter, cloyster, lopunny, machamp, mewtwo, muk, victreebel, zapdos
+original = riza_lyla, u_pafio, u_chihiro, u_hakkon, u_yi, u_akira, u_allen, u_ayane_ikuse, u_azukina_tqof_2019, u_azukina,
+    u_azumi_hojo, u_baryon, u_black_zaigor, u_cavall, u_chloe, u_d4cathy, u_demon, u_e99_kirie, u_eve, u_h_yuka,
+    u_hanzo_xiii, u_hychaga0, u_iari_r, u_jk_ren_koume, u_j_ignis, u_jackie, u_jessica_albert, u_kai_new2019,
+    u_kaiser, u_karen, u_karito_nakami, u_komepo_bs, u_kurasawa, u_luna, u_margret_stalizburg, u_milk,
+    u_mudpenis, u_nanaba, u_parace_l_sia, u_pastilla, u_rankosp5, u_reve, u_truffe, u_wrestlerx, u_black_mwang95,
+    u_clara2, u_hachishakusama_sc, u_inma_z, u_kai, u_kump02_sha_n, u_kyouko_mvc, u_kyouko, u_laura_vampire,
+    u_log, u_millarca, u_redsnake, u_saki_mamiya_z, u_shimo, u_stera_qa, u_towerofbloodyfight, u_vampy
+
+[style]
+# Jump-style sprite or not, where select_order.py's sprite-size rule gets it wrong (character folder names).
+# fits: canonically huge characters drawn in the Jump style; out: edits/ports in another art style.
+fits = Bullet, Agito, Hanami, gouketsu, Grayroad, fiamma LMT, tora_vore, Nnoitra, Drole, Galland, nzodd
+out = fubukiN, Red_Arcueid, kn-AQUA, draculina, Ryuko, v.kuromaru, kuromaru_plus_press14.2, kuromaru_girl_plus,
+    simakaze
+
+[defs]
+one punch man = fubukiN
+street fighter = nude Sakura

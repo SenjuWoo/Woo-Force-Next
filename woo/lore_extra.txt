@@ -1,0 +1,442 @@
+
+# ================================================================ roster fill-in (2026-10-09)
+# Characters no line above matched (woo/roster/lore_unmatched.txt). Kept below everything else so
+# these words can only claim characters that were unmatched. Specific lines before general ones.
+
+# ---------------------------------------------------------------- disambiguation (must stay first)
+akuto_sai | akuto sai | berserker | | | 
+hypno | hypno | trickster | pokemon | | 
+emi_yusa | emi yusa, emilia justina | warrior | | | 
+
+# ---------------------------------------------------------------- Dragon Ball (gaps)
+goku_black | black ssj3 rose | trickster | zamasu_faction | zamasu | goku,vegeta,trunks
+krillin | krilin | tactician | z_fighters | goku,yamcha,tien,android | frieza
+yamcha | yamcha | rushdown | z_fighters | krillin,tien |
+tapion | tapion | warrior | | goku,trunks |
+super_17 | super 17 | tactician | red_ribbon,androids | android | goku
+king_cold | king cold | warrior | frieza_force | frieza,cooler | trunks,vegeta
+turles | turles | warrior | saiyans,crusher_corps | | goku
+frost | frost | trickster | universe_6 | | vegeta,goku
+
+# ---------------------------------------------------------------- One Piece (gaps)
+blackbeard | kurohige | berserker | blackbeard_pirates,yonko | shiryu | ace,whitebeard,luffy
+hody | hodyjones, hody | berserker | new_fishman_pirates | | luffy,jinbe
+wapol | wapol | trickster | | | luffy,chopper
+shiliew | shiliew | rushdown | blackbeard_pirates | blackbeard |
+kalifa | kalifa | trickster | cp9 | lucci,kaku,blueno | nami
+kaku | kaku | warrior | cp9 | lucci,kalifa,blueno | zoro
+blueno | blueno | tactician | cp9 | lucci,kaku,kalifa | sanji
+urouge | urouge | brawler | worst_generation | |
+ivankov | ivankov | trickster | revolutionary_army | luffy |
+karasu | karasu | trickster | revolutionary_army | sabo |
+perona | perona | zoner | thriller_bark | moria | usopp
+x_drake | xdrake, x drake | warrior | worst_generation,beast_pirates | |
+vergo | vergo | warrior | donquixote_family | doflamingo | law,smoker
+pica | pica | brawler | donquixote_family | doflamingo | zoro
+ryuma | ryuma | warrior | wano | | zoro
+rebecca | rebecca | tactician | dressrosa | |
+kuro | kuro | rushdown | black_cat_pirates | | luffy,usopp
+krieg | krieg | zoner | krieg_pirates | | luffy,sanji
+hawkins | basil, hawkins, basil2 | trickster | worst_generation,beast_pirates | |
+cracker | cracker | warrior | big_mom_pirates | big_mom,katakuri | luffy
+gladius | gladius | zoner | donquixote_family | doflamingo |
+daz_bones | daz bones, mr1 | warrior | baroque_works | crocodile | zoro
+bon_kure | bon kure, mr2 | trickster | baroque_works | luffy | sanji
+oven | oven | berserker | big_mom_pirates | big_mom,katakuri |
+apoo | apoo | zoner | worst_generation,beast_pirates | kaido |
+ichiji | ichiji | rushdown | germa_66 | niji,yonji,reiju | sanji
+niji | niji | rushdown | germa_66 | ichiji,yonji,reiju | sanji
+yonji | yonji | brawler | germa_66 | ichiji,niji,reiju | sanji
+reiju | reiju | zoner | germa_66 | ichiji,niji,yonji,sanji |
+perospero | perospero | trickster | big_mom_pirates | katakuri,big_mom |
+shiki_op | shikithegoldenlion, golden lion | zoner | golden_lion_pirates | | luffy,roger
+zephyr | zephyr | warrior | marines,neo_marines | | luffy,aokiji
+douglas_bullet | bullet, douglas bullet | berserker | | | luffy,roger
+
+# ---------------------------------------------------------------- Naruto / Boruto (gaps)
+obito | maskedman, masked man | trickster | akatsuki,uchiha | madara | kakashi,minato,naruto
+sai | sai | zoner | konoha,team_7,root | naruto,sakura |
+tenten | tenten | zoner | konoha,team_guy | rock_lee,neji,might_guy |
+asuma | asuma | warrior | konoha,team_10 | shikamaru,choji,ino | hidan,kakuzu
+iruka | iruka | brawler | konoha | naruto |
+kurenai | kurenai | tactician | konoha,team_8 | kiba,shino,hinata |
+juugo | juugo | berserker | taka | sasuke,suigetsu,karin |
+kankuro | kankuro | zoner | sunagakure | gaara,temari | sasori
+temari | temari | zoner | sunagakure | gaara,kankuro,shikamaru |
+fuu | fuu | rushdown | jinchuriki,takigakure | |
+utakata | utakata | zoner | jinchuriki,kirigakure | |
+yagura | yagura | warrior | jinchuriki,kirigakure | |
+yugito | yugito | rushdown | jinchuriki,kumogakure | killer_bee |
+han | han | brawler | jinchuriki,iwagakure | |
+kimimaro | kimimaro | warrior | otogakure,sound_four | orochimaru | rock_lee,gaara
+karin | karin | tactician | taka,uzumaki | sasuke,suigetsu,juugo |
+suigetsu | suigetsu | rushdown | taka | sasuke,juugo,karin | kisame
+zetsu | zetsu | trickster | akatsuki | obito,madara |
+izuna | izuna, izunauchiha | warrior | uchiha | madara | tobirama
+hamura | hamura | effortless | otsutsuki | hagoromo | kaguya
+toneri | toneri | zoner | otsutsuki | | naruto,hinata
+isshiki | kawashiki | effortless | otsutsuki,kara | | naruto,sasuke,boruto
+konohamaru | konohamaru | rushdown | konoha | boruto,naruto |
+himawari | himawari | brawler | konoha,uzumaki | boruto,hinata,naruto |
+chocho | chocho | brawler | konoha,team_10 | |
+iwabe | iwabe | brawler | konoha | boruto |
+shin_uchiha | shin uchiha | trickster | | | sasuke,sarada
+kashin_koji | kashin koji | zoner | kara | | isshiki,jiraiya
+code | code | berserker | kara | isshiki | boruto,kawaki
+
+# ---------------------------------------------------------------- Bleach (gaps)
+hisagi | hisagi | warrior | gotei_13 | | tousen
+matsumoto | matsumoto | zoner | gotei_13 | hitsugaya,gin |
+sasakibe | sasakibe | tactician | gotei_13 | yamamoto |
+iba | iba, tetsuzaemon | brawler | gotei_13 | komamura |
+kaien | kaien | warrior | gotei_13 | ukitake,rukia | aaroniero
+yachiru | yachiru | rushdown | gotei_13 | kenpachi |
+isshin | isshin | warrior | gotei_13 | ichigo | aizen
+rose | rose | zoner | vizards,gotei_13 | shinji,kensei |
+azashiro | azashiro | warrior | gotei_13 | yamamoto |
+kirinji | kirinji | rushdown | royal_guard | ichibe,hikifune,oetsu |
+hikifune | hikifune | brawler | royal_guard | kirinji,ichibe |
+oetsu | oetsu | tactician | royal_guard | ichibe |
+tousen | tousen | warrior | aizen_faction | aizen,gin | komamura,hisagi
+nelliel | nel, nelliel | warrior | espada | ichigo | nnoitra
+yammy | yammy | berserker | espada | | kenpachi,byakuya
+kokuto | kokuto | berserker | hell | | ichigo
+candice | candice | rushdown | sternritter | bazz_b |
+jugram | jugram | tactician | sternritter | yhwach | ichigo
+gremmy | gremmy | trickster | sternritter | | kenpachi
+
+# ---------------------------------------------------------------- Demon Slayer (gaps)
+sabito | sabito | warrior | water_breathing | giyu,tanjiro |
+susamaru | susamaru | zoner | demons | yahaba | tanjiro
+yahaba | yahaba | trickster | demons | susamaru | tanjiro
+zohakuten | zohakuten | zoner | upper_moons | hantengu | tanjiro,mitsuri
+nakime | nakime | trickster | upper_moons | muzan |
+
+# ---------------------------------------------------------------- Rurouni Kenshin / Inuyasha
+kenshin | kenshin | rushdown | kenshin_gumi | sanosuke | shishio,enishi
+sanosuke | sanosuke | brawler | kenshin_gumi | kenshin |
+shishio | shishio | berserker | juppongatana | | kenshin
+enishi | enishi | berserker | | | kenshin
+sesshomaru | sesshomaru | effortless | | | inuyasha,naraku
+
+# ---------------------------------------------------------------- Konosuba / Re:Zero / isekai (gaps)
+kiryu | kiryu | brawler | tojo_clan | |
+kazuma_konosuba | satou kazuma, kazuma | trickster | konosuba | megumin,aqua |
+megumin | megumin | zoner | konosuba | kazuma_konosuba |
+aqua | kn aqua | brawler | konosuba | kazuma_konosuba |
+rem | rem | berserker | roswaal_mansion | ram,subaru |
+ram | ram | zoner | roswaal_mansion | rem |
+beatrice | beatrice | zoner | roswaal_mansion | subaru |
+emilia | emilia | zoner | roswaal_mansion | subaru |
+alpha | alpha x | tactician | shadow_garden | cid,beta,delta |
+beta | beta x | rushdown | shadow_garden | cid,alpha,delta |
+delta | delta x | berserker | shadow_garden | cid,alpha,beta |
+veldora | veldora | berserker | tempest | rimuru |
+shizu | shizu | zoner | | rimuru |
+albedo | albedo | warrior | nazarick | ainz |
+rudeus | rudeus | zoner | greyrat | roxy,sylphiette,eris |
+sylphiette | sylphiette | zoner | greyrat | rudeus |
+eris | eris | berserker | greyrat | rudeus |
+roxy | roxy | zoner | | rudeus |
+fitoria | fitoria | effortless | filolials | naofumi |
+altair | altair | trickster | | |
+alice_sao | alice zuberg | warrior | | kirito,eugeo |
+yuuki_sao | konno yuuki, yuuki | rushdown | sleeping_knights | asuna |
+leafa | leafa | rushdown | | kirito |
+
+# ---------------------------------------------------------------- Fairy Tail
+lucy_diclonius | diclonius | berserker | | |
+natsu | natsu | rushdown | fairy_tail | lucy,happy,gray_ft,erza,wendy | gajeel,zeref,acnologia
+happy | happy | trickster | fairy_tail | natsu |
+lucy | lucy | zoner | fairy_tail | natsu,happy |
+wendy | wendy | zoner | fairy_tail | natsu,gajeel |
+cana | cana | zoner | fairy_tail | |
+elfman | elfman | berserker | fairy_tail | mirajane,lisanna |
+lisanna | lisanna | brawler | fairy_tail | elfman,mirajane |
+mirajane | mirajane | berserker | fairy_tail | elfman,lisanna |
+juvia | juvia | zoner | fairy_tail | gray_ft |
+laxus | laxus | warrior | fairy_tail,raijinshu | makarov |
+jellal | jellal | zoner | crime_sorciere | erza |
+kagura_ft | kagura k | warrior | mermaid_heel | erza |
+mystogan | mystogan | trickster | fairy_tail | |
+makarov | makarov | warrior | fairy_tail | laxus |
+sting | sting | rushdown | sabertooth | | natsu
+bisca | bisca | zoner | fairy_tail | |
+levy | levy | zoner | fairy_tail | gajeel |
+invel | invel | tactician | spriggan_12 | | gray_ft
+jura | jura | warrior | ten_wizard_saints | |
+cobra | ft cobra | rushdown | oracion_seis | | natsu
+lyon | lyon | zoner | lamia_scale | gray_ft |
+dimaria | dimaria | trickster | spriggan_12 | | erza
+irene | irene | zoner | spriggan_12 | | erza
+brandish | brandish | tactician | spriggan_12 | | lucy
+racer | racer | rushdown | oracion_seis | |
+hoteye | hoteye | brawler | oracion_seis | |
+midnight | midnight | trickster | oracion_seis | | erza
+august | august | effortless | spriggan_12 | zeref |
+zeref | zeref | effortless | spriggan_12 | | natsu
+
+# ---------------------------------------------------------------- Gintama
+takasugi | takasugi | warrior | kiheitai | | gintoki
+kyuubei | kyuubei | rushdown | | |
+kagura_gintama | kagura | rushdown | yorozuya | gintoki |
+
+# ---------------------------------------------------------------- Saint Seiya (gaps)
+yato_cdz | yato cdz | rushdown | bronze_saints | |
+jabu | jabu | rushdown | bronze_saints | | seiya
+shina | shina | rushdown | silver_saints | | seiya
+tenma | tenma | rushdown | athena_army | |
+aldebaran | aldebaran | brawler | gold_saints | | seiya
+shura | shura | warrior | gold_saints | | shiryu_ss
+aiolos | aioros, aiolos | warrior | gold_saints | aiolia | saga
+dohko | dohko | warrior | gold_saints | shiryu_ss |
+camus | camus | zoner | gold_saints | | hyoga
+milo | milo | rushdown | gold_saints | | hyoga
+death_mask | death mask, mascara da morte | trickster | gold_saints | | shiryu_ss
+mu_magi | jk mu | warrior | magi | |
+aiolia | aiolia, aioria | rushdown | gold_saints | aiolos | seiya
+mu | mu | tactician | gold_saints | |
+afrodite | afrodite | zoner | gold_saints,specters | | shun
+shion | shion | tactician | gold_saints,specters | dohko |
+athena | atena | effortless | athena_army | seiya |
+isaak | isaak | zoner | mariners | | hyoga
+black_pegasus | pegaso negro | brawler | black_saints | | seiya
+black_phoenix | fenix negro | brawler | black_saints | | ikki
+black_andromeda | andromeda negro | zoner | black_saints | | shun
+black_swan | cisne negro | zoner | black_saints | | hyoga
+black_dragon | dragao negro | brawler | black_saints | | shiryu_ss
+
+# ---------------------------------------------------------------- JoJo (gaps)
+zeppeli | zeppeli | tactician | hamon | jonathan | dio
+ermes | hermes | brawler | stone_ocean | jolyne |
+weather_report | weather report | zoner | stone_ocean | jolyne | pucci
+diego | diego | rushdown | sbr | | johnny,gyro
+lisa_lisa | lisalisa | tactician | hamon | joseph,caesar | kars
+cioccolata | cioccolata | trickster | passione | | giorno
+shizuka | shizuka | trickster | joestar | |
+stroheim | stroheim | zoner | | joseph | kars
+trish | trish | tactician | passione | bucciarati,giorno |
+ringo | ringo roadagain | tactician | sbr | | gyro
+
+# ---------------------------------------------------------------- Fate / Type-Moon / Date A Live
+heroine_x | heroine x | rushdown | servants | | saber
+lancer | lancer | rushdown | servants | | archer
+jeanne | jeanne | warrior | servants | |
+mordred | mordred | berserker | servants | | saber
+kirei | kirei | trickster | | gilgamesh | shirou
+lancelot | lancelot | berserker | servants | | saber
+hassan | hassan | trickster | servants | |
+bb | bb | trickster | | |
+medusa | rider medusa, medusa | trickster | servants | | saber
+astolfo | astolfo | trickster | servants | |
+ushiwakamaru | ushiwakamaru | rushdown | servants | |
+shirou | shirou | tactician | | saber,rin | archer,gilgamesh
+chloe_fate | chloevoneinzbern | trickster | | |
+rin | rin tohsaka, tohsaka | zoner | | archer,shirou |
+abigail | abigail | zoner | servants | |
+tohno | tohno | rushdown | | arcueid |
+arcueid | arcueid | effortless | | tohno |
+ciel | ciel | zoner | | tohno |
+ryougi_shiki | ryougi | tactician | | |
+kurumi | kurumi | trickster | spirits_dal | | tohka
+tohka | tohka | warrior | spirits_dal | | kurumi
+
+# ---------------------------------------------------------------- JJK / Tokyo Ghoul / Death Note / FMA / YYH / AoT / HxH (gaps)
+miwa | miwa | tactician | kyoto_school | |
+noritoshi | noritoshi | zoner | kyoto_school,kamo_clan | todo |
+shoko | shoko | brawler | jujutsu_high | gojo,geto |
+ryu_ishigori | ryu kazami | zoner | culling_game | | yuta
+takako_uro | takako uro | trickster | culling_game | |
+regge | regge | zoner | culling_game | | megumi
+agito | agito | berserker | | |
+touka | rabbit | rushdown | anteiku | kaneki |
+nishiki | nishiki | trickster | anteiku | kaneki |
+takizawa | takizawa | berserker | aogiri | |
+juuzou | juuzou | berserker | ccg | arima |
+light_yagami | yagami light, yagami | tactician | | | l_lawliet
+l_lawliet | lawliet | tactician | | | light_yagami
+armstrong | armstrong | brawler | amestris_military | roy_mustang,edward_elric |
+izumi_curtis | izumi curtis | brawler | | edward_elric,alphonse |
+scar | scar | warrior | ishvalans | | edward_elric,king_bradley
+gluttony | gluttony | berserker | homunculi | lust |
+lust | lust | zoner | homunculi | gluttony | roy_mustang
+greed | greed | warrior | homunculi | | king_bradley
+riza | riz, riza | zoner | amestris_military | roy_mustang |
+genkai | genkai | tactician | | yusuke | toguro
+chu | chu | brawler | | jin_yyh | yusuke
+jin_yyh | jin k, jinwm | zoner | | chu |
+hange | hange | tactician | survey_corps | levi,erwin |
+porco | porco | berserker | marley_warriors | reiner,pieck |
+pieck | pieck | tactician | marley_warriors | porco,zeke |
+bertholdt | bertholdt | berserker | marley_warriors | reiner,annie | eren,armin
+chrollo | kuroro | tactician | phantom_troupe | | hisoka,kurapika
+biscuit | biscuit | brawler | | gon,killua |
+hanzo_hxh | jx hanzo | rushdown | | | gon
+kaito | kaito | warrior | | gon,ging | neferpitou
+shizuku | shizuku | brawler | phantom_troupe | chrollo |
+genthru | genthru | zoner | | | gon
+
+# ---------------------------------------------------------------- One Punch Man / Mob Psycho (gaps)
+king_opm | king | effortless | heroes_association | saitama |
+mumen_rider | mumen rider | brawler | heroes_association | saitama |
+sweet_mask | sweet mask | warrior | heroes_association | |
+child_emperor | child emperor | zoner | heroes_association | |
+drive_knight | drive knight | tactician | heroes_association | | metal_knight
+pig_god | pig god | berserker | heroes_association | |
+puri_puri | prisionero | brawler | heroes_association | |
+darkshine | darkshine | brawler | heroes_association | |
+watchdog_man | wachdog | effortless | heroes_association | |
+zombieman | zombiman | warrior | heroes_association | |
+metal_knight | metal knight | zoner | heroes_association | | drive_knight
+tank_top_master | tank top master | brawler | heroes_association | |
+smile_man | smile man | brawler | heroes_association | |
+spring_mustachio | mustachio | warrior | heroes_association | |
+marugori | marugori | berserker | | |
+mosquito_girl | mosquito | rushdown | monster_association | | genos
+deep_sea_king | mar profundo | berserker | | | genos
+vaccine_man | vaccineman | berserker | | | saitama
+do_s | do s | trickster | monster_association | |
+gouketsu | gouketsu | warrior | monster_association | |
+black_sperm | blacksperm | trickster | monster_association | |
+platinum_sperm | platinum sperm | zoner | monster_association | |
+homeless_emperor | homeless emperor | zoner | monster_association | |
+rover | rover | berserker | monster_association | |
+orochi_opm | orochi | berserker | monster_association | |
+suiryu | suiryu | rushdown | | | garou
+reigen | reigen | trickster | spirits_and_such | mob |
+teru | teruki | rushdown | | mob |
+
+# ---------------------------------------------------------------- Seven Deadly Sins / Black Clover / MHA (gaps)
+elaine | elaine | zoner | fairies | ban,king_7ds |
+hawk | hawk | brawler | | meliodas |
+fraudrin | fraudrin, dreyfus | warrior | holy_knights,ten_commandments | hendrickson |
+grayroad | grayroad | trickster | ten_commandments | |
+drole | drole | zoner | ten_commandments | |
+galand | galland | warrior | ten_commandments | |
+melascula | melascula | zoner | ten_commandments | galand |
+mael | mael | effortless | four_archangels | | escanor
+zora | zora | trickster | black_bulls | asta |
+gauche | gauche | zoner | black_bulls | asta |
+gordon | gordon | zoner | black_bulls | |
+finral | finral | trickster | black_bulls | asta | langris
+langris | langris | zoner | golden_dawn | | finral
+fana | fana | zoner | eye_of_midnight_sun | | mereoleona
+vangeance | vangeance | tactician | golden_dawn | yuno |
+dorothy | dorothy | trickster | coral_peacocks | |
+tsuyu | froppy | trickster | class_1a | deku |
+hagakure | hagakure | trickster | class_1a | |
+mineta | mineta | trickster | class_1a | |
+nana_shimura | nana shimura, nana | warrior | one_for_all | all_might | all_for_one
+nomu | nomu | berserker | league_of_villains | shigaraki | all_might
+
+# ---------------------------------------------------------------- other anime / manga
+aladdin | aladdin | zoner | | alibaba,morgiana |
+alibaba | alibaba | warrior | | aladdin,morgiana |
+morgiana | morgiana | rushdown | | alibaba,aladdin |
+ren_kouen | kouen | zoner | kou_empire | | sinbad
+kougyoku | kougyoku | warrior | kou_empire | |
+judal | judal | zoner | al_thamen | | aladdin
+sinbad | simbad, sinbad | warrior | | | judal
+maka | maka | warrior | dwma | |
+andy | andy | berserker | union | | victor
+victor | victor | berserker | | | andy
+devilman | devilman | berserker | | |
+neuro | neuro | trickster | | |
+koro_sensei | koro sensei | effortless | | |
+rin_okumura | okumura | warrior | | |
+shinichi_izumi | shinichi | trickster | | |
+rokuro | rokuro | rushdown | | |
+tsuna | tsuna | rushdown | vongola | |
+misaka | misaka | zoner | | kuroko,touma |
+kuroko | kuroko | trickster | | misaka |
+touma | touma | brawler | | misaka | accelerator
+fiamma | fiamma | zoner | | | touma
+tetsuo | tetsuo | berserker | | |
+train | train heartnet, train | zoner | | |
+yoh | yoh | warrior | | | hao
+hao | hao | effortless | | | yoh
+tsukiumi | tsukiumi | zoner | | |
+hyde | hyde | rushdown | | |
+tanya | tanya | zoner | | |
+senku | senku | tactician | kingdom_of_science | kohaku |
+kohaku | kohaku | rushdown | kingdom_of_science | senku |
+taikoubou | taikoubou | trickster | | |
+zeus | zeus | berserker | gods | |
+buddha | budha | tactician | gods | |
+ying_zheng | ying zheng | tactician | humanity | |
+zodd | zodd | berserker | god_hand_apostles | | guts
+serpico | serpico | trickster | | guts |
+jin_mori | jin mori | rushdown | | |
+ryuko | ryuko | berserker | | |
+aigis | aigis | zoner | sees | |
+sung_jinwoo | jinwoo | effortless | | |
+yorha_2b | 2b, 2bn | warrior | yorha | |
+hyakkimaru | hyakkimaru | warrior | | |
+david_martinez | david martinez | rushdown | | |
+ippo | ippo | brawler | | |
+tohru | tohru | berserker | | |
+rias | rias | zoner | | |
+yor | yor | rushdown | | |
+tatsuya | tatsuya | effortless | | |
+reisen | reisen | zoner | touhou | |
+sakuya | sakuya | trickster | touhou | |
+kazuki | kazuki | rushdown | | tokiko |
+tokiko | tokiko | trickster | | kazuki |
+yato | yato | rushdown | | |
+shinra | shinra | rushdown | company_8 | tamaki |
+tamaki | tamaki | trickster | company_8 | shinra |
+medaka | medaka | effortless | | |
+joey | joey | rushdown | duelists | | kaiba
+kaiba | kaiba | tactician | duelists | | joey
+jaden | jaden | trickster | duelists | | zane
+zane | zane | warrior | duelists | | jaden
+starfire | starfire | zoner | teen_titans | |
+weiss | weiss | tactician | rwby | |
+miku | miku | zoner | | |
+
+# ---------------------------------------------------------------- fighting games / western / Pokemon
+ramlethal | ramlethal | zoner | guilty_gear | |
+may_gg | may xx | rushdown | guilty_gear | |
+i_no | i no | trickster | guilty_gear | |
+dizzy | dizzy* | zoner | guilty_gear | |
+cerebella | cerebella | brawler | skullgirls | |
+squigly | squigly* | zoner | skullgirls | |
+valentine | valentine | trickster | skullgirls | |
+spider_gwen | ghost spider, spider gwen | rushdown | | |
+bowser | bowser* | berserker | | |
+honda | honda | brawler | street_fighter | |
+ornn | ornn* | brawler | | |
+psylocke | psylocke | rushdown | x_men | |
+mystique | mystique | trickster | | |
+rogue | rogue | brawler | x_men | |
+storm | storm | zoner | x_men | |
+spiral | spiral | zoner | | |
+poison | poison | zoner | | |
+chun_li | chun li | rushdown | street_fighter | |
+mika | rainbow mika | brawler | street_fighter | |
+mai | mai | trickster | kof | |
+shermie | shermie* | brawler | kof | |
+tifa | tifa | rushdown | | |
+kasumi | kasumi | rushdown | | |
+black_widow | black widow | trickster | | |
+catwoman | catwoman | trickster | | |
+hawkgirl | hawkgirl | brawler | | |
+cheetah | cheetah | rushdown | | |
+pikachu | pikachu | rushdown | pokemon,ash_team | charizard,greninja,lucario | mewtwo
+pichu | pichu | rushdown | pokemon | pikachu |
+squirtle | squirtle | zoner | pokemon,ash_team | pikachu |
+charizard | charizard | berserker | pokemon,ash_team | pikachu | mewtwo
+ivysaur | ivysaur | zoner | pokemon,ash_team | pikachu |
+snorlax | snorlax | brawler | pokemon,ash_team | pikachu |
+greninja | greninja | trickster | pokemon,ash_team | pikachu |
+lucario | lucario | warrior | pokemon,ash_team | pikachu |
+incineroar | incineroar | brawler | pokemon,ash_team | pikachu |
+blastoise | blastoise | zoner | pokemon | |
+haunter | haunter | trickster | pokemon | |
+cloyster | cloyster | zoner | pokemon | |
+lopunny | lopunny | rushdown | pokemon | |
+machamp | machamp | brawler | pokemon | |
+mewtwo | mewtwo | effortless | pokemon | | pikachu,charizard
+muk | muk | brawler | pokemon | |
+victreebel | victreebel | zoner | pokemon | |
+zapdos | zapdos | zoner | pokemon | |
