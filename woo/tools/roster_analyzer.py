@@ -328,9 +328,31 @@ def parse_air(text: str):
 
 
 RX_STATEDEF = re.compile(r"^\s*\[\s*statedef\s+(-?\d+)\s*[,\]]", re.I)
-# command names that are just inputs ("QCF_x", "236a", "fwd_b", "x+y") say nothing about the move
-RX_INPUT_NAME = re.compile(r"^[\s_~+/\-]*((qc|hc|dp|rdp|f|b|d|u|df|db|uf|ub|fwd|back|down|up|hold|charge|ff|bb|"
-                           r"[1-9]{1,4}|[abcxyzs]|start|taunt|cpu|ai|com)[\s_~+/\-]*)+$", re.I)
+# command names that are just inputs ("QCF_x", "236a", "fwd_b", "x+y") say nothing about the move.
+# A tokenizer, not a regex: overlapping tokens (f / ff / fwd) in a repeated group backtrack exponentially.
+INPUT_TOKENS = ("qc", "hc", "dp", "rdp", "f", "b", "d", "u", "df", "db", "uf", "ub", "fwd", "back", "down", "up", "hold",
+                "charge", "ff", "bb", "start", "taunt", "cpu", "ai", "com", "a", "c", "x", "y", "z", "s",
+                "1", "2", "3", "4", "5", "6", "7", "8", "9")
+RX_INPUT_SEP = re.compile(r"[\s_~+/\-]+")
+
+
+def is_input_name(name: str) -> bool:
+    """True when every separator-split chunk of `name` is made only of input tokens (at least one chunk)."""
+    chunks = [c for c in RX_INPUT_SEP.split(name.lower()) if c]
+    if not chunks:
+        return False
+    for c in chunks:
+        ok = [True] + [False] * len(c)  # ok[i]: c[:i] splits into tokens (linear dynamic programme)
+        for i in range(len(c)):
+            if ok[i]:
+                for tok in INPUT_TOKENS:
+                    if c.startswith(tok, i):
+                        ok[i + len(tok)] = True
+        if not ok[len(c)]:
+            return False
+    return True
+
+
 RX_JUNK_NAME = re.compile(r"^(state|statedef|anim|hit|attack|move|special|super|normal|cpu|ai)?[\s_\d.:-]*$", re.I)
 
 
@@ -421,7 +443,7 @@ def analyze(def_path: Path, game_root: Path, rules):
         if snames.get(st):
             return snames[st]
         for c in cmds:
-            if not RX_INPUT_NAME.match(c) and len(c) > 3:
+            if not is_input_name(c) and len(c) > 3:
                 return c
         return ""
     all_sects = [s for fs in file_sects for s in fs]
