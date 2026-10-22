@@ -9,6 +9,8 @@ First public BETA: the brain, the roster knowledge files and the tools, as a sou
 [docs/KNOWN-ISSUES.md](docs/KNOWN-ISSUES.md).
 
 ### Added
+- **The playable game** as a pre-release download: Ikemen GO v1.0.0, the screenpack, 996 anime characters (the original Jump Force-style set), stages, sounds and the brain, in ZIP parts under GitHub's 2 GiB file limit, with `SHA256SUMS.txt`. Not in git. Custom, non-anime and adult characters are not included yet.
+- `docs/ROSTER.tsv`: the shipped roster with each character's author tag; `woo/tools/make_game_pack.py` builds the download from a project folder.
 - The brain (`external/mods/woo_brain.lua`) and its input/power bridge (`data/woo_brain.zss`) for Ikemen GO v1.0.0: six power tiers, eight
   personas, overmind / pilot / coach modes, lore-driven partners and rivals, familiarity and between-round learning, team relays and unison supers.
 - Finisher discipline: supers wait for a hurt enemy; early starts are cancelled and per-character ceilings are learned at runtime.
@@ -33,7 +35,7 @@ First public BETA: the brain, the roster knowledge files and the tools, as a sou
 - `roster_analyzer.py`: a regex that could backtrack exponentially on odd command names (CodeQL `py/redos`) is now a linear tokenizer with identical results.
 
 ### Known limits
-- Tuned and tested only on the author's roster, Windows 11 and Ikemen GO v1.0.0, with automated AI-vs-AI runs.
+- Tuned and tested only on Windows 11 with Ikemen GO v1.0.0, with automated AI-vs-AI runs.
 - The human play-test of this build is pending.
 
 ## Before 0.9.0-beta.1

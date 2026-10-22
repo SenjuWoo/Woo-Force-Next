@@ -85,6 +85,31 @@ class Links(unittest.TestCase):
         self.assertEqual(missing, [])
 
 
+class Roster(unittest.TestCase):
+    """docs/ROSTER.tsv is what the game download ships: anime Jump Force-style characters only."""
+    OUT = {"original", "pokemon", "marvel", "dc", "street fighter", "king of fighters", "guilty gear", "skullgirls", "blazblue", "tekken",
+           "dead or alive", "tales of", "darkstalkers", "final fantasy", "ben 10", "nintendo", "yakuza", "nier", "devil may cry", "persona",
+           "other games", "under night in-birth", "touhou"}
+    ADULT = re.compile(r"nsfw|hentai|sex|nude|naked|ecchi|lewd|porn|xxx|futa|cum|sperm|ahegao|bondage|boob|breast|ntr|uncensor|slut|whore|milf", re.I)
+
+    def rows(self):
+        lines = text("docs/ROSTER.tsv").splitlines()
+        self.assertEqual(lines[0].split("	"), ["def", "display", "series", "author"])
+        return [ln.split("	") for ln in lines[1:] if ln]
+
+    def test_scope(self):
+        rows = self.rows()
+        self.assertGreater(len(rows), 900)
+        for r in rows:
+            self.assertEqual(len(r), 4, r)
+            self.assertNotIn(r[2], self.OUT, r)
+            self.assertIsNone(self.ADULT.search(r[0] + " " + r[1]), r)
+            self.assertNotRegex(r[3], r"@|https?://", r)
+
+    def test_readme_count_matches(self):
+        self.assertIn(f"roster-{len(self.rows())}%20characters", text("README.md"))
+
+
 class DataFiles(unittest.TestCase):
     def test_lore_lines_have_six_fields(self):
         n = 0
@@ -101,7 +126,8 @@ class DataFiles(unittest.TestCase):
 
     def test_required_files(self):
         for f in ("LICENSE", "SECURITY.md", "CHANGELOG.md", "requirements.txt", "data/woo_brain.zss",
-                  "patches/start-lua-palette-default.patch", ".github/workflows/ci.yml", ".github/dependabot.yml"):
+                  "patches/start-lua-palette-default.patch", ".github/workflows/ci.yml", ".github/dependabot.yml",
+                  "docs/ROSTER.tsv", "woo/tools/make_game_pack.py"):
             self.assertTrue((ROOT / f).is_file(), f)
 
 

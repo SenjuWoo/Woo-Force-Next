@@ -1,4 +1,7 @@
-# Install (BETA, manual)
+# Adding the brain to your own Ikemen GO install (BETA, manual)
+
+> [!NOTE]
+> **Just want to play?** You do not need this page: download the full game from the [releases](../../../releases) and follow the README. This page is for people who already have an Ikemen GO install with their own characters.
 
 > [!WARNING]
 > BETA. These steps are written from how the author's own install is built. **They have not been run on a clean machine or a different

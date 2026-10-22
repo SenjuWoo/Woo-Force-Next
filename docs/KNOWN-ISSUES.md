@@ -2,9 +2,14 @@
 
 This is a BETA. These are the problems the author knows about; there will be others.
 
+## Scope of this beta
+- **First-cut roster.** The download holds 996 anime characters (the original Jump Force-style set, [docs/ROSTER.tsv](ROSTER.tsv)). The custom additions (non-anime, original and adult characters) are left out for now.
+- **Community characters vary.** They were made by many authors over many years: a few crash, look wrong, have odd hitboxes or are badly balanced. The author's overlay fixes ship with the game; report anything else with the character's name.
+- **Size.** About 58 GiB extracted, split into ZIP parts because a release file cannot exceed 2 GiB.
+
 ## Not yet verified
 - **No human play-test of this build.** All evidence is automated AI-vs-AI at 4x speed (see [TESTING.md](TESTING.md)).
-- **One roster, one machine.** Windows 11, Ikemen GO v1.0.0, the author's roster. Tiers, personas and lore were written for that roster.
+- **One machine.** Windows 11, Ikemen GO v1.0.0. Tiers, personas and lore were written for this roster.
 - **Install steps are untested on a clean machine** ([INSTALL.md](INSTALL.md)).
 
 ## Fights that stall or look wrong

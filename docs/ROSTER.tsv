@@ -1,0 +1,997 @@
+def	display	series	author
+chars_fix/accelerator/accelerator.def	accelerator	a certain magical index	lazymugentogether
+chars_fix/Shirai_Kuroko/Shirai_Kuroko.def	Kuroko	a certain magical index	TrafalgarLawzz
+chars_fix/Mikoto_Misaka/Mikoto_Misaka.def	Misaka	a certain magical index	Viblank
+chars_fix/Touma/Touma.def	Touma	a certain magical index	Petamynx
+chars_fix/Akame/Akame.def	Akame	akame ga kill	PackManMUGEN
+chars_fix/Esdeath/Esdeath.def	Esdeath	akame ga kill	Arcutomory, resprite by Jorge Diaz
+chars_fix/Season 4 Armin/Season 4 Armin.def	Armin	attack on titan	Mikel8888
+chars_fix/Bertholdt/Bertholdt.def	Bertholdt	attack on titan	mysh_2002
+chars_fix/Colossal Titan/Colossal Titan.def	Colossal Titan	attack on titan	Manny Lingle, edit by D2TD
+chars_fix/Eren/Eren.def	Eren	attack on titan	Mikel8888
+chars_fix/EREN S4/EREN S4.def	EREN S4	attack on titan	Zaraki Mugen
+chars_fix/ErenS4/ErenS4.def	Eren S4	attack on titan	Soulfire, Dema Mugen, Edited By Sianza M.U.G.E.N TH
+chars_fix/Eren Titan Colossal/Eren Titan Colossal.def	Eren Titan Colossal	attack on titan	Soulfire, Dema Mugen, Edited By Sianza M.U.G.E.N TH, Re-edited by Rimihf
+chars_fix/Titan de Ataque (Berserker)/Titan de Ataque (Berserker).def	ErenSBersek	attack on titan	Soulfire, edited by Dema Mugen
+chars_fix/Erwin/Erwin.def	Erwin	attack on titan	mysh_2002
+chars_fix/Levi/Levi.def	Levi	attack on titan	Mayches, Edit by SamuelWalker, Rivaill�, FusionCJ & Khires
+chars_fix/Levi 4 Season/Levi 4 Season.def	Levi	attack on titan	Mayches, Edit by SamuelWalker, Rivaill�, FusionCJ & Khires
+chars_fix/Mikasa/Mikasa.def	Mikasa	attack on titan	unknown
+chars_fix/Mikasa timeskip/Mikasa timeskip.def	Mikasa	attack on titan	unknown
+chars_fix/Pieck/Pieck.def	Pieck	attack on titan	mysh_2002
+chars_fix/Porco/Porco.def	Porco	attack on titan	mysh_2002
+chars_fix/reiner/reiner.def	Reiner	attack on titan	Mikel8888&&PDox
+chars_fix/Adult Reiner/Adult Reiner.def	Reiner Timeskip	attack on titan	Rivaillë
+chars_fix/Titan Bestial/Titan Bestial.def	Titan Bestial	attack on titan	mysh_2002
+chars_fix/Titan Blindado/Titan Blindado.def	Titan Blindado	attack on titan	Rivaillë
+chars_fix/Titan Colossal/Titan Colossal.def	Titan Colossal	attack on titan	mysh_2002, Edit by Dark Night
+chars_fix/Titan de Ataque/Titan de Ataque.def	Titan de Ataque	attack on titan	Soulfire, Dema Mugen, Edited By Sianza M.U.G.E.N TH and Dark Night
+chars_fix/Titan Fundador/Titan Fundador.def	Titan Fundador	attack on titan	Soulfire, Dema Mugen, Edited By Sianza M.U.G.E.N TH
+chars_fix/Zeke/Zeke.def	Zeke Yeager	attack on titan	InSeph
+chars_fix/BerserkerWinter/BerserkerWinter.def	Berserker/Winter	berserk	Dipmius
+chars_fix/Femto/Femto.def	Femto	berserk	Planeptune
+chars_fix/Serpico/Serpico.def	Serpico	berserk	Dry-Mugen
+chars_fix/Asta/Asta.def	Asta	black clover	viniciusonico
+chars_fix/Asta Demon/Asta Demon.def	Asta Demon	black clover	Khires,TrafalgarLawzz
+chars_fix/Asta all forms/Asta all forms.def	Asta MG9	black clover	MateoG9
+chars_fix/Asta Union Mode/Asta Union Mode.def	Asta Union Mode MG9	black clover	MateoG9
+chars_fix/Dorothy/Dorothy.def	Dorothy	black clover	SkFenix
+chars_fix/Fana/Fana.def	Fana	black clover	SkFenix
+chars_fix/Gauche/Gauche.def	Gauche	black clover	Soulfire
+chars_fix/Julius Novachrono/Julius Novachrono.def	Julius Novachrono	black clover	Bog
+chars_fix/E99_Noelle/E99_Noelle.def	Noelle	black clover	Entah99
+chars_fix/William Vangeance/William Vangeance.def	William Vangeance	black clover	Soulfire
+chars_fix/Yami Sukehiro/Yami Sukehiro.def	Yami MG9	black clover	Jhon-X
+chars_fix/Yugi/Yugi.def	Yami Yugi	black clover	InSeph
+chars_fix/Yuno_Royal_Knight/Yuno_Royal_Knight.def	Yuno	black clover	Entah99 && vegettomods
+chars_fix/Yuno (Spirit Dive)/Yuno (Spirit Dive).def	Yuno (Spirit Dive)	black clover	Entah99 && vegettomods
+chars_fix/Zagred/Zagred.def	Zagred	black clover	mysh_2002
+chars_fix/Zora/Zora.def	Zora Ideale	black clover	Kennedy Mugen
+chars_fix/Aaroniero/Aaroniero.def	Aaroniero	bleach	mysh_2002
+chars_fix/Renji/Renji.def	Abarai Renji	bleach	InSeph
+chars_fix/Aizen/Aizen.def	Aizen	bleach	Salah, Edited By Vezz The Gamer
+chars_fix/Aizen full power/Aizen full power.def	Aizen full power	bleach	Salah
+chars_fix/Aizen Sousuke nerfado/Aizen Sousuke nerfado.def	Aizen nerfado	bleach	BoyBoyz, edit: dark night
+chars_fix/Aizen Sousuke/Aizen Sousuke.def	Aizen Sousuke	bleach	BoyBoyz, edit: dark night
+chars_fix/Aizen_TYBW/Aizen_TYBW.def	Aizen TYBW	bleach	Salah Edited By Sianza M.U.G.E.N TH
+chars_fix/Barragan/Barragan.def	Baraggan	bleach	Ralf
+chars_fix/Byakuya/Byakuya.def	Byakuya	bleach	Lucas
+chars_fix/Byakuya TYBW/Byakuya TYBW.def	Byakuya TYBW	bleach	VegettoMods
+chars_fix/Gin/Gin.def	Gin	bleach	YukinoUsagi
+chars_fix/Gin Ichimaru/Gin Ichimaru.def	Gin Ichimaru	bleach	Akashi Mugen, Edit:Dark Night
+chars_fix/Gremmy/Gremmy.def	Gremmy	bleach	Mounir
+chars_fix/Grimmjow/Grimmjow.def	Grimmjow	bleach	Salah
+chars_fix/Grimmjow TYBW/Grimmjow TYBW.def	Grimojow TYBW	bleach	vegettomods
+chars_fix/Halibel/Halibel.def	Halibel	bleach	Lucas
+chars_fix/Hirako Shinji/Hirako Shinji.def	Hirako Shinji	bleach	Salah
+chars_fix/Hirako Shinji TYBW/Hirako Shinji TYBW.def	Hirako Shinji TYBW	bleach	Mounir
+chars_fix/Hisagi_JUS/Hisagi_JUS.def	Hisagi	bleach	Toshiro Mugen. edit Mounir
+chars_fix/Hitsugaya/Hitsugaya.def	Hitsugaya	bleach	Salah && Akashi Mugen
+chars_fix/Ichigo_Fullbring/Ichigo_Fullbring.def	Ichigo	bleach	Salah, edit: Dark night
+chars_fix/Ichigo_Full_Hollow/Ichigo_Full_Hollow.def	Ichigo	bleach	Knightmare
+chars_fix/Ichigo_Final/Ichigo_Final.def	Ichigo Final	bleach	Sonikku
+chars_fix/Ichigo Fullbring Bankai/Ichigo Fullbring Bankai.def	Ichigo Fullbring Bankai	bleach	Salah, edit: Dark night
+chars_fix/Ichigo Half Mask/Ichigo Half Mask.def	Ichigo Half Mask	bleach	AkashiMugen,Salah Uchiha, Gusutabo, Andrew55, Dark Night
+chars_fix/Ichigo_Kurosaki_TYBW/Ichigo_Kurosaki_TYBW.def	Ichigo Kurosaki TYBW	bleach	victor
+chars_fix/Ichigo/Ichigo.def	Ichigo MG9	bleach	AkashiMugen,Salah Uchiha,Knightmare,Sonikku,VegettoMods Z,Edit MateoG9
+chars_fix/Ichigo Mugetsu/Ichigo Mugetsu.def	Ichigo Mugetsu	bleach	Dark Night, VegettoMods, Trafalgarlawzz, camilo mugen
+chars_fix/Ichigo_New Mask/Ichigo_New Mask.def	Ichigo New Mask	bleach	Salah
+chars_fix/Uryu/Uryu.def	Ishida Uryuu	bleach	Yesterdayy
+chars_fix/Isshin/Isshin.def	Isshin	bleach	Mounir
+chars_fix/Kenpachi/Kenpachi.def	Kenpachi	bleach	Akashi Mugen
+chars_fix/Kenpachi TYBW/Kenpachi TYBW.def	Kenpachi	bleach	vegettoMods edit by ﾏ��鱠鑚weet / Adventurer, Zexxel Strive
+chars_fix/Kensei/Kensei.def	Kensei	bleach	Mounir
+chars_fix/Kokuto/Kokuto.def	Kokuto	bleach	Kennedy Mugen
+chars_fix/Sajin Komamura/Sajin Komamura.def	Komamura	bleach	Mounir
+chars_fix/Rukia/Rukia.def	Kuchiki Rukia	bleach	InSeph
+chars_fix/SM_Matsumoto/SM_Matsumoto.def	Matsumoto	bleach	Shadow Mercer
+chars_fix/Mayuri/Mayuri.def	Mayuri	bleach	Ralf
+chars_fix/Orihime/Orihime.def	Orihime	bleach	Clearnote
+chars_fix/Rose/Rose.def	Rose	bleach	Mounir
+chars_fix/Sado1/Sado1.def	Sado	bleach	VegettoMods
+chars_fix/Gintoki/Gintoki.def	Sakata Gintoki	bleach	InSeph
+chars_fix/Sasakibe/Sasakibe.def	Sasakibe	bleach	mysh_2002
+chars_fix/Schoolboy Ishida/Schoolboy Ishida.def	Schoolboy Ishida	bleach	D2TD
+chars_fix/Shinji/Shinji.def	Shinji	bleach	Akashi
+chars_fix/EVAUnit01/EVAUnit01.def	Shinji Ikari	bleach	TonyADV
+chars_fix/Shunsui/Shunsui.def	Shunsui Kyoraku	bleach	Vovan99,Adventurer,Mounir2000
+chars_fix/Soi_fong/Soi_fong.def	Soifon	bleach	Mounir
+chars_fix/Yamamoto/Yamamoto.def	Takeshi Yamamoto	bleach	InSeph
+chars_fix/Tousen/Tousen.def	Tousen	bleach	Mounir
+chars_fix/Ukitake/Ukitake.def	Ukitake	bleach	Zaraki Mugen
+chars_fix/Ulquiorra2/Ulquiorra2.def	Ulquiorra	bleach	Salah
+chars_fix/Ulquiorra Resurreccion/Ulquiorra Resurreccion.def	Ulquiorra Resurreccion	bleach	Salah
+chars_fix/Unohana/Unohana.def	Unohana	bleach	Mounir
+chars_fix/Unohana TYBW/Unohana TYBW.def	Unohana TYBW	bleach	Mounir
+chars_fix/Ishida/Ishida.def	Uryuu Ishida	bleach	InSeph
+chars_fix/Yachiru Kusajishi/Yachiru Kusajishi.def	Yachiru	bleach	Darkblood
+chars_fix/ShigekuniYamamoto/ShigekuniYamamoto.def	Yamamoto	bleach	Planeptune
+chars_fix/Yamamoto genryusai/Yamamoto genryusai.def	Yamamoto genryusai	bleach	JOEY JOSTAR
+chars_fix/Sado/Sado.def	Yasutora Sado	bleach	InSeph
+chars_fix/Yhwach bach/Yhwach bach.def	Yhwach	bleach	JOEY JOSTAR, edit by Adventurer
+chars_fix/Yoruichi Shihoin/Yoruichi Shihoin.def	Yoruichi	bleach	Koshigaya,Edit MEE4
+chars_fix/Yoruichi TYBW/Yoruichi TYBW.def	Yoruichi TYBW	bleach	Mounir
+chars_fix/Zangetsu all forms V2/Zangetsu all forms V2.def	Zangetsu MG9	bleach	Salah,Edit MateoG9
+chars_fix/Zangetsu Vasto Lord/Zangetsu Vasto Lord.def	Zangetsu Vasto Lord	bleach	Salah, Edit: Dark Night
+chars_fix/Chainsaw Man_SX/Chainsaw Man_SX.def	Chainsaw Man	chainsaw man	STAND USER X
+chars_fix/Proto_Kurumi/Proto_Kurumi.def	Kurumi Tokisaki	date a live	Protozoark
+chars_fix/Proto_Tohka/Proto_Tohka.def	Tohka Yatogami	date a live	Protozoark
+chars_fix/L/L.def	L Lawliet	death note	InSeph
+chars_fix/Muzan/Muzan.def	Demon King Muzan	demon slayer	Dox&&Mikel8888
+chars_fix/Muzan Demonform/Muzan Demonform.def	Demon King Muzan	demon slayer	Dox&&Mikel8888
+chars_fix/Rengoku Oni/Rengoku Oni.def	Demon Rengoku	demon slayer	Soulfire
+chars_fix/Doma/Doma.def	Douma	demon slayer	Sebasti縊
+chars_fix/Kaigaku/Kaigaku.def	Kaigaku	demon slayer	Black Player
+chars_fix/Kokushibo V3/Kokushibo V3.def	Kokushibo	demon slayer	Sebasti縊
+chars_fix/Kokushibo V3 full power/Kokushibo V3 full power.def	Kokushibo full power	demon slayer	Sebasti縊
+chars_fix/Tokito/Tokito.def	Muichiro Tokito	demon slayer	Renan Games
+chars_fix/Tokito Oni/Tokito Oni.def	Muichiro Tokito Oni	demon slayer	Sebasti縊
+chars_fix/TXR-Kyojuro Rengoku Op/TXR-Kyojuro Rengoku Op.def	Rengoku	demon slayer	Teixeira's Mugen
+chars_fix/Sanemi/Sanemi.def	Shinazugawa Sanemi	demon slayer	InSeph
+chars_fix/Tanjiro_HK/Tanjiro_HK.def	Tanjiro	demon slayer	Entah99(edit by PedronickMugen)
+chars_fix/Giyu/Giyu.def	Tomioka Giyu	demon slayer	InSeph
+chars_fix/Uzui Tengen/Uzui Tengen.def	Uzui	demon slayer	mysh_2002
+chars_fix/Yoriichi/Yoriichi.def	Yoriichi	demon slayer	MFmugenPT-BR
+chars_fix/Zenitsu_Agatsuma/Zenitsu_Agatsuma.def	Zenitsu Agatsuma	demon slayer	Sebastiao
+chars_fix/Zenitsu Last Arc/Zenitsu Last Arc.def	Zenitsu Last Arc	demon slayer	Entah99 edited by Sebastiao
+chars_fix/Senku/Senku.def	Senku	dr. stone	Soulfire
+chars_fix/Android_17/Android_17.def	Android 17	dragon ball	Salah
+chars_fix/Android_18/Android_18.def	Android 18	dragon ball	Danazodd
+chars_fix/Android_21/Android_21.def	Android 21	dragon ball	Knightmare
+chars_fix/Baby vegeta/Baby vegeta.def	Baby vegeta	dragon ball	Mikel8888
+chars_fix/Bardock/Bardock.def	Bardock	dragon ball	Dry-Mugen
+chars_fix/Bardock SSJ1/Bardock SSJ1.def	Bardock SSJ	dragon ball	Martix720
+chars_fix/bardock SSJGod/bardock SSJGod.def	bardock SSJGod	dragon ball	ismael005 ortiz
+chars_fix/Beast Gohan/Beast Gohan.def	Beast Gohan	dragon ball	Black-X-Sage, White-X-Demon
+chars_fix/Beerus_MUI/Beerus_MUI.def	Beerus MUI	dragon ball	Salah, Frak
+chars_fix/Bills/Bills.def	Bills	dragon ball	Salah
+chars_fix/Black Frieza V2/Black Frieza V2.def	Black Frieza	dragon ball	WhiteXDemon, edited by Salah and Dark Night
+chars_fix/Black Goku Mastered/Black Goku Mastered.def	Black Goku Mastered	dragon ball	Salah
+chars_fix/Black_SSJ/Black_SSJ.def	Black SSJ	dragon ball	Salah
+chars_fix/Black SSJ3 Rose/Black SSJ3 Rose.def	Black SSJ3 Rose	dragon ball	Frak20
+chars_fix/BlackSSR/BlackSSR.def	Black SSR	dragon ball	InSeph
+chars_fix/BlackSSR Masked/BlackSSR Masked.def	Black SSR	dragon ball	InSeph
+chars_fix/Bojack/Bojack.def	Bojack	dragon ball	MagoVango
+chars_fix/TXR-Broly_SS4/TXR-Broly_SS4.def	Broly	dragon ball	Teixeira's Mugen
+chars_fix/Broly (DBS) OP/Broly (DBS) OP.def	Broly (DBS) OP	dragon ball	Blue
+chars_fix/BrolyDBS/BrolyDBS.def	Broly DBS	dragon ball	Gusutabo
+chars_fix/Broly SSJ3/Broly SSJ3.def	Broly SSJ3	dragon ball	InSeph, edited by Salah
+chars_fix/Buutenks/Buutenks.def	Buutenks	dragon ball	ismael005 ortiz
+chars_fix/Cabba/Cabba.def	Cabba	dragon ball	Planeptune
+chars_fix/TTA'Caulifla SSJ2 JUS/TTA'Caulifla SSJ2 JUS.def	Caulifla SSJ2	dragon ball	TTA
+chars_fix/Caulifla SSJ3/Caulifla SSJ3.def	Caulifla SSJ3	dragon ball	Ismael005 Ortiz
+chars_fix/Imperfect_Cell_ULSW/Imperfect_Cell_ULSW.def	Cell	dragon ball	This Boy
+chars_fix/Perfect_Cell/Perfect_Cell.def	Cell	dragon ball	Knightmare
+chars_fix/Cooler/Cooler.def	Cooler	dragon ball	Knightmare
+chars_fix/Cooler final/Cooler final.def	Cooler final	dragon ball	MRV
+chars_fix/Camba/Camba.def	Cumber	dragon ball	Knightmare
+chars_fix/Dabura/Dabura.def	Dabura	dragon ball	Eleazhar
+chars_fix/EGX-Daishinkan/EGX-Daishinkan.def	Daishinkan-sama	dragon ball	Gekio (Count Macaco) & David11 (Don Macaco)
+chars_fix/Dark Broly SSJ4/Dark Broly SSJ4.def	Dark Broly SSJ4	dragon ball	ismael005 ortiz, Teixeira's Mugen and Dark Night
+chars_fix/Dark Janemba/Dark Janemba.def	Dark Janemba	dragon ball	InSeph, edit:Dark Night
+chars_fix/Dripstinct Goku/Dripstinct Goku.def	Dripstinct Goku	dragon ball	Mikel8888, edited by Shiruzato/MYTHOS
+chars_fix/Dyspo/Dyspo.def	Dyspo	dragon ball	SaxCreed
+chars_fix/Evil Goku_TP/Evil Goku_TP.def	Evil Goku	dragon ball	TPHD
+chars_fix/Evil Goku/Evil Goku.def	Evil Goku SSJ3	dragon ball	Gohvu
+chars_fix/Frieza/Frieza.def	Frieza	dragon ball	Knightmare
+chars_fix/Frost/Frost.def	Frost	dragon ball	Planeptune
+chars_fix/Gas Heata By Charmarher/Gas Heata By Charmarher.def	Gas Heata	dragon ball	Charmarher
+chars_fix/Gogeta/Gogeta.def	Gogeta	dragon ball	Mog
+chars_fix/Gogeta_SSBLUE/Gogeta_SSBLUE.def	Gogeta	dragon ball	Knightmare
+chars_fix/GogetaSS4_Xeno/GogetaSS4_Xeno.def	Gogeta	dragon ball	Mog Edited by PedronickMugen
+chars_fix/Gogeta SS3/Gogeta SS3.def	Gogeta SS3	dragon ball	Mog
+chars_fix/GogetaSS4_EX/GogetaSS4_EX.def	Gogeta SS4	dragon ball	Inseph -Edit By KING_OB
+chars_fix/Gogeta_Xeno/Gogeta_Xeno.def	Gogeta Xeno	dragon ball	ProjectEX
+chars_fix/Gogeto/Gogeto.def	Gogeto	dragon ball	ThanhPheHD, Tinlok
+chars_fix/Gohan/Gohan.def	Gohan	dragon ball	Mikel8888, edited by InSeph, Shiruzato/MYTHOS and RafaMugen
+chars_fix/GohanSS4_EX/GohanSS4_EX.def	Gohan	dragon ball	ProjectEX(Editado by PedronickMugen)
+chars_fix/Gohan Adult SSJ3/Gohan Adult SSJ3.def	Gohan Adult SSJ3	dragon ball	Mikel8888, edited by InSeph, Shiruzato/MYTHOS and RafaMugen
+chars_fix/Gohan Beast by Ismael005 Ortiz/Gohan Beast by Ismael005 Ortiz.def	Gohan Beast	dragon ball	Ismael005 Ortiz
+chars_fix/Gohan Beast/Gohan Beast.def	Gohan Beast	dragon ball	Luan360
+chars_fix/Gohan_Future/Gohan_Future.def	Gohan Future	dragon ball	Frak20
+chars_fix/Gohan SSJBlue/Gohan SSJBlue.def	Gohan SSJBlue	dragon ball	ElHuesos Locos
+chars_fix/Gohan_Teen_SS2/Gohan_Teen_SS2.def	Gohan Teen	dragon ball	Gusutabo
+chars_fix/Gokhan_TP/Gokhan_TP.def	Gokhan	dragon ball	TPHD
+chars_fix/Goku_Xeno_SS4/Goku_Xeno_SS4.def	Goku	dragon ball	Knightmare Edit PedronickMugen
+chars_fix/Goku 1000 Years old/Goku 1000 Years old.def	Goku 1000 Years old	dragon ball	TPHD
+chars_fix/BlackJUS/BlackJUS.def	Goku black JUS2	dragon ball	Base JUS by MIKEL8888, original black jus created by inseph, and black JUS2 by viniciusoni
+chars_fix/Goku Black Migatte/Goku Black Migatte.def	Goku Black Migatte	dragon ball	Inseph edited By Salah
+chars_fix/Goku_Black_SSW/Goku_Black_SSW.def	Goku Black SSW	dragon ball	ThanhPheHD
+chars_fix/Goku Daishinkan/Goku Daishinkan.def	Goku Daishinkan	dragon ball	VegettoMods
+chars_fix/Goku Daishinkan SSJ 1/Goku Daishinkan SSJ 1.def	Goku Daishinkan SSJ 1	dragon ball	keyber
+chars_fix/Goku 1000 Years old knightmare/Goku 1000 Years old knightmare.def	Goku knightmare	dragon ball	TPHD
+chars_fix/Goku MUI/Goku MUI.def	Goku MUI	dragon ball	Bog
+chars_fix/Goku MUI 5/Goku MUI 5.def	Goku MUI 5	dragon ball	THANHPHEHD
+chars_fix/Goku Omni Good/Goku Omni Good.def	Goku Omni Good	dragon ball	VegettoMods
+chars_fix/Goku OP/Goku OP.def	Goku OP	dragon ball	keyber,Sonikku TSK
+chars_fix/GokuSS3/GokuSS3.def	Goku SS3	dragon ball	InSeph
+chars_fix/Goku SS3 Blue/Goku SS3 Blue.def	Goku SS3 Blue	dragon ball	X MUGEN
+chars_fix/GokuSS5/GokuSS5.def	Goku SS5	dragon ball	Mimi Sisi, Salah
+chars_fix/Goku (SSGSSJ)/Goku (SSGSSJ).def	Goku SSB	dragon ball	Shadow Mercer
+chars_fix/GokuSSG_EX/GokuSSG_EX.def	Goku SSG	dragon ball	ProjectEX
+chars_fix/GokuSSGSS/GokuSSGSS.def	Goku SSGSS	dragon ball	Kronos
+chars_fix/Goku SSJ 20.000/Goku SSJ 20.000.def	Goku SSJ 20.000	dragon ball	Luan360
+chars_fix/Goku OP SSJ Blue/Goku OP SSJ Blue.def	Goku SSJ Blue	dragon ball	keyber,Sonikku TSK
+chars_fix/Goku SSJ Infinity/Goku SSJ Infinity.def	Goku SSJ Infinity	dragon ball	Luan360
+chars_fix/Goku SSJ4 Blue/Goku SSJ4 Blue.def	Goku SSJ4 Blue	dragon ball	Linuz Factory
+chars_fix/GokuTerror/GokuTerror.def	Goku Terror	dragon ball	Core!404
+chars_fix/Goku Xeno SSJ3/Goku Xeno SSJ3.def	Goku Xeno SSJ3	dragon ball	BloodBathAnime
+chars_fix/Goku_BBanime/Goku_BBanime.def	Goku_BB_Anime	dragon ball	Doly P29
+chars_fix/Goku_TP/Goku_TP.def	Goku_TP	dragon ball	TPHD
+chars_fix/Golden Cooler/Golden Cooler.def	Golden Cooler	dragon ball	Knightmare
+chars_fix/Golden Freeza/Golden Freeza.def	Golden Freeza	dragon ball	Knightmare, edited by Salah and Dark Night
+chars_fix/Golden Metal Cooler/Golden Metal Cooler.def	Golden Metal Cooler	dragon ball	Gusutabo
+chars_fix/Goten(Kid)/Goten(Kid).def	Goten(Kid)	dragon ball	KING_OB
+chars_fix/Gotenks/Gotenks.def	Gotenks SS3	dragon ball	Gusutabo
+chars_fix/Granola/Granola.def	Granola	dragon ball	charmarher
+chars_fix/Hakaishin Freeza [BOSS]/Hakaishin Freeza [BOSS].def	Hakaishin Frieza [BOSS]	dragon ball	Teixeira's Mugen
+chars_fix/Hit1/Hit1.def	Hit	dragon ball	Knightmare, edited by Shiruzato/MYTHOS, edited by Salah
+chars_fix/invasion Metal Cooler/invasion Metal Cooler.def	invasion Metal Cooler	dragon ball	ismael
+chars_fix/Janemba/Janemba.def	Janemba	dragon ball	Knightmare
+chars_fix/Jiren/Jiren.def	Jiren	dragon ball	Mikel8888
+chars_fix/Jiren full power/Jiren full power.def	Jiren full power	dragon ball	Shiruzato/Mythos, with credit to Knightmare
+chars_fix/Kale_SSJ/Kale_SSJ.def	Kale	dragon ball	InSeph
+chars_fix/Kale SSL3/Kale SSL3.def	Kale SSL3	dragon ball	SuperNaruto 64
+chars_fix/Kefla/Kefla.def	Kefla	dragon ball	InSeph
+chars_fix/KidBuu/KidBuu.def	Kid Buu	dragon ball	InSeph
+chars_fix/Kid trunks/Kid_Trunks.def	Kid Trunks	dragon ball	Keyber -edit by KING_OB
+chars_fix/(All-Stars) King_Cold/(All-Stars) King_Cold.def	King Cold	dragon ball	Rivelio
+chars_fix/King Vegeta/King Vegeta.def	King Vegeta	dragon ball	OneDayAttack
+chars_fix/Krilin/Krilin.def	Krilin	dragon ball	Gusutabo
+chars_fix/Krilin UI/Krilin UI.def	Krilin UI	dragon ball	Mikel8888
+chars_fix/Maestro_roshi/Maestro_roshi.def	maestro roshi	dragon ball	joan qui�ones
+chars_fix/Majin Buu/Majin Buu.def	Majin Buu	dragon ball	Mikel8888 edited by viniciusonico
+chars_fix/majin goku/majin goku.def	majin goku	dragon ball	ProjectEX (Edit Gohvu)
+chars_fix/mecha_frieza/mecha_frieza.def	Mecha Frieza	dragon ball	hyper x7 team studios and Dark Night
+chars_fix/Metal Cooler/Metal Cooler.def	Metal Cooler	dragon ball	Gusutabo
+chars_fix/MORO by charmarher/MORO by charmarher.def	Moro	dragon ball	Charmarher
+chars_fix/Omega Shenron/Omega Shenron.def	Omega Shenron	dragon ball	Charmarher and Magolax
+chars_fix/Orange Piccolo/Orange Piccolo.def	Orange Piccolo	dragon ball	WhiteXDemon,Rivelio
+chars_fix/Oren Caulifla/Oren Caulifla.def	Oren Caulifla	dragon ball	InSeph
+chars_fix/Piccolo full power/Piccolo full power.def	Piccolo	dragon ball	Planeptune
+chars_fix/G6_Roshi/G6_Roshi.def	Roshi	dragon ball	Shinrashi
+chars_fix/Semi Perfect Cell/Semi Perfect Cell.def	Semi Perfect Cell	dragon ball	Salah + magolax
+chars_fix/SS4 LB Goku/SS4 LB Goku.def	SS4 LB Goku	dragon ball	Knightmare
+chars_fix/SUPER_17/SUPER_17.def	Super Androide 17	dragon ball	CHARMARHER, edit Siul1
+chars_fix/Super_Buu_Gohan/Super_Buu_Gohan.def	Super Buu	dragon ball	Knightmare,Planeptune
+chars_fix/Vegetto/Vegetto.def	Super Vegetto 3	dragon ball	anas and Mikel8888, edited by Shiruzato/MYTHOS
+chars_fix/Tapion1/Tapion1.def	Tapion	dragon ball	InSeph
+chars_fix/Tenshinhan/Tenshinhan.def	Tien	dragon ball	Planeptune
+chars_fix/Toppo/Toppo.def	Toppo	dragon ball	Salah
+chars_fix/Toppo Hakaishin/Toppo Hakaishin.def	Toppo Hakaishin	dragon ball	NOUFAL TRACHLI/NT MUGEN
+chars_fix/Trunks/Trunks.def	Trunks	dragon ball	Martix720
+chars_fix/Trunks_DBS/Trunks_DBS.def	Trunks DBS	dragon ball	Mikel8888
+chars_fix/Trunks SSJ Rage/Trunks SSJ Rage.def	Trunks SSJ Rage	dragon ball	BROKEN HEART
+chars_fix/Turles/Turles.def	Turles	dragon ball	InSeph
+chars_fix/TND-Vegeta_Ultra_ego/TND-Vegeta_Ultra_ego.def	Vegeta	dragon ball	Mugen_Dojo
+chars_fix/Vegeta_Beyond SSB/Vegeta_Beyond SSB.def	Vegeta Beyond SSB	dragon ball	Salah
+chars_fix/Vegeta FNF SSJBlue/Vegeta FNF SSJBlue.def	Vegeta FNF SSJBlue	dragon ball	Ismael005 Ortiz
+chars_fix/vegeta hakaishin/vegeta hakaishin.def	vegeta hakaishin	dragon ball	ismael005 ortiz
+chars_fix/VegetaMajin/VegetaMajin.def	Vegeta Majin	dragon ball	InSeph
+chars_fix/VEGETA Omni God/VEGETA Omni God.def	Vegeta Omni God	dragon ball	Enchanted/Small Kitchen, InSeph, Bog
+chars_fix/Bejiita/Bejiita.def	vegeta saga buu	dragon ball	Berga Wolf
+chars_fix/Vegeta Scouter/Vegeta Scouter.def	Vegeta Scouter	dragon ball	MagoVango
+chars_fix/Vegeta SSG/Vegeta SSG.def	Vegeta SSG	dragon ball	Salah
+chars_fix/Vegeta SSJ4 Limit Breaker/Vegeta SSJ4 Limit Breaker.def	Vegeta SSJ4 Limit Breaker	dragon ball	InSeph
+chars_fix/VegetaSSJ5/VegetaSSJ5.def	Vegeta SSJ5	dragon ball	Tenxu1407 edited by Nitroman30
+chars_fix/vegeta Ultra Ego/vegeta Ultra Ego.def	Vegeta Ultra Ego	dragon ball	Bog
+chars_fix/VEGETA SSJ3/VEGETA SSJ3.def	Vegeta Xeno SSJ3	dragon ball	BloodBathAnime
+chars_fix/Vegeta Xeno SSJ4/Vegeta Xeno SSJ4.def	Vegeta Xeno SSJ4	dragon ball	RafaMugen, edit:Dark night
+chars_fix/VegetaGT/VegetaGT.def	Vegeta_GT	dragon ball	RafaMugen
+chars_fix/Super_Vegetto/Super_Vegetto.def	Vegetto	dragon ball	Knightmare
+chars_fix/Vegetto DBH JUS/Vegetto DBH JUS.def	Vegetto DBH	dragon ball	Anime M.G
+chars_fix/VegettoSSB/VegettoSSB.def	Vegetto SSB	dragon ball	Gusutabo edited by Linuz Factory
+chars_fix/VegettoSSG/VegettoSSG.def	Vegetto super saiyan god	dragon ball	Anime M.G
+chars_fix/Vegetto Xeno SSJ4/Vegetto Xeno SSJ4.def	Vegetto Xeno SSJ4	dragon ball	Salah
+chars_fix/Vegetto Xeno SSJ4 Limit Breaker/Vegetto Xeno SSJ4 Limit Breaker.def	Vegetto Xeno SSJ4 LB	dragon ball	VegettoMods
+chars_fix/Vegito/Vegito.def	Vegito	dragon ball	Salah
+chars_fix/whis/whis.def	whis	dragon ball	charmarher
+chars_fix/Xeno_Goku/Xeno_Goku.def	Xeno Goku	dragon ball	Teixeira's Mugen,HTDD,JT the Editor
+chars_fix/XenoVegito (Version1)/XenoVegito (Version1).def	Xeno Vegito	dragon ball	BloodBathAnime
+chars_fix/Yamcha/Yamcha.def	Yamcha	dragon ball	Planeptune, edited by Shiruzato/Mythos
+chars_fix/Yamcha_UI/Yamcha_UI.def	YamchaUltraInstinct	dragon ball	Planeptune, edited by Shiruzato/Mythos,UI by Dry
+chars_fix/Zamasu/Zamasu.def	Zamasu	dragon ball	Knightmare, edited by Shiruzato/MYTHOS
+chars_fix/Zamasu(ZMP)/Zamasu(ZMP).def	Zamasu (ZMP Saga)	dragon ball	Knightmare (Edit by DrAnimation)
+chars_fix/ZamasuCorrupted_EX/ZamasuCorrupted_EX.def	Zamasu Corrupted	dragon ball	ProjectEX
+chars_fix/Zen_Buu/Zen_Buu.def	Zen Buu	dragon ball	Frak20
+chars_fix/Zenosama2/Zenosama2.def	Zeno Sama	dragon ball	Diogo Studios Mugen
+chars_fix/Zenon/Zenon.def	Zenon Zogratis	dragon ball	InSeph
+chars_fix/ZeroMortalPlanHard/ZeroMortalPlanHard.def	Zero Mortal Plan (Hard)	dragon ball	Knightmare (Edit by DrAnimation)
+chars_fix/Acnologia/Acnologia.def	Acnologia	fairy tail	Xenodar123
+chars_fix/August/August.def	August	fairy tail	Kennedy Mugen
+chars_fix/Bisca/Bisca.def	Bisca	fairy tail	Mikel8888
+chars_fix/Brandish/Brandish.def	Brandish	fairy tail	Mounir and Hobbycu01
+chars_fix/Cana/Cana.def	Cana	fairy tail	Mikel8888
+chars_fix/Dimaria/Dimaria.def	Dimaria	fairy tail	Mounir
+chars_fix/Elfman_Start/Elfman_Start.def	Elfman	fairy tail	Mikel8888
+chars_fix/Elfman Demon/Elfman Demon.def	Elfman BeastSoul	fairy tail	Mikel8888 by Santoryu MUGEN JUS
+chars_fix/Erza/Erza.def	Erza	fairy tail	Sonikku
+chars_fix/FT-Cobra/FT-Cobra.def	FT-Cobra	fairy tail	JOAN QUIﾑONES
+chars_fix/Gajeel/Gajeel.def	Gajeel	fairy tail	Xenodar123
+chars_fix/Gildarts/Gildarts.def	Gildarts	fairy tail	Kennedy Mugen
+chars_fix/Gray_Start/Gray_Start.def	Gray	fairy tail	Mikel8888,Xenodar, edit Mounir
+chars_fix/Gray Fullbuster/Gray Fullbuster.def	Gray Fullbuster	fairy tail	Mikel8888,Xenodar, edit Mounir
+chars_fix/Hoteye/Hoteye.def	Hoteye	fairy tail	TrafalgarLawzz
+chars_fix/Invel/Invel.def	Invel Yura	fairy tail	God Destroya
+chars_fix/Jellal/Jellal.def	Jellal	fairy tail	Xenodar123
+chars_fix/Jura/Jura.def	Jura Neekis	fairy tail	God Destroya
+chars_fix/Juvia_JUS/Juvia_JUS.def	Juvia	fairy tail	Mikel8888
+chars_fix/juvia/juvia.def	Juvia	fairy tail	Tenxu1407
+chars_fix/Kagura_k/Kagura_k.def	Kagura	fairy tail	keyber
+chars_fix/Laxus/Laxus.def	Laxus	fairy tail	Akashi Mugen
+chars_fix/Levy_McGarden/Levy_McGarden.def	Levy McGarden [Mikel8888]	fairy tail	Mikel8888
+chars_fix/Lisanna/Lisanna.def	Lisanna	fairy tail	Mikel8888
+chars_fix/Lucy/Lucy.def	Lucy	fairy tail	Mikel8888. edit Mounir
+chars_fix/Lyon/Lyon.def	Lyon	fairy tail	Monkey_D._Yomi
+chars_fix/Makarov V6/Makarov V6.def	Makarov	fairy tail	Santoryu MUGEN JUS
+chars_fix/Midnight/Midnight.def	Midnight	fairy tail	RogueCD
+chars_fix/Mirajane_Satan_Soul/Mirajane_Satan_Soul.def	Mirajane	fairy tail	Mikel8888,edit by renz26818126
+chars_fix/Mystogan/Mystogan.def	Mystogan	fairy tail	InSeph
+chars_fix/Natsu (Neo JUS Style)/Natsu (Neo JUS Style).def	Natsu	fairy tail	Mikel8888
+chars_fix/Natsu Dragon Force/Natsu Dragon Force.def	Natsu Dragon Force	fairy tail	Mikel8888
+chars_fix/Natsu/Natsu.def	Natsu MG9	fairy tail	Mikel8888
+chars_fix/Racer/Racer.def	Racer	fairy tail	"Planeptune"" (Reesprites Rogue)"
+chars_fix/Sting/Sting.def	Sting	fairy tail	Mikel8888
+chars_fix/Wendy/Wendy.def	Wendy	fairy tail	Mikel8888 edited by Entah99
+chars_fix/WendyDF/WendyDF.def	wendy dragon force	fairy tail	AKUMA
+chars_fix/Zeref_JUS/Zeref_JUS.def	Zeref	fairy tail	Mikel8888
+chars_fix/ArtoriaAlter/ArtoriaAlter.def	Artoria Pendragon Alter	fate / type-moon	InSeph
+chars_fix/Astolfo/Astolfo.def	Astolfo	fate / type-moon	Diego, Sebaah
+chars_fix/BB/BB.def	BB	fate / type-moon	Mugen n5
+chars_fix/Ciel/Ciel.def	Ciel	fate / type-moon	InSeph
+chars_fix/Archer/Archer.def	Emiya Archer	fate / type-moon	Dry-Mugen
+chars_fix/Gilgamesh/Gilgamesh.def	Gilgamesh	fate / type-moon	InSeph
+chars_fix/Gilgamesh UBW (Balanceado)/Gilgamesh UBW (Balanceado).def	Gilgamesh Balanceado	fate / type-moon	MugenN5
+chars_fix/Gilgamesh UBW/Gilgamesh UBW.def	Gilgamesh Over Power	fate / type-moon	MugenN5
+chars_fix/King Gilgamesh Op/King Gilgamesh Op.def	Gilgamesh, The King	fate / type-moon	MugenN5
+chars_fix/Hassan of the Cursed Arm/Hassan of the Cursed Arm.def	Hassan	fate / type-moon	JOAN QUIﾑONES
+chars_fix/Ms_Heroine_x/Ms_Heroine_x.def	Heroine X	fate / type-moon	JOAN QUIﾑONES
+chars_fix/Jeanne/Jeanne.def	Jeanne	fate / type-moon	LautyCarp
+chars_fix/Kirei Kotomine/Kirei Kotomine.def	Kirei Kotomine	fate / type-moon	Dry-Mugen
+chars_fix/Lancelot/Lancelot.def	Lancelot	fate / type-moon	Mugen n5,edit by VANGUARDMUGEN
+chars_fix/Lancer/Lancer.def	Lancer	fate / type-moon	Mugen n5
+chars_fix/Mordred/Mordred.def	Mordred Pendragon	fate / type-moon	InSeph
+chars_fix/Rider Medusa/Rider Medusa.def	Rider	fate / type-moon	Protozoark
+chars_fix/Rin Tohsaka/Rin Tohsaka.def	Rin	fate / type-moon	JOAN QUIﾑONES
+chars_fix/Saber/Saber.def	Saber	fate / type-moon	Mikel8888
+chars_fix/Ryougi_Shiki/Ryougi_Shiki.def	Shiki	fate / type-moon	Burako
+chars_fix/Tohno/Tohno.def	Tohno	fate / type-moon	Petamynx
+chars_fix/Ushiwakamaru/Ushiwakamaru.def	Ushiwakamaru	fate / type-moon	Dry-Mugen
+chars_fix/Shinra_Kusakabe/Shinra_Kusakabe.def	Shinra	fire force	Kennedy Mugen
+chars_fix/Tamaki/Tamaki.def	Tamaki	fire force	Black-X-Sage
+chars_fix/Kenshiro/Kenshiro.def	Kenshiro	fist of the north star	Salah
+chars_fix/O27_ArmstrongA/O27_ArmstrongA.def	Armstrong	fullmetal alchemist	Ozaler27
+chars_fix/Roy_Mustang/Roy_Mustang.def	Mustang	fullmetal alchemist	Planeptune
+chars_fix/Kagura/Kagura.def	Kagura	gintama	InSeph
+chars_fix/Takasugi/Takasugi.def	Shinsuke Takasugi	gintama	InSeph
+chars_fix/Hijikata/Hijikata.def	Toshiro Hijikata	gintama	InSeph
+chars_fix/JK-Alucard/JK-Alucard.def	Alucard-el Poderoso	hellsing	Justin kaiser
+chars_fix/adultgon/adultgon.def	Adult Gon	hunter x hunter	pedroponi
+chars_fix/JX_Biscuit/JX_Biscuit.def	Biscuit	hunter x hunter	Jhon-X
+chars_fix/Chrollo Lucilfer/Chrollo Lucilfer.def	Chrollo Lucilfer	hunter x hunter	Soulfire
+chars_fix/JX_feitan/JX_feitan.def	Feitan	hunter x hunter	Jhon-X
+chars_fix/JX_Genthru/JX_Genthru.def	Genthru	hunter x hunter	Jhon-X
+chars_fix/Gon/Gon.def	Gon	hunter x hunter	Mikel8888, edited by Shiruzato/Mythos
+chars_fix/Gon timeskip/Gon timeskip.def	Gon	hunter x hunter	Mikel8888, Edit by TrafalgarLawzz, Edit by Salah
+chars_fix/Gon_TP/Gon_TP.def	Gon	hunter x hunter	TPHD
+chars_fix/Hisoka/Hisoka.def	Hisoka	hunter x hunter	InSeph
+chars_fix/JX_ILLUMI/JX_ILLUMI.def	ILLUMI	hunter x hunter	Jhon-X
+chars_fix/JX_Kaito/JX_Kaito.def	Kaito	hunter x hunter	Jhon-X
+chars_fix/Killua1/Killua1.def	Killua	hunter x hunter	Mikel8888
+chars_fix/Killua/Killua.def	Killua	hunter x hunter	Mikel8888
+chars_fix/JX_Knuckle Bine/JX_Knuckle Bine.def	Knuckle	hunter x hunter	Jhon-X
+chars_fix/Kurapika/Kurapika.def	Kurapika	hunter x hunter	Lemonstream
+chars_fix/Kuroro2/Kuroro2.def	Kuroro	hunter x hunter	Mikel8888
+chars_fix/JX_Leorio/JX_Leorio.def	Leorio	hunter x hunter	Jhon-X
+chars_fix/Meruem/Meruem.def	Meruem	hunter x hunter	Normandor
+chars_fix/Neferpitou/Neferpitou.def	Neferpitou	hunter x hunter	InSeph
+chars_fix/JX_Netero/JX_Netero.def	Netero	hunter x hunter	Jhon-X
+chars_fix/JX_Shizuku/JX_Shizuku.def	Shizuku	hunter x hunter	Jhon-X
+chars_fix/JX_Youpi/JX_Youpi.def	Youpi Jhon-X	hunter x hunter	Jhon-X
+chars_fix/Sesshomaru/Sesshomaru.def	Sesshomaru	inuyasha	Keyber
+chars_fix/HFTF Jotaro Kujo/HFTF Jotaro Kujo.def	[HFTF] Jotaro Kujo	jojo	Samurai Ash
+chars_fix/Anthonio Zeppeli/Anthonio Zeppeli.def	Anthonio Zeppeli	jojo	mysh_2002
+chars_fix/Avdol/Avdol.def	Avdol	jojo	Planeptune
+chars_fix/Bruno Bucciarati/Bruno Bucciarati.def	Bruno Bucciarati	jojo	Dry-Mugen
+chars_fix/Caesar_Zeppeli/Caesar_Zeppeli.def	Caesar Zeppeli	jojo	Dry-Mugen
+chars_fix/Cioccolata/Cioccolata.def	Cioccolata	jojo	BlackDrifterz [EDIT] by Sebaah
+chars_fix/Demon Lord Dio/Demon Lord Dio.def	Demon Lord Dio	jojo	Knidds
+chars_fix/Diavolo/Diavolo.def	Diavolo	jojo	Knightmare
+chars_fix/Diavolo Requiem/Diavolo Requiem.def	Diavolo Requiem	jojo	Knightmare, NgoNice
+chars_fix/Diego/Diego.def	Diego Brando	jojo	LautyCarp
+chars_fix/Diego Brando AU/Diego Brando AU.def	Diego Brando AU	jojo	Dry-Mugen
+chars_fix/Dio Brando/Dio Brando.def	Dio Brando	jojo	Teixeira's Mugen
+chars_fix/Manga Dio Brando/Manga Dio Brando.def	Dio Brando Manga	jojo	Dio Brando
+chars_fix/DIO OH/DIO OH.def	DIO Over Heaven	jojo	Knidds
+chars_fix/DIO Over Heaven/DIO Over Heaven.def	DIO Over Heaven	jojo	QINYAN
+chars_fix/DIO_K/DIO_K.def	DIO_K1	jojo	Knidds
+chars_fix/Enrico Pucci/Enrico Pucci.def	Enrico Pucci	jojo	Dry-Mugen
+chars_fix/Pucci (C-Moon)/Pucci (C-Moon).def	Enrico Pucci	jojo	Dry-Mugen
+chars_fix/Pucci/Pucci.def	Enrico Pucci	jojo	Dry-Mugen
+chars_fix/Final DIO/Final DIO.def	Final DIO	jojo	Chahine05
+chars_fix/Giorno/Giorno.def	Giorno	jojo	Knightmare
+chars_fix/Giorno(Boss)/Giorno(Boss).def	Giorno (Boss)	jojo	Knightmare
+chars_fix/Giorno_GER/Giorno_GER.def	Giorno GER	jojo	"Knightmare"" edit by bog&linuz"
+chars_fix/Kira(Kosaku Kawajiri)/Kira(Kosaku Kawajiri).def	Great Days Kira	jojo	Shadow Mercer,Kosaku edit by:Dry-Mugen
+chars_fix/Mista/Mista.def	Guido Mista	jojo	Fat_Cat, Sebaah
+chars_fix/Gyro Zeppeli/Gyro Zeppeli.def	Gyro	jojo	Team Passione Muzzarela
+chars_fix/Hermes/Hermes.def	Hermes	jojo	mysh_2002
+chars_fix/High_DIO/High_DIO.def	High DIO	jojo	QINYAN
+chars_fix/Johnny_Joestar/Johnny_Joestar.def	Johnny Joestar	jojo	Dry-Mugen
+chars_fix/Jolyne/Jolyne.def	Jolyne Kujo	jojo	LautyCarp Edit: XmegaTM
+chars_fix/Jonathan1/Jonathan1.def	Jonathan	jojo	Mikel8888
+chars_fix/SM_Jonathan/SM_Jonathan.def	Jonathan	jojo	Shadow Mercer
+chars_fix/Joseph/Joseph.def	Joseph Joestar	jojo	InSeph
+chars_fix/Josuke/Josuke.def	Josuke	jojo	Mikel8888
+chars_fix/JotaroK/JotaroK.def	Jotaro K1	jojo	Knidds
+chars_fix/Jotaro/Jotaro.def	Jotaro Kujo	jojo	LautyCarp
+chars_fix/JotaroPart6/JotaroPart6.def	Jotaro Kujo	jojo	LautyCarp, Edited by Curtah,Dry-Mugen & Icarus Kuroi
+chars_fix/Jotaro Kujo(DIUAnimeSuit 1)/Jotaro Kujo(DIUAnimeSuit 1).def	Jotaro(DIU)	jojo	Martix720
+chars_fix/Jotaro-SPR/Jotaro-SPR.def	Jotaro-SPR	jojo	MOHET
+chars_fix/Kakyoin/Kakyoin.def	Kakyoin	jojo	Knightmare
+chars_fix/Yoshikage Kira/Yoshikage Kira.def	Kira	jojo	BlackJudai
+chars_fix/Koichi/Koichi.def	Koichi Hirose	jojo	LautyCarp
+chars_fix/Leone/Leone.def	Leone	jojo	RenounMugen
+chars_fix/Leone Abbacchio/Leone Abbacchio.def	Leone Abbacchio	jojo	Sebaah
+chars_fix/LisaLisa/LisaLisa.def	Lisa Lisa	jojo	LautyCarp
+chars_fix/Narancia/Narancia.def	Narancia Ghirga	jojo	mixychan
+chars_fix/Noriaki_Kakyoin/Noriaki_Kakyoin.def	Noriaki Kakyoin	jojo	Baby Desu
+chars_fix/Okuyasu/Okuyasu.def	Okuyasu Nijimura	jojo	LautyCarp
+chars_fix/Old_Joseph/Old_Joseph.def	Old Joseph	jojo	Fat_Cat
+chars_fix/Pannacotta Fugo/Fugo.def	Pannacotta Fugo	jojo	Dry-Mugen
+chars_fix/Polnareff/Polnareff.def	Polnareff	jojo	Planeptune
+chars_fix/PolnareffPart5/PolnareffPart5.def	Polnareff	jojo	mysh_2002
+chars_fix/Rohan/Rohan.def	Rohan Kishibe	jojo	LautyCarp
+chars_fix/Stroheim/Stroheim.def	Rudol von Stroheim	jojo	LautyCarp
+chars_fix/Shizuka/Shizuka.def	Shizuka	jojo	Xyubo
+chars_fix/Star Platinum/Star Platinum.def	Star Platinum	jojo	Dio Brando
+chars_fix/The World/The World.def	The World	jojo	Dio Brando
+chars_fix/Trish Una/Trish Una.def	Trish Una	jojo	BlackDrifterz
+chars_fix/Ultimate Kars/UltimateKars.def	Ultimate Kars	jojo	Xyubo
+chars_fix/Funny_Valentine/Funny_Valentine.def	Valentine	jojo	Knightmare
+chars_fix/Vanilla Ice/Vanilla Ice.def	Vanilla Ice	jojo	BlackDrifterz
+chars_fix/Wamuu/Wamuu.def	Wamuu	jojo	Loche , base by mysh_2002, Big Edit by Sebaah
+chars_fix/Weather Report/Weather Report.def	Weather Report	jojo	BlackDrifterz
+chars_fix/Aoi Todo/Aoi Todo.def	Aoi Todo	jujutsu kaisen	Black-X-Sage
+chars_fix/Gojo Satoru/Gojo Satoru.def	Gojo	jujutsu kaisen	JOEYJOSTAR
+chars_fix/Gojo(revealed)/Gojo(revealed).def	Gojo(revealed)	jujutsu kaisen	JOEY JOSTAR
+chars_fix/Hanami/Hanami.def	Hanami	jujutsu kaisen	Joey Jostar
+chars_fix/Itadori/Itadori.def	Itadori	jujutsu kaisen	Joey
+chars_fix/Kugisaki Nobara/Kugisaki Nobara.def	Kugisaki Nobara	jujutsu kaisen	mysh_2002
+chars_fix/Limitless Gojo/Limitless Gojo.def	Limitless Gojo	jujutsu kaisen	Original by Joey, edited by Packmanmugen,edit MateoG9,resprite MeowBlast
+chars_fix/Mahito/Mahito.def	Mahito	jujutsu kaisen	JOEY JOSTAR
+chars_fix/Megumi Fushiguro/Megumi Fushiguro.def	Megumi Fushiguro	jujutsu kaisen	Joey Jostar
+chars_fix/Nanami Kento/Nanami Kento.def	Nanami Kento	jujutsu kaisen	JOEY JOSTAR
+chars_fix/Sukuna/Sukuna.def	Sukuna	jujutsu kaisen	Joey
+chars_fix/Megumin/Megumin.def	Megumin	konosuba	Entah99
+chars_fix/Aladdin/Aladdin.def	Aladdin	magi	Mikel8888
+chars_fix/Alibaba/Alibaba.def	Alibaba	magi	Mikel8888
+chars_fix/JK-Judal/JK-Judal.def	Judal	magi	Justin kaiser
+chars_fix/Morgiana/Morgiana.def	Morgiana	magi	InSeph
+chars_fix/JK-Ren Kouen-V2/JK-Ren Kouen-V2.def	Ren kouen	magi	Justin kaiser
+chars_fix/JK-Simbad-V2/JK-Simbad-V2.def	Simbad	magi	Justin kaiser
+chars_fix/Mob 100/Mob 100.def	Mob Transform	mob psycho 100	LemonStream, Edit 1 by Drex123 Edit 2 by resorrev
+chars_fix/Reigen Arataka/Reigen Arataka.def	Reigen	mob psycho 100	RenounMugen
+chars_fix/Teruki Hanazawa/Teruki Hanazawa.def	Teruki Hanazawa	mob psycho 100	LemonStream, Edit 1 by Drex123 Edit 2 by resorrev
+chars_fix/All For One/All For One.def	All For One	my hero academia	Alessandro Valderrama (edited by SchuhLos)
+chars_fix/AllForOne/AllForOne.def	All for One	my hero academia	VanguardMugen
+chars_fix/All Might/All Might.def	All Might	my hero academia	Salah
+chars_fix/(All-Stars) Ayato_Kirishima_RE/(All-Stars) Ayato_Kirishima_RE.def	Ayato	my hero academia	Rivelio
+chars_fix/(All-Stars) Katsuki_Bakugo/(All-Stars) Katsuki_Bakugo.def	Bakugo	my hero academia	Rivelio
+chars_fix/Bakugou/Bakugou.def	Bakugou	my hero academia	Sonikku TSK
+chars_fix/Dabi/Dabi.def	Dabi	my hero academia	VanguardMugen
+chars_fix/Deku (Vigilante)/Deku (Vigilante).def	Deku (Vigilante)	my hero academia	Rivelio, edited by DanteTFL & Jorge Diaz
+chars_fix/Izuku Midoriya/Izuku Midoriya.def	Deku MG9	my hero academia	EDIT BY MateoG9
+chars_fix/Izuku_Midoriya_S3/Izuku_Midoriya_S3.def	Deku S3	my hero academia	TrafalgarLawzz,Shiruzato/MYTHOS
+chars_fix/Denki Kaminari/Denki Kaminari.def	Denki Kaminari	my hero academia	SantoryuMUGENJUS
+chars_fix/Endeavor/Endeavor.def	Endeavor	my hero academia	Sugexs Jus-SantoryuMUGENJUS edit diegomejia30
+chars_fix/Froppy/Froppy.def	Froppy	my hero academia	Entah99
+chars_fix/All_Might/All_Might.def	heyday All Might	my hero academia	Salah
+chars_fix/Iida/Iida.def	Iida	my hero academia	Gogetacris, edit Jorge Diaz
+chars_fix/Lemillion/Lemillion.def	Lemillion	my hero academia	TrafalgarLawzz
+chars_fix/midoriya full cowl 100%/midoriya full cowl 100%.def	midoriya full cowl 100%	my hero academia	EDIT BY MateoG9
+chars_fix/Mineta/Mineta.def	Mineta	my hero academia	BlackJudai
+chars_fix/Momo/Momo.def	Momo	my hero academia	Ralf
+chars_fix/Muscular/Muscular.def	Muscular	my hero academia	Dano777, Jorge Diaz
+chars_fix/Nana Shimura/Nana Shimura.def	Nana	my hero academia	Mikel8888,Anime M.G. resprite Jorge Diaz
+chars_fix/Nine/Nine.def	Nine	my hero academia	Kennedy Mugen
+chars_fix/Nine full power/Nine full power.def	Nine	my hero academia	Kennedy Mugen
+chars_fix/One for all/One for all.def	One for all	my hero academia	Javier(Jasgamer on YT)
+chars_fix/Kirishima/Kirishima.def	Red Riot	my hero academia	Frak20
+chars_fix/Shigaraki/Shigaraki.def	Shigaraki	my hero academia	Yang2020 (MugenPod), resprite by Jorge Diaz
+chars_fix/Stain/Stain.def	Stain	my hero academia	VanguardMugen
+chars_fix/Todoroki/Todoroki.def	Todoroki	my hero academia	Akashi, resprite by Jorge Diaz
+chars_fix/Tokoyami/Tokoyami.def	Tokoyami	my hero academia	JOEY,Edit by zJonUwU,Sprites by FoxYSGaming
+chars_fix/Uraraka/Uraraka.def	Uraraka	my hero academia	ismael005 ortiz
+chars_fix/Aoshi/Aoshi.def	Aoshi	naruto	Keyber, Edit by TrafalgarLawzz
+chars_fix/Ashura/Ashura.def	Ashura	naruto	Mikel8888
+chars_fix/G6_Asuma/G6_Asuma.def	Asuma	naruto	CobraG6
+chars_fix/Borushiki/Borushiki.def	Borushiki	naruto	MFmugenPT-BR
+chars_fix/Boruto time skip/Boruto time skip.def	Boruto	naruto	Ismael De Jes�s P駻ez
+chars_fix/Boruto/Boruto.def	Boruto	naruto	Shingeki No Mugen+Sage of mugen
+chars_fix/Caminhos de pain/Caminhos de pain.def	Caminhos de pain	naruto	Frak20
+chars_fix/G6_Chocho/G6_Chocho.def	Chocho	naruto	CobraG6
+chars_fix/Choji/Choji.def	Choji	naruto	Mikel8888
+chars_fix/G6_Danzo/G6_Danzo.def	Danzo Shimura	naruto	CobraG6
+chars_fix/Deidara/Deidara.def	Deidara	naruto	Frak20
+chars_fix/Kakashi (DMS)/Kakashi (DMS).def	DMS Kakashi	naruto	Salah
+chars_fix/Fuu/Fuu.def	Fuu	naruto	CobraG6
+chars_fix/Gaara_JUS/Gaara_JUS.def	Gaara	naruto	CobraG6
+chars_fix/GaaraWar/GaaraWar.def	Gaara War	naruto	CobraG6
+chars_fix/Hagoromo_Otsutsuki/Hagoromo_Otsutsuki/Hagoromo Otsutsuki.def	Hagoromo Otsutsuki	naruto	Shingeki No Mugen edited by ﾏ��鱠鑚weet / Adventurer
+chars_fix/G6_Haku/G6_Haku.def	Haku	naruto	CobraG6
+chars_fix/O27_HakuryuuR/O27_HakuryuuR.def	Hakuryuu	naruto	Ozaler27
+chars_fix/hamura_Otsutsuki/hamura_Otsutsuki.def	Hamura	naruto	Shingeki No Mugen
+chars_fix/Han/Han.def	Han	naruto	Mikel8888
+chars_fix/SM_Hashirama_Sennin/SM_Hashirama_Sennin.def	Hashirama Sennin	naruto	Shadow Mercer
+chars_fix/Hidan/Hidan.def	Hidan	naruto	Frak20
+chars_fix/G6_Himawari/G6_Himawari.def	Himawari	naruto	CobraG6
+chars_fix/Hinata/Hinata.def	Hinata	naruto	Mikel8888
+chars_fix/Hinata war/Hinata war.def	Hinata War	naruto	Xyubo
+chars_fix/G6_Hiruzen/G6_Hiruzen.def	Hiruzen	naruto	CobraG6
+chars_fix/Hokage Hashirama/Hokage Hashirama.def	Hokage Hashirama	naruto	Mikel8888,Nimpos,Sprites by Vovan99
+chars_fix/Ikkaku/Ikkaku.def	Ikkaku	naruto	Salah
+chars_fix/Indra_Otsutsuki/Indra_Otsutsuki.def	Indra	naruto	Shingeki No Mugen
+chars_fix/G6_Ino/G6_Ino.def	Ino	naruto	CobraG6
+chars_fix/G6_Inojin/G6_Inojin.def	Inojin	naruto	CobraG6
+chars_fix/Iruka/Iruka.def	Iruka	naruto	Bills Dios
+chars_fix/Isshiki/Isshiki.def	Isshiki	naruto	MFmugenPT-BR
+chars_fix/Itachi/Itachi.def	Itachi	naruto	Frak20
+chars_fix/G6_Itachi_Edo/G6_Itachi_Edo.def	Itachi Edo	naruto	CobraG6
+chars_fix/G6_Itachi_Rikudou/G6_Itachi_Rikudou.def	Itachi Rikudou	naruto	CobraG6
+chars_fix/Iwabe/Iwabe.def	Iwabe	naruto	CobraG6
+chars_fix/Jiraiya_JUS/Jiraiya_JUS.def	Jiraiya	naruto	CobraG6
+chars_fix/G6_Jiraiya_Sennin/G6_Jiraiya_Sennin.def	Jiraiya Sennin	naruto	CobraG6
+chars_fix/Juugo_JUS/Juugo_JUS.def	Juugo	naruto	CobraG6
+chars_fix/Kabuto/Kabuto.def	Kabuto	naruto	Shingeki No Mugen && Midoriya707
+chars_fix/SM_Kabuto_Sennin/SM_Kabuto_Sennin.def	Kabuto Sennin	naruto	Shadow Mercer
+chars_fix/G6_Kaguya/G6_Kaguya.def	Kaguya	naruto	CobraG6
+chars_fix/KakashiMY/KakashiMY.def	Kakashi	naruto	Shingeki No Mugen,Tohru Sama
+chars_fix/Kakashi_Anbu/Kakashi_Anbu.def	Kakashi Anbu	naruto	jokyBoy
+chars_fix/G6_Kakashi_Kid/G6_Kakashi_Kid.def	Kakashi Kid	naruto	CobraG6
+chars_fix/Kakuzu/Kakuzu.def	Kakuzu	naruto	Frak20
+chars_fix/Kakuzu Jiongu/Kakuzu Jiongu.def	Kakuzu Jiongu	naruto	Frak20, Edit: Dark Night
+chars_fix/G6_Kankuro/G6_Kankuro.def	Kankuro	naruto	CobraG6
+chars_fix/Karin_JUS/Karin_JUS.def	Karin	naruto	CobraG6
+chars_fix/kashin koji/kashin koji.def	kashin koji	naruto	Sage Of Mugen
+chars_fix/Kawaki_Kid/Kawaki_Kid.def	Kawaki	naruto	CobraG6
+chars_fix/Kawaki/Kawaki.def	Kawaki	naruto	CobraG6
+chars_fix/Kawashiki/Kawashiki.def	Kawashiki	naruto	MFmugenPT-BR
+chars_fix/Kiba/Kiba.def	Kiba	naruto	Mikel8888
+chars_fix/kid gaara/kid gaara.def	kid gaara	naruto	CobraG6 edit jlmaster12
+chars_fix/KillerB/KillerB.def	Killer B	naruto	InSeph
+chars_fix/G6_Killer_Bee/G6_Killer_Bee.def	Killer Bee	naruto	CobraG6
+chars_fix/Kimimaro/Kimimaro.def	Kimimaro	naruto	Mikel8888
+chars_fix/Kisame/Kisame.def	Kisame	naruto	Frak20
+chars_fix/Kisame Shark/Kisame Shark.def	Kisame shark	naruto	Frak20, Edit: Dark Night
+chars_fix/Shinobu/Shinobu.def	Kocho Shinobu	naruto	InSeph
+chars_fix/Konan/Konan.def	Konan	naruto	Frak20
+chars_fix/Konohamaru_Sensei/Konohamaru_Sensei.def	Konohamaru Sensei	naruto	Mikel8888,edit by NightStalker
+chars_fix/Kurama/Kurama.def	Kurama	naruto	Planeptune
+chars_fix/Kurenai nzc 1.0/Kurenai nzc 1.0.def	Kurenai	naruto	CobraG6
+chars_fix/Madara/Madara.def	Madara	naruto	Salah
+chars_fix/Madara SusanoO/Madara SusanoO.def	Madara	naruto	Mikel8888
+chars_fix/Madara_Rikudou/Madara_Rikudou.def	Madara	naruto	Mikel8888, TrafalgarLawzz
+chars_fix/Madara_fim/Madara_fim.def	Madara Mardo	naruto	Mikel8888 ( Edit Naruto Chars Mugen )
+chars_fix/Madara Rikudou (B)/Madara Rikudou (B).def	Madara Rikudou (B)	naruto	Bog
+chars_fix/G6_MaskedMan/G6_MaskedMan.def	Masked Man	naruto	CobraG6
+chars_fix/Might_Guy_JUS/Might_Guy_JUS.def	Might Guy	naruto	CobraG6
+chars_fix/G6_Might_Guy_8_Gates/G6_Might_Guy_8_Gates.def	Might Guy HT	naruto	CobraG6
+chars_fix/Minato_Jounin/Minato_Jounin.def	Minato	naruto	(Edited by Naruto MUGEN iRMﾂOS br)
+chars_fix/Minato/Minato.def	Minato	naruto	Salah
+chars_fix/Minato_Edo_Tensei/Minato_Edo_Tensei.def	Minato Edo Tensei	naruto	Normandor
+chars_fix/Minato Kcm/Minato Kcm.def	Minato Kcm	naruto	Frak20, Edit: Dark Night
+chars_fix/G6_Mitsuki/G6_Mitsuki.def	Mitsuki	naruto	CobraG6
+chars_fix/G6_Mizukage_Mei/G6_Mizukage_Mei.def	Mizukage Mei	naruto	CobraG6
+chars_fix/Momoshiki1/Momoshiki1.def	Momoshiki	naruto	Bills Dios
+chars_fix/Momoshiki/Momoshiki.def	Momoshiki	naruto	Salah
+chars_fix/Nagato full power/Nagato full power.def	Nagato	naruto	Lito
+chars_fix/Nagato/Nagato.def	Nagato Edo	naruto	Mikel8888
+chars_fix/Naruto/Naruto.def	Naruto	naruto	Salah
+chars_fix/Naruto_Final_JUS/Naruto_Final_JUS.def	Naruto	naruto	Salah
+chars_fix/Naruto Hokage/Naruto Hokage.def	Naruto	naruto	VegettoMods_Z
+chars_fix/Hokage Naruto/Hokage Naruto.def	Naruto	naruto	LegendTTA
+chars_fix/Naruto_BTM/Naruto_BTM.def	Naruto	naruto	Mikel8888
+chars_fix/G6_Naruto_Kid_1_Tail/G6_Naruto_Kid_1_Tail.def	Naruto 1 Tail	naruto	CobraG6
+chars_fix/Naruto 4 tails/Naruto 4 tails.def	Naruto 4 tails	naruto	Salah
+chars_fix/Naruto 6 tails/Naruto 6 tails.def	Naruto 6 tails	naruto	Salah
+chars_fix/Naruto Baryon/Naruto Baryon.def	Naruto Baryon	naruto	CobraG6,BRuhha, Dark Night
+chars_fix/Naruto Baryon NZC/Naruto Baryon NZC.def	Naruto Baryon	naruto	(The Cube)Made In Argentina
+chars_fix/Naruto Baryon Final/Naruto Baryon Final.def	Naruto Baryon	naruto	(The Cube)Made In Argentina
+chars_fix/Naruto_Baryon/Naruto_Baryon.def	Naruto Baryon Mode	naruto	Salah
+chars_fix/Naruto Hokage Bijju/Naruto Hokage Bijju.def	Naruto Hokage Bijju	naruto	CobraG6 Edited by Elmobr
+chars_fix/Naruto_JUS2/Naruto_JUS2.def	Naruto JUS2	naruto	Mikel8888 edited by viniciusonico
+chars_fix/Naruto Kcm/Naruto Kcm.def	Naruto Kcm	naruto	Mikel8888, Faceshield Ninja e Dark Night
+chars_fix/Naruto Kurama/Naruto Kurama.def	Naruto Kurama	naruto	Mikel8888, Faceshield Ninja e Dark Night
+chars_fix/Naruto Kyuubi/Naruto Kyuubi.def	Naruto Kyuubi	naruto	Salah
+chars_fix/Naruto Rikudou/Naruto Rikudou.def	Naruto Rikudou	naruto	Mikel8888
+chars_fix/Naruto_Sennin/Naruto_Sennin.def	Naruto Sennin	naruto	TSK Sonikku
+chars_fix/NarutoTheLast/NarutoTheLast.def	NarutoTheLast	naruto	Mikel8888 edited by viniciusonico
+chars_fix/NarutoTheLast Bijju/NarutoTheLast Bijju.def	NarutoTheLast	naruto	viniciusonico edit by zex(vasto lorde)
+chars_fix/Neji/Neji.def	Neji	naruto	CobraG6
+chars_fix/TXR-Obito Uchiha (PTS)/TXR-Obito Uchiha (PTS).def	Obito	naruto	Teixeira's Mugen
+chars_fix/Obito_Zetsu/Obito_Zetsu.def	Obito	naruto	Shingeki No Mugen
+chars_fix/Obito/Obito.def	Obito	naruto	Salah
+chars_fix/Obito Rikudou/Obito Rikudou.def	Obito Rikudou Mode	naruto	Mikel8888, Edit: Dark Night
+chars_fix/Obito Jus/Obito Jus.def	Obito Uchiha	naruto	Salah
+chars_fix/Obito_Zetsu_Control/Obito_Zetsu_Control.def	Obito Zetsu	naruto	Sektor & Sandley Uchiha
+chars_fix/Orochimaru_JUS/Orochimaru_JUS.def	Orochimaru	naruto	CobraG6
+chars_fix/Isshiki Otsutsuki/Isshiki Otsutsuki.def	Otsutsuki Isshiki	naruto	Red Demon/ALTAIR/cobraG6
+chars_fix/Pain/Pain.def	Pain	naruto	Frak20
+chars_fix/Pain NZC/Pain NZC.def	Pain	naruto	TSK Sonikku(Edited)
+chars_fix/G6_Raikage_Ay/G6_Raikage_Ay.def	Raikage Ay	naruto	CobraG6
+chars_fix/JK-Ren-Hakuei/JK-Ren-Hakuei.def	Ren-Hakuei	naruto	Justin kaiser
+chars_fix/Rock Lee/Rock Lee.def	Rock Lee	naruto	Coding by Cobra G6, Sprites by Aagus EDIT by Vovan99:)
+chars_fix/Rock Lee 8 portoes/Rock Lee 8 portoes.def	Rock Lee 8 portoes	naruto	Coding by Cobra G6, Sprites by Aagus EDIT by Vovan99:)
+chars_fix/Lee Kid/Lee Kid.def	Rock Lee kid	naruto	Base BlackJudai-Edit Dano
+chars_fix/Lee/Lee.def	Rock Lee Sword	naruto	InSeph
+chars_fix/Shoyo/Shoyo.def	S.Hinata	naruto	kelv
+chars_fix/Sai/Sai.def	Sai	naruto	Salah
+chars_fix/Sakura/Sakura.def	Sakura	naruto	InSeph
+chars_fix/J'Sakura/J'Sakura.def	Sakura	naruto	Juubi
+chars_fix/Sakura The Last/Sakura The Last.def	Sakura The Last	naruto	Entah99 (Based Sakura By Mikel8888)
+chars_fix/G6_Sarada/G6_Sarada.def	Sarada	naruto	CobraG6
+chars_fix/Sasori/Sasori.def	Sasori	naruto	Mikel8888 (edited by InSeph)
+chars_fix/Sasori Puppet/Sasori Puppet.def	Sasori Puppet	naruto	Mikel8888 (edited by InSeph, frak20 and Dark Night)
+chars_fix/Sasuke_Shippuden_Start/Sasuke_Shippuden_Start.def	Sasuke	naruto	Mikel8888
+chars_fix/SasukeTaka/SasukeTaka.def	Sasuke	naruto	Xyubo
+chars_fix/Sasuke_Taka/Sasuke_Taka.def	Sasuke	naruto	Midoriya707 & MYTHOS edited by Entah99
+chars_fix/Sasuke SusanoO/Sasuke SusanoO.def	Sasuke	naruto	Trator
+chars_fix/Sasuke_Rinnegan_JUS/Sasuke_Rinnegan_JUS.def	Sasuke	naruto	Normandor(updated by Sonikku)
+chars_fix/Sasuke_BTM/Sasuke_BTM.def	Sasuke (BTM)	naruto	Shingeki No Mugen, Sprites by Vovan99
+chars_fix/Sasuke_BNG_JUS/Sasuke_BNG_JUS.def	Sasuke BNG	naruto	Entah99
+chars_fix/G6_Sasuke_Kid_CS2/G6_Sasuke_Kid_CS2.def	Sasuke CS2	naruto	CobraG6
+chars_fix/Sasuke Final/Sasuke Final.def	Sasuke Final	naruto	Normandor(updated by Sonikku)
+chars_fix/G6_Sasuke_Hebi_CS2/G6_Sasuke_Hebi_CS2.def	Sasuke Hebi CS2	naruto	CobraG6
+chars_fix/Sasuke Rikudou/Sasuke Rikudou.def	Sasuke Rikudou	naruto	Mikel8888 Edited Elmobr
+chars_fix/Sasuke Rinnegan/Sasuke Rinnegan.def	Sasuke Rinnegan	naruto	Salah
+chars_fix/sasuke shinden/sasuke shinden.def	Sasuke Shinden	naruto	Anime M.G
+chars_fix/Sasuke The Last/Sasuke The Last.def	Sasuke The Last	naruto	VegettoMods
+chars_fix/Sasuke Rinnegan Final/Sasuke Rinnegan Final.def	Sasuke(Rinne Sharingan)	naruto	Om Hy
+chars_fix/Sasuke_Kirin/Sasuke_Kirin.def	Sasuke_Kirin	naruto	Mikel8888 (edit by InSeph) (edit by Salah)
+chars_fix/Senju_Tsunade/Senju_Tsunade.def	Senju Tsunade	naruto	Baby_Desu
+chars_fix/Shikamaru/Shikamaru.def	Shikamaru	naruto	Salah
+chars_fix/Shin_Uchiha/Shin_Uchiha.def	Shin	naruto	Shingeki No Mugen
+chars_fix/Shino_Sensei/Shino_Sensei.def	Shino	naruto	CobraG6
+chars_fix/G6_Shino/G6_Shino.def	Shino	naruto	CobraG6
+chars_fix/Shinobu Oni/Shinobu Oni.def	Shinobu Oni	naruto	Soulfire, Edited By Kuro and Dark Night
+chars_fix/Shisui/Shisui.def	Shisui	naruto	Salah
+chars_fix/G6_Shisui/G6_Shisui.def	Shisui	naruto	CobraG6
+chars_fix/Uchiha-Shisui/Uchiha-Shisui.def	Shisui	naruto	Shinrashi, edit by dark night
+chars_fix/Suigetsu_JUS/Suigetsu_JUS.def	Suigetsu	naruto	CobraG6
+chars_fix/Temari/Temari.def	Temari	naruto	CobraG6, Updated by Scream
+chars_fix/G6_Temari/G6_Temari.def	Temari	naruto	CobraG6
+chars_fix/Tenten/Tenten.def	TENTEN	naruto	N-G MUGEN Team
+chars_fix/Tobi War/Tobi War.def	Tobi	naruto	Salah
+chars_fix/Tobi Akatsuki/Tobi Akatsuki.def	Tobi Akatsuki	naruto	Salah, Edit: Dark Night
+chars_fix/SK'Tobi Iz/SK'Tobi Iz.def	Tobi Izanagi	naruto	Sektor
+chars_fix/Tobirama/Tobirama.def	Tobirama Senju	naruto	Teixeira's Mugen
+chars_fix/Toneri Edit/Toneri.def	Toneri	naruto	Bills Dios, Edit by TrafalgarLawzz
+chars_fix/Toneri Rikudou/Toneri.def	Toneri	naruto	Mikel8888
+chars_fix/Onoki/Onoki.def	Tsuchikage Onoki	naruto	Mikel8888
+chars_fix/Uchiha Itachi/Uchiha Itachi.def	Uchiha Itachi	naruto	CobraG6
+chars_fix/Uchiha_Sasuke_[FMS]/Uchiha_Sasuke_[FMS].def	Uchiha Sasuke	naruto	Baby Desu
+chars_fix/G6_Utakata/G6_Utakata.def	Utakata	naruto	CobraG6
+chars_fix/Uzumaki_Naruto/Uzumaki_Naruto.def	Uzumaki Naruto	naruto	Baby Desu
+chars_fix/Yagura/Yagura.def	Yagura	naruto	Mikel8888
+chars_fix/G6_Yugito/G6_Yugito.def	Yugito	naruto	CobraG6
+chars_fix/Zabuza/Zabuza.def	Zabuza	naruto	VegettoMods
+chars_fix/Zabuza Momoshi/Zabuza Momoshi.def	Zabuza	naruto	Vovan99
+chars_fix/ZetsuN-G/ZetsuN-G.def	Zetsu	naruto	N-G MUGEN Team
+chars_fix/Accelerator_by_TrafalgarLawzz/Accelerator.def	Accelerator	one piece	TrafalgarLawzz
+chars_fix/Ace/Ace.def	Ace	one piece	Mikel8888, edited by Salah
+chars_fix/Akainu/Akainu.def	Akainu	one piece	Wenchu (Edit by JK)
+chars_fix/Aokiji/Aokiji.def	Aokiji Kuzan	one piece	(Wenchu) Edit by JK
+chars_fix/Apoo/Apoo.def	Apoo	one piece	Kennedy Mugen
+chars_fix/Arlong/Arlong.def	Arlong	one piece	Mikel8888
+chars_fix/Kuma/Kuma.def	Bartholomew Kuma	one piece	Martix720
+chars_fix/Bartolomeo/Bartolomeo.def	Bartolomeo	one piece	Kennedy Mugen
+chars_fix/Basil/Basil.def	Basil Hawkins	one piece	kaiser Leon
+chars_fix/Benn Beckman/Benn Beckman.def	Benn Beckman	one piece	Kaiser Leon
+chars_fix/BigMom/BigMom.def	Big Mom	one piece	Kaiser Leon
+chars_fix/op blueno/op blueno.def	Blueno	one piece	Hermoduro
+chars_fix/Boa Hancock/Boa Hancock.def	Boa Hancock	one piece	Buck98
+chars_fix/Brook/Brook.def	Brook	one piece	Mikel8888
+chars_fix/SM_Brook_TS/SM_Brook_TS.def	Brook	one piece	Shadow Mercer
+chars_fix/Buggy/Buggy.def	Buggy	one piece	Mikel8888
+chars_fix/Cavendish/Cavendish.def	Cavendish	one piece	Ralf
+chars_fix/Charlotte Katakuri/Charlotte Katakuri.def	Charlotte Katakuri	one piece	Mikel8888
+chars_fix/Perospero/Perospero.def	Charlotte Perospero	one piece	Kennedy Mugen
+chars_fix/Chopper/Chopper.def	Chopper	one piece	Mikel8888
+chars_fix/ChopperTS/ChopperTS.def	Chopper	one piece	Crenderesuan
+chars_fix/Coby/Coby.def	Coby	one piece	Team One Piece OS,edit Tower
+chars_fix/Cracker/Cracker.def	Cracker	one piece	Kennedy Mugen
+chars_fix/Crocodile2/Crocodile2.def	Crocodile	one piece	AkashiMugen
+chars_fix/Mr1_Daz_Bones/Mr1_Daz_Bones.def	Daz Bones	one piece	edit by Kennedy Mugen
+chars_fix/Dellinger/Dellinger.def	Dellinger	one piece	ANHTHAI
+chars_fix/Diamante/Diamante.def	Diamante	one piece	Kennedy Mugen
+chars_fix/Doflamingo_Jus/Doflamingo_Jus.def	Doflamingo	one piece	Wenchu, Soulfire
+chars_fix/Doflamingo/Doflamingo.def	Doflamingo	one piece	Mounir, edited by Ralf/Afterglow
+chars_fix/Bullet/Bullet.def	Douglas Bullet	one piece	Kennedy Mugen
+chars_fix/Edward_Elric_by_TrafalgarLawzz/Edward_Elric.def	Edward Elric	one piece	TrafalgarLawzz
+chars_fix/Enel/Enel.def	Enel	one piece	InSeph
+chars_fix/Captain Kid/Captain Kid.def	Eustass Kid	one piece	KdsR
+chars_fix/EustassKidV.2/EustassKidV.2.def	Eustass Kid	one piece	Kaiser Leon
+chars_fix/Franky/Franky.def	Franky	one piece	Mikel8888
+chars_fix/SM_Franky_TS/SM_Franky_TS.def	Franky	one piece	Shadow Mercer
+chars_fix/Fujitora/Fujitora.def	Fujitora	one piece	Salah
+chars_fix/Gladius/Gladius.def	Gladius	one piece	Kennedy Lima
+chars_fix/GOD USOPP OP usando 0.00000001%/GOD USOPP OP usando 0.00000001%.def	GOD USOPP OP usando 0.00000001%	one piece	Crenderesuan,edit jhoy
+chars_fix/Basil2/Basil2.def	Hawkins	one piece	kaiser Leon
+chars_fix/HodyJones/HodyJones.def	Hody Jones	one piece	Kennedy Mugen
+chars_fix/Inuyasha_by_TrafalgarLawzz/Inuyasha.def	Inuyasha	one piece	TrafalgarLawzz
+chars_fix/Ivankov/Ivankov.def	Ivankov	one piece	Wenchu, edit Tower
+chars_fix/Jinbei/Jinbei.def	Jinbei	one piece	Mikel8888
+chars_fix/Kaido/Kaido.def	Kaido	one piece	Xyubo
+chars_fix/Kaido op/Kaido op.def	Kaido op	one piece	Kennedy Mugen
+chars_fix/Kaku/Kaku.def	Kaku	one piece	edit Kennedy Mugen
+chars_fix/Kalifa/Kalifa.def	Kalifa	one piece	Team OPOS, edit Tower
+chars_fix/KatakuriEZ/KatakuriEZ.def	Katakuri	one piece	EzequielRe(22/08/2022)
+chars_fix/Katakuri OP/Katakuri OP.def	Katakuri OP	one piece	joey jostar TW
+chars_fix/Killer/Killer.def	Killer	one piece	mysh_2002
+chars_fix/Kizaru/Kizaru.def	Kizaru	one piece	Martix720
+chars_fix/Krieg/Krieg.def	Krieg	one piece	Mikel8888
+chars_fix/Kumagawa/Kumagawa.def	Kumagawa	one piece	MugenN5
+chars_fix/Kuro/Kuro.def	Kuro	one piece	Mikel8888
+chars_fix/Kurohige/Kurohige.def	Kurohige	one piece	Wenchu, edit Zahid_XR
+chars_fix/Aokiji TS/Aokiji TS.def	Kuzan	one piece	DomoTH
+chars_fix/Lucci/Lucci.def	Lucci	one piece	Mikel8888
+chars_fix/L.U.C.Y/L.U.C.Y.def	Lucy	one piece	Mikel8888
+chars_fix/Luffy_Mid/Luffy_Mid.def	Luffy	one piece	Mikel8888
+chars_fix/Luffy/Luffy.def	Luffy	one piece	Mikel8888
+chars_fix/SM_Luffy_PTS/SM_Luffy_PTS.def	Luffy	one piece	Shadow Mercer
+chars_fix/SK'Monkey D. Luffy/SK'Monkey D. Luffy.def	Luffy	one piece	Sektor
+chars_fix/Monkey D. Luffy/Monkey D. Luffy.def	Luffy	one piece	Doly P29
+chars_fix/Luffy G5/Luffy G5.def	Luffy G5	one piece	Black-X-Sage
+chars_fix/Luffy G5 op/Luffy G5 op.def	Luffy G5 op	one piece	Black-X-Sage
+chars_fix/Luffy_Gear 4/Luffy_Gear 4.def	Luffy Gear 4	one piece	(The Cube)Made In Argentina
+chars_fix/Luffy Gear 4 Snakeman/Luffy Gear 4 Snakeman.def	Luffy Gear 4 Snakeman	one piece	unknown
+chars_fix/Luffy SnakeMan/Luffy SnakeMan.def	Luffy SnakeMan	one piece	(The Cube)Made In Argentina
+chars_fix/Luffy SnakeMan (Wano)/Luffy SnakeMan (Wano).def	Luffy SnakeMan Wano	one piece	(The Cube)Made In Argentina
+chars_fix/LUFFYGEAR4/LUFFYGEAR4.def	LuffyGear4	one piece	Mikel8888
+chars_fix/Magellan/Magellan.def	Magellan	one piece	Team OPOS, edit Tower
+chars_fix/Marco/Marco.def	Marco	one piece	Wenchu & Tapion, edit Tower
+chars_fix/Mihawk/Mihawk.def	Mihawk	one piece	InSeph
+chars_fix/Misaka_by_TrafalgarLawzz/Misaka.def	Misaka	one piece	TrafalgarLawzz
+chars_fix/Mob_Edit_by_TrafalgarLawzz/Mob.def	Mob	one piece	LemonStream, Edit by TrafalgarLawzz
+chars_fix/MonkeyDGarp/MonkeyDGarp.def	Monkey D. Garp	one piece	unknown
+chars_fix/Shirohige op/Shirohige op.def	Monster Whitebeard	one piece	Team O.P. edit by Jakey(JK)
+chars_fix/Moria/Moria.def	Moria	one piece	Mikel8888
+chars_fix/Mr2_Bon_Kure/Mr2_Bon_Kure.def	Mr2.Bon Kure	one piece	edit by Kennedy Mugen
+chars_fix/Nami/Nami.def	Nami	one piece	Mikel8888
+chars_fix/SM_Nami_TS/SM_Nami_TS.def	Nami	one piece	Shadow Mercer
+chars_fix/Nightmare Luffy/Nightmare Luffy.def	Nightmare Luffy	one piece	Made In Argentina NO JUS!!!!
+chars_fix/Oden/Oden.def	Oden	one piece	JOEYJOSTAR
+chars_fix/Oden1/Oden1.def	Oden	one piece	Kennedy Mugen
+chars_fix/Oga_Tatsumi_by_TrafalgarLawzz/Oga_Tatsumi.def	Oga Tatsumi	one piece	TrafalgarLawzz, Codes by Mikel8888
+chars_fix/Oven/Oven.def	Oven	one piece	Kennedy Mugen
+chars_fix/Perona/Perona.def	Perona	one piece	Team OPOS, edit Tower
+chars_fix/Pica/Pica.def	Pica	one piece	Kennedy Mugen
+chars_fix/ace time skip/ace time skip.def	Portgas D. Ace	one piece	InSeph
+chars_fix/Queen/Queen.def	Queen	one piece	mysh_2002
+chars_fix/Ranma_by_TrafalgarLawzz/Ranma.def	Ranma	one piece	TrafalgarLawzz
+chars_fix/Rebecca/Rebecca.def	Rebecca	one piece	unknown
+chars_fix/Reiju/Reiju.def	Reiju	one piece	Kaiser Leon
+chars_fix/Nico robin TS/Nico robin TS.def	Robin	one piece	shinji
+chars_fix/GolD.Roger_Prime/GolD.Roger_Prime.def	Roger	one piece	Kennedy Mugen
+chars_fix/GolD.Roger/GolD.Roger.def	Roger	one piece	Kennedy Mugen
+chars_fix/Greenbull_Ryokugyu/Greenbull_Ryokugyu.def	Ryokugyu	one piece	Salah
+chars_fix/ryuma/ryuma.def	ryuma	one piece	pablo.ex
+chars_fix/Sabo/Sabo.def	Sabo	one piece	Romano45
+chars_fix/Sabo_kaiser/Sabo_kaiser.def	Sabo	one piece	Kaiser Leon
+chars_fix/Sanji/Sanji.def	Sanji	one piece	Mikel8888
+chars_fix/SM_Sanji_TS/SM_Sanji_TS.def	Sanji	one piece	Shadow Mercer
+chars_fix/Sanji_TS/Sanji_TS.def	Sanji	one piece	Kennedy Mugen
+chars_fix/Sanji Raid Suit/Sanji Raid Suit.def	Sanji Raid Suit	one piece	Kennedy Mugen Edited Elmobr
+chars_fix/Sebastian_by_TrafalgarLawzz/Sebastian.def	Sebastian	one piece	TrafalgarLawzz
+chars_fix/Sengoku/Sengoku.def	Sengoku	one piece	Team OP OS, Tower edit
+chars_fix/Shanks/Shanks.def	Shanks	one piece	Planeptune
+chars_fix/ShikiTheGoldenLion/ShikiTheGoldenLion.def	Shiki	one piece	Planeptune
+chars_fix/Shiliew/Shiliew.def	Shiliew	one piece	mysh_2002
+chars_fix/Shirohige/Shirohige.def	Shirohige	one piece	Team O.P. edit by Jakey(JK)
+chars_fix/Shiryu Armadura V1/Shiryu Armadura V1.def	Shiryu	one piece	Shadow Mercer
+chars_fix/MSH_Shiryu/MSH_Shiryu.def	Shiryu	one piece	MaSaHo
+chars_fix/MSH_Shiryu armadura divina/MSH_Shiryu armadura divina.def	Shiryu armadura divina	one piece	MaSaHo, edit by Dark Night
+chars_fix/MSH_Shiryu de Libra/MSH_Shiryu de Libra.def	Shiryu de Libra	one piece	MaSaHo, edit by Dark Night
+chars_fix/Rayleigh/Rayleigh.def	Silver Rayleigh	one piece	ANHTHAI
+chars_fix/Crocodile/Crocodile.def	Sir Crocodile	one piece	InSeph
+chars_fix/Smoker/Smoker.def	Smoker	one piece	Mikel8888
+chars_fix/Smoker timeskip/Smoker timeskip.def	Smoker	one piece	Kaiser Leon
+chars_fix/Toriko_by_TrafalgarLawzz/Toriko.def	Toriko	one piece	TrafalgarLawzz
+chars_fix/TrafalgarLawPunkHazard/TrafalgarLawPunkHazard.def	Trafalgar	one piece	unknown
+chars_fix/Trafalgar Law (Onigashima)/Trafalgar Law (Onigashima).def	Trafalgar (Onigashima)	one piece	unknown
+chars_fix/Trafalgar Law/Trafalgar Law.def	Trafalgar Law	one piece	TrafalgarLawzz, Sprite by dDeAdLy, SonicTheMinecraftHog
+chars_fix/Urouge/Urouge.def	Urouge	one piece	mysh_2002
+chars_fix/Usopp/Usopp.def	Usopp	one piece	Mikel8888
+chars_fix/Usopp Timeskip/Usopp Timeskip.def	Usopp	one piece	Crenderesuan
+chars_fix/Vergo/Vergo.def	Vergo	one piece	ANHTHAI
+chars_fix/Ichiji/Ichiji.def	Vinsmoke Ichiji	one piece	Kaiser Leon
+chars_fix/Niji/Niji.def	Vinsmoke Niji	one piece	Kaiser Leon
+chars_fix/Yonji/Yonji.def	Vinsmoke Yonji	one piece	Kaiser Leon
+chars_fix/Wapol/Wapol.def	Wapol	one piece	Mikel8888
+chars_fix/XDrake/XDrake.def	XDrake	one piece	Team OPOS, edit Tower
+chars_fix/Zephyr/Zephyr.def	Zephyr-Z	one piece	Kennedy Mugen
+chars_fix/Zoro_JUS/Zoro_JUS.def	Zoro	one piece	Mikel8888
+chars_fix/ZoroRoronoa/ZoroRoronoa.def	Zoro	one piece	unknown
+chars_fix/Zoro/Zoro.def	Zoro	one piece	Mikel8888
+chars_fix/SM_Zoro_TS/SM_Zoro_TS.def	Zoro	one piece	Shadow Mercer
+chars_fix/Zoro_DR/Zoro_DR.def	Zoro	one piece	Kennedy Mugen
+chars_fix/SK'Roronoa Zoro Timeskip/SK'Roronoa Zoro Timeskip.def	Zoro	one piece	Sektor
+chars_fix/Zoro (Onigashima)/Zoro (Onigashima).def	Zoro (Onigashima)	one piece	Daniel's, edit by Dark Night and MFmugenPT-BR
+chars_fix/Zoro (Wano)/Zoro (Wano).def	Zoro Wano	one piece	Sektor
+chars_fix/Atomic-Samurai/Atomic-Samurai.def	Atomic-Samurai	one punch man	Justin kaiser
+chars_fix/Silver-Fang/Silver-Fang.def	Bang	one punch man	Justin kaiser
+chars_fix/Boros/Boros.def	Boros	one punch man	Shiruzato/MYTHOS, edit by Salah
+chars_fix/Boros final form/Boros final form.def	Boros final form	one punch man	Shiruzato/MYTHOS, edit by Salah and Dark Night
+chars_fix/Boros V2 OP/Boros V2 OP.def	Boros OP	one punch man	"Shiruzato/MYTHOS, edit by Salah, Ghost Carti"", edit by konn12"
+chars_fix/Boros V2 Final Form/Boros V2 Final Form.def	Boros OP	one punch man	"Shiruzato/MYTHOS, edit by Salah, Ghost Carti"", edit by konn12"
+chars_fix/Charanko-Saitama/Charanko-Saitama.def	Charanko	one punch man	Justin kaiser
+chars_fix/Child_emperor/Child_emperor.def	Child_emperor	one punch man	Justin kaiser
+chars_fix/Cliff-Saitama-Jus/Cliff-Saitama-Jus.def	Cliff-Saitama-Jus	one punch man	CLIFF-A
+chars_fix/Do-S/Do-S.def	Do-S	one punch man	Justin kaiser
+chars_fix/Drive Knight/Drive Knight.def	Drive Knight	one punch man	Justin kaiser
+chars_fix/flashy_flash/flashy_flash.def	flashy_flash	one punch man	Justin kaiser
+chars_fix/Fubuki/Fubuki.def	Fubuki	one punch man	Entah99
+chars_fix/Garou/Garou.def	Garou	one punch man	InSeph
+chars_fix/Garou Cosmico Op/Garou Cosmico Op.def	Garou Cosmico Op	one punch man	Corruptus Maximus, Edit by Dark Night
+chars_fix/GarouHalfMonster/GarouHalfMonster.def	Garou Form 2	one punch man	Kennedy Mugen
+chars_fix/Genos/Genos.def	Genos	one punch man	Salah
+chars_fix/gouketsu/gouketsu.def	gouketsu	one punch man	Justin kaiser
+chars_fix/Homeless_emperor/Homeless_emperor.def	Homeless_emperor	one punch man	Justin kaiser
+chars_fix/King opm/King opm.def	King	one punch man	Justin kaiser
+chars_fix/King/King.def	King	one punch man	Planeptune
+chars_fix/Metal_Bat/Metal_Bat.def	Metal Bat	one punch man	Salah
+chars_fix/Bate-de-Metal/Bate-de-Metal.def	Metal Bat	one punch man	Kennedy Mugen-Editado-por-Justin-kaiser
+chars_fix/Metal-Knight/Metal-Knight.def	Metal-Knight	one punch man	Justin kaiser
+chars_fix/Monster Garou/Monster Garou.def	Monster Garou	one punch man	JOAN QUIﾑONES, Edit by Jorge Diaz
+chars_fix/Moustro-Garou OP/Moustro-Garou OP.def	Monster Garou OP	one punch man	Justin kaiser
+chars_fix/Mumen_Rider/Mumen_Rider.def	Mumen Rider	one punch man	Salah
+chars_fix/pig-god/pig-god.def	pig-god	one punch man	Justin kaiser
+chars_fix/Prisionero-lindo-lindo/Prisionero-lindo-lindo.def	Prisionero-lindo-lindo	one punch man	Justin kaiser
+chars_fix/Overgrown_rover/Overgrown_rover.def	Rover	one punch man	Justin kaiser
+chars_fix/Saitama/Saitama.def	Saitama	one punch man	Mikel8888
+chars_fix/Saitama normal e serio/Saitama normal e serio.def	Saitama	one punch man	Justin kaiser and Dark Night
+chars_fix/Saitama full power/Saitama full power.def	Saitama	one punch man	Axellord && Unknown
+chars_fix/Saitama one punch/Saitama one punch.def	Saitama	one punch man	BoyBoyz
+chars_fix/Saitama Modo Serio/Saitama Modo Serio.def	Saitama	one punch man	Justin kaiser and Dark Night
+chars_fix/Sonic/Sonic.def	Sound Sonic	one punch man	InSeph
+chars_fix/Suiryu/Suiryu.def	Suiryu	one punch man	Kennedy Mugen
+chars_fix/Superalloy Darkshine/Superalloy Darkshine.def	Superalloy Darkshine	one punch man	Justin kaiser
+chars_fix/Sweet-Mask/Sweet-Mask.def	Sweet-Mask	one punch man	Justin kaiser
+chars_fix/Tatsumaki/Tatsumaki.def	Tatsumaki	one punch man	InSeph
+chars_fix/Wachdog-Man/Wachdog-Man.def	Wachdog-Man	one punch man	Justin kaiser
+chars_fix/Zombiman/Zombiman.def	Zombiman	one punch man	Justin kaiser
+chars_fix/Altair/Altair.def	Altair	other anime	Kuroshirou87
+chars_fix/Emilia_Justina/Emilia_Justina.def	Emi Yusa	other anime	Viblank
+chars_fix/goblin slayer/goblin slayer.def	Goblin Slayer	other anime	VanguardMugen
+chars_fix/Haman_Karn/Haman_Karn.def	Haman	other anime	Planeptune
+chars_fix/shinichi izumi/shinichi izumi.def	izumi	other anime	BlackJudai
+chars_fix/Jin/Jin.def	Jin Mori	other anime	InSeph
+chars_fix/JinWoo/JinWoo.def	JinWoo	other anime	MFmugenPT-BR
+chars_fix/Kazuki/Kazuki.def	Kazuki	other anime	Petamynx
+chars_fix/Koro-Sensei/Koro-Sensei.def	Koro-Sensei	other anime	TrafalgarLawzz
+chars_fix/lucy_diclonius-V1/lucy_diclonius-V1.def	lucy_diclonius	other anime	JOAN QUIﾑONES
+chars_fix/Marin/Marin.def	Marin Kitagawa	other anime	CobraG6
+chars_fix/Kurokami Medaka/Kurokami Medaka.def	Medaka	other anime	Mugen n5
+chars_fix/Momotaro/Momotaro.def	Momotaro	other anime	Planeptune
+chars_fix/Okumura_Rin/Okumura_Rin.def	Okumura Rin	other anime	TrafalgarLawzz, Mikel8888
+chars_fix/Rokuro/Rokuro.def	Rokuro	other anime	Entah99
+chars_fix/Ryuko Matoi/Ryuko Matoi.def	Ryuko	other anime	TrafalgarLawzz
+chars_fix/Saiki_Kusuo_by_TrafalgarLawzz/Saiki_Kusuo.def	Saiki Kusuo	other anime	TrafalgarLawzz
+chars_fix/Tsuna/Tsuna.def	Sawada Tsunayoshi	other anime	InSeph
+chars_fix/Taikoubou/Taikoubou.def	Taikoubou	other anime	Martix
+chars_fix/Tanya/Tanya.def	Tanya	other anime	Entah99
+chars_fix/Tokiko/Tokiko.def	Tokiko Tsumura V3	other anime	keyber, edit 1 by Jorge Diaz, edit 2 by resorrev
+chars_fix/Tsukiumi/Tsukiumi.def	Tsukiumi	other anime	TrafalgarLawzz
+chars_fix/Weiss Schnee/Weiss Schnee.def	Weiss Schnee	other anime	Arcutomory
+chars_fix/Yato/Yato.def	Yato	other anime	InSeph
+chars_fix/Yuno/Yuno.def	Yuno	other anime	SuperNaruto 64
+chars_fix/Ram/Ram.def	Ram	re:zero	PedronickMugen
+chars_fix/Reinhard/Reinhard.def	Reinhard	re:zero	DKbyte
+chars_fix/Rem/Rem.def	Rem	re:zero	InSeph
+chars_fix/Subaru/Subaru.def	Subaru	re:zero	Sage Of Mugen && Mounir
+chars_fix/Natsuki Subaru (Akatsuki)/Natsuki Subaru (Akatsuki).def	Subaru Akatsuki	re:zero	InSeph (edited by Gohvu)
+chars_fix/Zeus/Zeus.def	Zeus	record of ragnarok	Shiruzato/MYTHOS, edit by Salah
+chars_fix/enishi jus/Mugen.def	Enishi	rurouni kenshin	Charmarher
+chars_fix/Kenshin/Kenshin.def	Himura Kenshin	rurouni kenshin	InSeph
+chars_fix/Shishio/Shishio.def	Makoto Shishio	rurouni kenshin	InSeph
+chars_fix/Sanosuke/Sanosuke.def	Sagara Sanosuke	rurouni kenshin	InSeph
+chars_fix/Afrodite/Afrodite.def	Afrodite	saint seiya	Sr.kizuno, Siul1, Trex223, Dark Night adn Vegettomods Z
+chars_fix/Afrodite Espectro/Afrodite Espectro.def	Afrodite Espectro	saint seiya	Sr.kizuno, Siul1, Trex223, Dark Night, Vegettomods Z and Kyuri Dex
+chars_fix/JX_Aiolia/JX_Aiolia.def	Aiolia	saint seiya	Shadow Mercer, Dark Night, Kyuri Dex,Jhon-X
+chars_fix/Aioros/Aioros.def	Aiolos	saint seiya	Alex
+chars_fix/Aldebaran/Aldebaran.def	Aldebaran	saint seiya	Siul1
+chars_fix/Andromeda Negro/Andromeda Negro.def	Andromeda Negro	saint seiya	Shadow Mercer
+chars_fix/Atena/Atena.def	Atena	saint seiya	Entah99, KauanSg e Dark Night
+chars_fix/Camus/Camus.def	Camus	saint seiya	Planeptune
+chars_fix/Cisne_negro/Cisne_negro.def	Cisne negro	saint seiya	bsshbr
+chars_fix/Dohko/Dohko.def	Dohko	saint seiya	Planeptune
+chars_fix/Fenix negro/Fenix negro.def	Fenix negro	saint seiya	Shadow Mercer, Edit:Dark night
+chars_fix/Hyoga Armadura V1/Hyoga Armadura V1.def	Hyoga	saint seiya	Shadow Mercer, Dark night and Kyuri Dex
+chars_fix/SM_Hyoga/SM_Hyoga.def	Hyoga	saint seiya	Shadow Mercer
+chars_fix/Hyoga de aquario/Hyoga de aquario.def	Hyoga de aquario	saint seiya	Shadow Mercer, Dark Night e Kyuri Dex
+chars_fix/Ikki Armadura V1/Ikki Armadura V1.def	Ikki	saint seiya	Shadow Mercer, Dark Night and Kyuri Dex
+chars_fix/SM_Ikki/SM_Ikki.def	Ikki	saint seiya	Shadow Mercer
+chars_fix/Ikki Armor V2/Ikki Armor V2.def	Ikki Armor V2	saint seiya	Shadow Mercer, Dark Night and Kyuri Dex
+chars_fix/Ikki de Leao/Ikki de Leao.def	Ikki de Leao	saint seiya	Shadow Mercer, Dark Night, Kyuri Dex
+chars_fix/Isaak/Isaak.def	Isaak	saint seiya	God Destroya, Dark night, Kyuri Dexn,Jhon-X and ElHuesos Locos
+chars_fix/Jabu/Jabu.def	Jabu	saint seiya	Planeptune
+chars_fix/Death_Mask/Death_Mask.def	Mascara da Morte	saint seiya	Planeptune and Dark night
+chars_fix/Milo/Milo.def	Milo	saint seiya	LautyCarp
+chars_fix/JK-Mu/JK-Mu.def	Mu	saint seiya	Justin kaiser
+chars_fix/Mu/Mu.def	Mu	saint seiya	Shadow Mercer, Edit siul1
+chars_fix/Pegaso Negro/Pegaso Negro.def	Pegaso Negro	saint seiya	Shadow Mercer, Dark Night and Kyuri Dex
+chars_fix/Saga/Saga.def	Saga	saint seiya	Planeptune and dark night
+chars_fix/Seiya Armadura V1/Seiya Armadura V1.def	Seiya	saint seiya	Shadow Mercer, Dark Night and Kyuri Dex
+chars_fix/Seiya/Seiya.def	Seiya all forms	saint seiya	Keyber
+chars_fix/Seiya de sagitario/Seiya de sagitario.def	Seiya de sagitario	saint seiya	Keyber
+chars_fix/seiya armadura divina/seiya armadura divina.def	Seiya kamui	saint seiya	Keyber
+chars_fix/Shaka/Shaka.def	Shaka	saint seiya	Planeptune and Dark Night
+chars_fix/Shina/Shina.def	Shina	saint seiya	Soulfire, Dark Night, Kyuri Dex and ElHuesos Locos
+chars_fix/Shion/Shion.def	Shion	saint seiya	Shadow Mercer, Kyuri Dex, Dark Night
+chars_fix/Shion Espectro/Shion Espectro.def	Shion Espectro	saint seiya	Shadow Mercer, Kyuri Dex, Dark Night,Jhon-X,Siul1
+chars_fix/Shun Armadura V1/Shun Armadura V1.def	Shun	saint seiya	Shadow Mercer
+chars_fix/SM_Shun/SM_Shun.def	Shun	saint seiya	Shadow Mercer and Dark night
+chars_fix/Shun de Virgem/Shun de Virgem.def	Shun de Virgem	saint seiya	Planeptune
+chars_fix/Shura/Shura.def	Shura	saint seiya	Siul1
+chars_fix/Yato CDZ/Yato CDZ.def	Yato	saint seiya	Planeptune
+chars_fix/Ban/Ban.def	Ban	seven deadly sins	Planeptune
+chars_fix/Derrieri/Derrieri.def	Derieri	seven deadly sins	Soulfire
+chars_fix/Diane V2/Diane V2.def	Diane	seven deadly sins	RenounMugen
+chars_fix/Diane/Diane.def	Diane	seven deadly sins	RenounMugen
+chars_fix/Dreyfus-Fraudrin/Dreyfus-Fraudrin.def	Dreyfus (Fraudrin)	seven deadly sins	mysh_2002
+chars_fix/Drole/Drole.def	Drole	seven deadly sins	mysh_2002
+chars_fix/Elaine By Santoryu/Elaine By Santoryu.def	Elaine	seven deadly sins	SantoryuMUGENJUS
+chars_fix/Elizabeth/Elizabeth.def	Elizabeth	seven deadly sins	Mounir
+chars_fix/Escanor/Escanor.def	Escanor	seven deadly sins	Salah
+chars_fix/Escanor (New)/Escanor (New).def	Escanor	seven deadly sins	Alessandro Valderrama Edit Romano45
+chars_fix/Escanor The One/Escanor The One.def	Escanor The One	seven deadly sins	Rimihf
+chars_fix/EstarossaV3/EstarossaV3.def	Estarossa	seven deadly sins	Soulfire
+chars_fix/Estarossa Assault Mode/Estarossa Assault Mode.def	Estarossa Assault Mode	seven deadly sins	Soulfire
+chars_fix/Galland/Galland.def	Galland	seven deadly sins	RenounMugen
+chars_fix/Gowther/Gowther.def	Gowther	seven deadly sins	Planeptune
+chars_fix/Grayroad/Grayroad.def	Grayroad	seven deadly sins	mysh_2002
+chars_fix/Hendrickson/Hendrickson.def	Hendrickson	seven deadly sins	mysh_2002
+chars_fix/Hendrickson Demon/Hendrickson Demon.def	Hendrickson (Demon)	seven deadly sins	mysh_2002
+chars_fix/Mael/Mael.def	Mael	seven deadly sins	Soulfire
+chars_fix/Meliodas/Meliodas.def	Meliodas	seven deadly sins	Salah
+chars_fix/Meliodas By Santoryu/Meliodas By Santoryu.def	Meliodas	seven deadly sins	SantoryuMUGENJUS
+chars_fix/Meliodas_TP/Meliodas_TP.def	Meliodas	seven deadly sins	TPHD
+chars_fix/Meliodas assault mode/Meliodas assault mode.def	Meliodas (Full Assault mode)	seven deadly sins	TPHD
+chars_fix/Meliodas_assault mode/Meliodas_assault mode.def	Meliodas assault mode	seven deadly sins	TPHD
+chars_fix/Merlin/Merlin.def	Merlin	seven deadly sins	InSeph
+chars_fix/Monspeet/Monspeet.def	Monspeet	seven deadly sins	mysh_2002
+chars_fix/Sin of Pride Escanor/Sin of Pride Escanor.def	Sin of Pride : Escanor	seven deadly sins	InSeph
+chars_fix/Zeldris/Zeldris.def	Zeldris	seven deadly sins	Planeptune
+chars_fix/Yoh/Yoh.def	Yoh	shaman king	PackManMUGEN
+chars_fix/Asuna Alo/Asuna Alo.def	Asuna Alo	sword art online	Sonikku TSK
+chars_fix/Kirito/Kirito.def	Kirito	sword art online	InSeph
+chars_fix/Kirito 3 forms/Kirito 3 forms.def	Kirito	sword art online	Sonikku TSK
+chars_fix/Kirito_SNK/Kirito_SNK.def	Kirito SNK	sword art online	Frak20
+chars_fix/Kirito[OLD v1.5]/Kirito[OLD v1.5].def	Kirito V1.5	sword art online	InSeph
+chars_fix/Yuuki/Yuuki.def	Konno Yuuki	sword art online	InSeph
+chars_fix/Leafa/Leafa.def	Leafa	sword art online	Entah99
+chars_fix/Asuna/Asuna.def	Yuuki Asuna	sword art online	InSeph
+chars_fix/Rimuru Tempest/Rimuru Tempest.def	Rimuru	tensura	Mugen n5
+chars_fix/Rimuru Lord Demon/Rimuru Lord Demon.def	Rimuru Lord Demon	tensura	mysh_2002
+chars_fix/Rimuru all forms/Rimuru all forms.def	Rimuru Tempest	tensura	mysh_2002
+chars_fix/Juuzou Dox/Juuzou Dox.def	Juuzou	tokyo ghoul	Dox
+chars_fix/(All-Stars) Ken_Kaneki/(All-Stars) Ken_Kaneki.def	Kaneki	tokyo ghoul	Rivelio
+chars_fix/G1-kaneki/G1-kaneki.def	kaneki	tokyo ghoul	G1-Guicho, aissaiyah
+chars_fix/Kaneki Masked/Kaneki Masked.def	Kaneki Masked	tokyo ghoul	Sonikku, PedronickMugen and Dark Night
+chars_fix/Nishio Nishiki/Nishio Nishiki.def	Nishio Nishiki	tokyo ghoul	Lag969 & Stand User X
+chars_fix/Haise v2/Haise v2.def	Sasaki Haise	tokyo ghoul	Mikel8888,PedronickMugen
+chars_fix/takizawa/takizawa.def	Takizawa	tokyo ghoul	PDox, feat TrafLawzzz&Mikel8888
+chars_fix/Genkai_K/Genkai_K.def	Genkai	yu yu hakusho	keyber
+chars_fix/Hiei/Hiei.def	Hiei	yu yu hakusho	keyber Edit By Matt MUGEN
+chars_fix/Jaganshi Hiei/Jaganshi Hiei.def	Hiei	yu yu hakusho	Trator
+chars_fix/Hiei Demon/Hiei Demon.def	Hiei Demon	yu yu hakusho	keyber Edit By Matt MUGEN
+chars_fix/Jin_k/Jin_k.def	Jin	yu yu hakusho	keyber
+chars_fix/kuwabara1/kuwabara1.def	Kuwabara	yu yu hakusho	Planeptune
+chars_fix/Kuwabara_KV2/Kuwabara_KV2.def	Kuwabara	yu yu hakusho	keyber
+chars_fix/ElderToguro/ElderToguro.def	Toguro Ani	yu yu hakusho	JK
+chars_fix/Toguro/Toguro.def	Toguro Ototo	yu yu hakusho	JK
+chars_fix/(All-Stars) Yusuke_Start/(All-Stars) Yusuke_Start.def	Yusuke	yu yu hakusho	Rivelio
+chars_fix/Yusuke/Yusuke.def	Yusuke	yu yu hakusho	Mikel8888
+chars_fix/Yusuke demon/Yusuke demon.def	Yusuke demon	yu yu hakusho	Mikel8888
+chars_fix/Kaiba/Kaiba.def	Kaiba	yu-gi-oh	Shiruzato/Mythos
