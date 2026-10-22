@@ -28,8 +28,7 @@
 
 ## Download the game (BETA)
 
-The playable game is a **pre-release** made of 23 ZIP parts (39.7 GiB to download, about 58 GiB once extracted): **[Releases](../../releases)**.
-*Status: the files are uploaded and checked but the release is not published yet, so there may be nothing to download for now. This line goes away when it is.*
+The playable game is a **pre-release** made of 23 ZIP parts (39.7 GiB to download, about 58 GiB once extracted): **[download 0.9.0-beta.1](../../releases/tag/v0.9.0-beta.1)**.
 
 1. Make an empty folder (not inside Program Files).
 2. Download **every** `Woo-Force-Next-Game-0.9.0-beta.1-partNN.zip` and extract them all into that folder, in any order, merging folders.
