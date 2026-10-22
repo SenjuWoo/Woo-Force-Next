@@ -35,6 +35,21 @@ Run on the build immediately before the version string was added (the logic is i
 | Comebacks | the underdog that lost round 1 took round 2 in 8 of 37 cases (about 21%; earlier runs 17-20%) and won the match 4 times |
 | Brain cost | 0.41 ms per tick on average, 4.7 ms worst fight tick (2v2, 1x speed, one instance) |
 
+## The game download (0.9.0-beta.1)
+
+Checked on 2026-10-22 by extracting every part into an empty folder and using that copy, not the development tree.
+
+| Check | Result |
+|---|---|
+| Parts | 23 ZIP parts, 42,573,053,411 bytes in total, the largest 2,056,493,669 bytes (GitHub's limit is 2,147,483,648); SHA-256 of every part re-verified against `SHA256SUMS.txt` |
+| Extraction | 19,525 files, as many as the manifest, no duplicate names, every CRC verified by the extractor; 58 GiB on disk |
+| Select screen | boots in 19 s with all 996 characters; **0** characters failed to be added (the engine announces each one that does); about 800 warnings come from the characters' own scripts, as in the development tree |
+| Matches | 1v1 and 2v2 AI-vs-AI matches ran to the end from the extracted copy with the brain loaded (`woo_brain 0.9.0-beta.1 (BETA) loaded`), profiles found, supers gated, team relays and rescues happening, no errors |
+| Characters | all 996 were `ok` in the development tree's crash scan; the shipped files are byte-identical copies |
+| Not checked | a match started by hand from the menu; the extracted game on any other machine |
+
+Known tooling quirk: `run_match.py` (and so `crash_scan.py`, which uses the same command-line path) intermittently panics with "Unable to add character" on the first runs in a freshly extracted copy, never in the development tree. It only affects the developer quick-match shortcut (`-p1 -p2 -loadmotif`), where the engine looks a character up right after adding it; the select-screen boot and ordinary matches are unaffected. The cause was narrowed down but not identified.
+
 ## What these numbers do not tell you
 
 - Samples are small. The comeback rate is the same as before the comeback boost was reworked (about 19-21%); only match wins rose. Gap-1 matchups are close to a coin flip.

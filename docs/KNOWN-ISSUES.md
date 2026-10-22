@@ -28,6 +28,7 @@ This is a BETA. These are the problems the author knows about; there will be oth
 - **Tier gap 1 is close to a coin flip** (36-56% for the higher tier across three runs).
 
 ## Tools
+- In a freshly extracted game, `run_match.py` and `crash_scan.py` can panic with "Unable to add character" (a quirk of the engine's command-line quick match, not of normal play); see [TESTING.md](TESTING.md).
 - The palette judge (`pal_judge.py`) reads only the stand sprites, so a palette that breaks only other sprites is not caught.
 - Several tools assume the author's layout (`chars_fix` overlays, a generated `select.def`). Some characters in that roster only load thanks to local
   overlay fixes that are not part of this repository.

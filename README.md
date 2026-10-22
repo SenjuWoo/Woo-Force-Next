@@ -28,8 +28,8 @@
 
 ## Download the game (BETA)
 
-The playable game is a **pre-release** made of several ZIP parts (about 58 GiB once extracted): **[Releases](../../releases)**.
-*Status: the files are still being uploaded and checked, so there may be nothing to download yet. This section is updated when the release is published.*
+The playable game is a **pre-release** made of 23 ZIP parts (39.7 GiB to download, about 58 GiB once extracted): **[Releases](../../releases)**.
+*Status: the files are uploaded and checked but the release is not published yet, so there may be nothing to download for now. This line goes away when it is.*
 
 1. Make an empty folder (not inside Program Files).
 2. Download **every** `Woo-Force-Next-Game-0.9.0-beta.1-partNN.zip` and extract them all into that folder, in any order, merging folders.
@@ -103,7 +103,7 @@ about how it feels to watch.
 | Higher tier wins a round, tier gap 1 / 2 / 3 / 4 | 36% / 85% / 79% / 100% |
 | Underdog that lost round 1 takes round 2 | about 19-21%, and wins the match about 4 times in 37 |
 | Brain cost | 0.41 ms per tick on average, 4.7 ms worst fight tick (2v2, 1x speed) |
-| The download itself | still being verified (extract every part, boot, fight, crash scan); results will be added here |
+| The download itself | 23 parts hash-checked, extracted copy boots with all 996 characters and plays AI-vs-AI matches with the brain; nobody has hand-played it yet |
 
 How these were measured, and what they do not cover: [docs/TESTING.md](docs/TESTING.md).
 
