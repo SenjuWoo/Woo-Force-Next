@@ -11,6 +11,11 @@
 - Your own characters and stages, listed in `data/select.def` the usual way. They are not part of this project.
 - Python 3.12 for the analyzer and tools: `pip install -r requirements.txt` (Pillow, NumPy). The brain itself needs no Python.
 
+## From the release zip
+
+`Woo-Force-Next-Brain-<version>.zip` has the same layout as the install: extract it into your Ikemen GO folder and merge the folders, which does steps 2, 3 and 5 below
+for you (it carries only the two tools step 6 needs). You still have to do steps 1, 4 and 6, and optionally 7.
+
 ## Steps
 
 1. **Start Ikemen GO once** so it creates `save/config.ini`, then close it.
@@ -23,7 +28,7 @@
    ```
 
 5. **Copy the knowledge files** `woo/profiles.ini`, `woo/lore.txt`, `woo/lore_extra.txt`, `woo/duos.txt` and `woo/series.txt` into a `woo/` folder in your install,
-   and the whole `woo/tools/` folder next to them.
+   and the `woo/tools/` folder next to them (from a clone; the release zip carries just `roster_analyzer.py` and `identity.py`).
    The lore files describe the author's roster; characters they do not mention still get a persona and tier from `profiles.ini`'s rules. Edit them freely.
    A character without a generated profile (step 6) is left alone: it fights with its own AI and the brain does nothing for it.
 6. **Build the profiles** (one JSON per character, parsed from your roster's move lists and AI):
