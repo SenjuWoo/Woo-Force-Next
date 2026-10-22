@@ -72,6 +72,13 @@ class Privacy(unittest.TestCase):
             self.assertLess(p.stat().st_size, 2_000_000, f"{rel} is unexpectedly large")
 
 
+class Placeholders(unittest.TestCase):
+    def test_no_template_tokens_left(self):
+        left = [p.relative_to(ROOT).as_posix() for p in tracked()
+                if p.suffix.lower() in (".md", ".txt", ".yml", ".tsv") and re.search(r"@@[A-Z_]+@@|TODO|FIXME", p.read_text(encoding="utf-8", errors="replace"))]
+        self.assertEqual(left, [])
+
+
 class Links(unittest.TestCase):
     def test_relative_markdown_links_resolve(self):
         missing = []
