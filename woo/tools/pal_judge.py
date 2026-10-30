@@ -121,7 +121,7 @@ def shoot(job):
             f.unlink()
         subprocess.run([sys.executable, str(ROOT / "woo/tools/run_match.py"), "--p1", d, "--p2", FOE, "--pal1", str(pal),
                         "--shot1", "20", "--endafter", "60", "--log", f"woo/logs/{box}.log", "--timeout", "150"],
-                       cwd=ROOT, capture_output=True, text=True)
+                       cwd=ROOT, capture_output=True, text=True, check=True)
         png = sorted(shots.glob("*.png"))
         return Image.open(png[-1]).convert("RGB").crop(CROP).resize((240, 240)) if png else None
     finally:

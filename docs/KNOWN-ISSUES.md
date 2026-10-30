@@ -1,4 +1,4 @@
-# Known issues (0.9.0-beta.1)
+# Known issues (source 0.9.0-beta.2)
 
 This is a BETA. These are the problems the author knows about; there will be others.
 
@@ -24,8 +24,7 @@ This is a BETA. These are the problems the author knows about; there will be oth
 - **No profile, no brain.** A character without a generated profile fights with its own AI, unchanged.
 
 ## Balance
-- **Comebacks are weak.** An underdog that lost round 1 takes round 2 in about 19-21% of cases, the same as before the boost; only match wins went up. A bigger boost makes weak characters win too often.
-- **Tier gap 1 is close to a coin flip** (36-56% for the higher tier across three runs).
+- **Balance needs a fresh baseline.** Earlier beta.1 tier and comeback percentages used raw-health scoring and could miss failed samples. Beta.2 corrects those tools and the time-over loss bug; its population win/comeback rates have not yet been established.
 
 ## Tools
 - In a freshly extracted game, `run_match.py` and `crash_scan.py` can panic with "Unable to add character" (a quirk of the engine's command-line quick match, not of normal play); see [TESTING.md](TESTING.md).

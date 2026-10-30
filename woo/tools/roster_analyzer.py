@@ -4,8 +4,9 @@ Reads every character listed in data/select.def (read-only) and writes one brain
 profile per character: move catalog (command -> state -> hitbox/damage/cost),
 AI grade, power tier, persona. The Lua brain loads these at match start.
 
-usage: python roster_analyzer.py [--root "S:\\Woo Force Next"] [--only SUBSTR] [--selftest]
+usage: python roster_analyzer.py [--root ROOT] [--only SUBSTR] [--summary-only] [--selftest]
 Output: <root>/woo/roster/chars/<slug>.json and <root>/woo/roster/summary.csv
+--summary-only restores the CSV from selected generated profiles without changing them.
 """
 import argparse
 import identity  # per-character style, signature roles, traits
@@ -992,6 +993,45 @@ def slug(def_rel: str) -> str:
     return "".join(out)
 
 
+def summary_row(prof):
+    """Keep normal generation and index recovery on the same batch-suite schema."""
+    return [prof["def"], prof["display"], prof["series"], prof["tier"], prof["persona"], prof["mode"],
+            prof["ai"]["quality"], prof["ai"]["ctrls"], int(prof["ai"]["gated"]), len(prof["moves"]),
+            sum(1 for m in prof["moves"] if "reach" in m), prof["life"], prof["attack"],
+            prof["ai"]["situational"], prof["ai"]["combo"], prof["ai"]["guard"]]
+
+
+def write_summary(root, rows, fails=()):
+    with open(root / "woo" / "roster" / "summary.csv", "w", newline="", encoding="utf-8") as f:
+        w = csv.writer(f)
+        w.writerow(["def", "display", "series", "tier", "persona", "mode", "ai", "ai_ctrls", "gated",
+                    "moves", "moves_with_hitbox", "life", "attack", "ai_situational", "ai_combo", "ai_guard"])
+        w.writerows(rows)
+        for e, why in fails:
+            w.writerow([e, "FAILED", why])
+
+
+def rebuild_summary(root):
+    """Read every selected profile before replacing the index, preserving its order."""
+    rows, seen = [], set()
+    for entry in select_entries(root / "data" / "select.def"):
+        rel = resolve_def(root, entry)
+        if rel is None:
+            raise ValueError(f"def not found: {entry}")
+        if rel.lower() in seen:
+            continue
+        seen.add(rel.lower())
+        path = root / "woo" / "roster" / "chars" / f"{slug(rel)}.json"
+        prof = json.loads(path.read_text(encoding="utf-8"))
+        if prof["def"].lower() != rel.lower():
+            raise ValueError(f"profile def does not match {rel}: {path}")
+        rows.append(summary_row(prof))
+    if not rows:
+        raise ValueError("no selected profiles; summary left unchanged")
+    write_summary(root, rows)
+    return len(rows)
+
+
 def selftest():
     m = compile_command("~D, DF, F, x", {})
     assert m == [[2, 2], [10, 2], [8, 2], [128, 2]], m
@@ -1011,11 +1051,21 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--root", default=str(Path(__file__).resolve().parents[2]))
     ap.add_argument("--only", default="")
+    ap.add_argument("--summary-only", action="store_true", help="rebuild CSV from existing profiles only")
     ap.add_argument("--selftest", action="store_true")
     a = ap.parse_args()
     if a.selftest:
         return selftest()
     root = Path(a.root)
+    if a.summary_only:
+        if a.only:
+            ap.error("--summary-only cannot be combined with --only")
+        try:
+            count = rebuild_summary(root)
+        except (OSError, ValueError, KeyError, TypeError) as ex:
+            ap.error(f"cannot rebuild summary: {ex}")
+        print(f"summary rows: {count}; existing profiles unchanged")
+        return
     rules = load_rules(root / "woo" / "profiles.ini")
     lore = load_lore(root / "woo" / "lore.txt")
     _, ser_keys, ser_defs = load_series(root)
@@ -1056,17 +1106,8 @@ def main():
                     prof[k] = int(ov[k]) if k == "tier" else ov[k]
         prof["identity"] = identity.build(prof)
         (outdir / f"{slug(rel)}.json").write_text(json.dumps(prof, separators=(",", ":")), encoding="utf-8")
-        rows.append([rel, prof["display"], prof["series"], prof["tier"], prof["persona"], prof["mode"],
-                     prof["ai"]["quality"], prof["ai"]["ctrls"], int(prof["ai"]["gated"]), len(prof["moves"]),
-                     sum(1 for m in prof["moves"] if "reach" in m), prof["life"], prof["attack"],
-                     prof["ai"]["situational"], prof["ai"]["combo"], prof["ai"]["guard"]])
-    with open(root / "woo" / "roster" / "summary.csv", "w", newline="", encoding="utf-8") as f:
-        w = csv.writer(f)
-        w.writerow(["def", "display", "series", "tier", "persona", "mode", "ai", "ai_ctrls", "gated",
-                    "moves", "moves_with_hitbox", "life", "attack", "ai_situational", "ai_combo", "ai_guard"])
-        w.writerows(rows)
-        for e, why in fails:
-            w.writerow([e, "FAILED", why])
+        rows.append(summary_row(prof))
+    write_summary(root, rows, fails)
     print(f"profiles: {len(rows)}  failed: {len(fails)}")
     for e, why in fails[:15]:
         print("  FAIL", e, why)

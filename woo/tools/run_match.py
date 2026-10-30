@@ -9,6 +9,7 @@ usage: python run_match.py --p1 "chars/X/X.def" --p2 "chars/Y/Y.def" [--p3 ... -
 Team sides: odd players = side 1, even = side 2 (2v2 = --p1 --p2 --p3 --p4).
 """
 import argparse
+import json
 import re
 import shutil
 import subprocess
@@ -17,6 +18,7 @@ import time
 from pathlib import Path
 
 import winpark
+from match_results import PREFIX, round_winners
 
 ROOT = Path(__file__).resolve().parents[2]
 TEST = ROOT / "woo" / "test"
@@ -37,6 +39,7 @@ ap.add_argument("--guardtest", action="store_true")
 ap.add_argument("--trace", default="")
 ap.add_argument("--time", default="")
 ap.add_argument("--log", default="woo/logs/brain.log")
+ap.add_argument("--module", default="", help="Lua test module loaded only in the sandbox config")
 ap.add_argument("--shot1", nargs="?", const="1", default="", help="screenshot N ticks into the fight (default 120)")
 ap.add_argument("--endafter", default="", help="end the match N ticks into the fight (crash scan)")
 ap.add_argument("--visible", action="store_true", help="leave sound on and the window normal")
@@ -44,6 +47,8 @@ ap.add_argument("--box", default="", help="sandbox folder name (default: the log
 ap.add_argument("--tmode1", default="", help="side 1 team mode: 0 single, 1 simul, 2 turns, 3 tag")
 ap.add_argument("--tmode2", default="", help="side 2 team mode")
 a = ap.parse_args()
+if not a.p1 or not a.p2:
+    ap.error("--p1 and --p2 are required")
 
 players = [(i, getattr(a, f"p{i}")) for i in range(1, 9) if getattr(a, f"p{i}")]
 # one sandbox per log stream, so parallel runs (health sweep + A/B) never share files
@@ -59,7 +64,13 @@ if not motif.exists():
     "[Characters]\r\n" + "".join(f"{p}\r\n" for _, p in dict.fromkeys(players)) +
     "\r\n[ExtraStages]\r\n" + a.stage + "\r\n\r\n[Options]\r\n", encoding="utf-8")
 cfg = (ROOT / "save" / "config.ini").read_text(encoding="utf-8")
+# Legacy Turns replaces P1/P2 between rounds instead of loading reserve player slots.
+legacy_turns = re.search(r"(?m)^TurnsLoading\s*=\s*0\s*(?:;.*)?$", cfg)
+result_players = [i for i, _ in players if i <= 2 or not
+                  (legacy_turns and getattr(a, f"tmode{2 - i % 2}") == "2")]
 cfg = re.sub(r"(?m)^Motif\s*=.*$", f"Motif = {rel}/motif/system.def", cfg)
+if a.module:
+    cfg = re.sub(r"(?m)^Modules\s*=.*$", lambda _: f"Modules = {a.module}", cfg)
 # tests are independent of the player's display settings (crop boxes assume 1920x1080)
 cfg = re.sub(r"(?m)^GameWidth\s*=.*$", "GameWidth = 1920", cfg)
 cfg = re.sub(r"(?m)^GameHeight\s*=.*$", "GameHeight = 1080", cfg)
@@ -78,8 +89,12 @@ log = ROOT / a.log
 start = log.stat().st_size if log.exists() else 0
 stats = TEST / "last_match.txt"
 stats.unlink(missing_ok=True)
+# Each sample starts from the player's baseline and learns only inside its own sandbox.
+learned = ROOT / "woo/roster/gate_learned.tsv"
+(TEST / "gate_learned.tsv").write_bytes(learned.read_bytes() if learned.exists() else b"")
 args = [str(ROOT / "Ikemen_GO.exe"), "-config", f"{rel}/config.ini", "-loadmotif",
-        "-s", a.stage, "-rounds", a.rounds, "-log", f"{rel}/last_match.txt", "-windowed"]
+        "-s", a.stage, "-rounds", a.rounds, "-log", f"{rel}/last_match.txt", "-windowed",
+        "-woo.learned", f"{rel}/gate_learned.tsv"]
 if not a.visible:
     args.append("-nosound")
 for i, p in players:
@@ -132,32 +147,66 @@ def watch():
             break
 
 
-threading.Thread(target=watch, daemon=True).start()
+watcher = threading.Thread(target=watch, daemon=True)
+watcher.start()
 status = None
-while status is None:
-    try:
-        proc.wait(timeout=0.5)
-        status = f"exit {proc.returncode}"
-    except subprocess.TimeoutExpired:
-        if len(panic) > 1:
-            time.sleep(0.5)  # let the rest of the message arrive
-            proc.kill()
-            status = "PANIC (killed)"
-        elif time.time() - t0 > a.timeout:
-            proc.kill()
-            status = "TIMEOUT (killed)"
+try:
+    while status is None:
+        try:
+            proc.wait(timeout=0.5)
+            status = f"exit {proc.returncode}"
+        except subprocess.TimeoutExpired:
+            if panic:
+                status = "PANIC (killed)"
+            elif time.time() - t0 > a.timeout:
+                status = "TIMEOUT (killed)"
+finally:
+    if proc.poll() is None:
+        proc.kill()
+    proc.wait()  # reap timeout/panic/interrupt children before the next sample starts
+    watcher.join(timeout=2)
+    proc.stderr.close()
 print(f"match {status} after {time.time() - t0:.0f}s")
 if panic:
     head = panic[:next((i for i, x in enumerate(panic) if x.startswith("stack traceback")), len(panic))]
     msg = " | ".join(x for x in head if x).replace("Panic: ", "", 1)
     print("ENGINE PANIC:", msg[:600])
+text = ""
 if log.exists():
     with open(log, "rb") as f:
         f.seek(start)
-        print(f.read().decode("utf-8", "replace"), end="")
+        text = f.read().decode("utf-8", "replace")
+        print(text, end="")
+stats_text = ""
 if stats.exists():
-    print(stats.read_text(encoding="utf-8", errors="replace")[:3000])
+    stats_text = stats.read_text(encoding="utf-8", errors="replace")
+    print(stats_text[:3000])
 for p in sorted((ROOT / "save" / "logs").glob("*.log")):
     if p.stat().st_mtime > t0:
         print("ENGINE ERROR LOG:", p)
         print(p.read_text(encoding="utf-8", errors="replace")[:1500])
+if panic or proc.returncode != 0 or status != "exit 0":
+    raise SystemExit(1)
+try:
+    if "ERROR (brain off;" in text:
+        raise ValueError("brain disabled itself after a runtime error")
+    # A bounded loader test may intentionally stop before any round completes.
+    bounded = bool(a.endafter) and all(re.search(rf"loadcheck ok P{i} ", text) for i in result_players)
+    if bounded:
+        winners = []
+    else:
+        last = re.search(r'\["LastRound"\] => (\d+)', stats_text)
+        if not last:
+            raise ValueError("missing native match completion stats")
+        winners = round_winners(text, result_players, int(last.group(1)))
+        wins = re.search(r'\["Wins"\] => table:[^\n]*\{([^}]+)\}', stats_text)
+        totals = {int(side): int(n) for side, n in re.findall(r"\[(\d+)\] => (\d+)", wins.group(1))} if wins else {}
+        # Turns teams need one win per opposing member; other modes use --rounds.
+        needed = {side: (sum(i % 2 != side % 2 for i, _ in players)
+                         if getattr(a, f"tmode{3 - side}") == "2" else int(a.rounds)) for side in (1, 2)}
+        if not any(totals.get(side, 0) >= needed[side] for side in (1, 2)):
+            raise ValueError("match stopped before the required wins")
+except ValueError as exc:
+    print("MATCH FAILED:", exc)
+    raise SystemExit(1) from None
+print(PREFIX + json.dumps({"rounds": winners, "bounded": bounded, "elapsed": round(time.time() - t0, 3)}))

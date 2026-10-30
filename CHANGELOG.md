@@ -3,6 +3,17 @@
 All notable changes to Woo Force Next. Format follows [Keep a Changelog](https://keepachangelog.com/); versions follow [Semantic Versioning](https://semver.org/)
 with `-beta.N` pre-releases. While the project is BETA (0.x), any release may change behaviour, balance and file formats.
 
+## [0.9.0-beta.2] - 2026-10-30
+
+Source update; the published full-game download remains 0.9.0-beta.1.
+
+### Fixed
+- Round outcomes use the engine's per-fighter win/loss/draw flags after hit resolution settles. Positive-life time-over losses now count for adaptation and next-round second wind; draws and KO members of winning teams are classified correctly.
+- Match tools reject engine panic, timeout, incomplete results and empty samples. Batch scoring uses explicit engine outcomes rather than raw remaining health; finisher violations return a failing exit code.
+- Test matches use isolated learned-gate data and optional Lua regression modules in their copied configs, preserving the player's settings and learned baseline.
+- `roster_analyzer.py --summary-only` restores the batch roster CSV from existing selected profiles without regenerating or changing them.
+- Added Lua outcome/adaptation/second-wind regressions to CI and Python failure-path/data-preservation regressions. Historical balance figures require a fresh baseline with the corrected reporters.
+
 ## [0.9.0-beta.1] - 2026-10-22
 
 First public BETA: the brain, the roster knowledge files and the tools, as a source repository. Not a finished product; see

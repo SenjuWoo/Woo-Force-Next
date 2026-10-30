@@ -4,7 +4,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/status-BETA-e23d2b?labelColor=140b07" alt="Status: BETA">
-  <img src="https://img.shields.io/badge/version-0.9.0--beta.1-ff7a18?labelColor=140b07" alt="Version 0.9.0-beta.1">
+  <img src="https://img.shields.io/badge/version-0.9.0--beta.2-ff7a18?labelColor=140b07" alt="Source version 0.9.0-beta.2">
   <img src="https://img.shields.io/badge/roster-996%20characters-53d7ff?labelColor=140b07" alt="996 characters">
   <img src="https://img.shields.io/badge/engine-Ikemen%20GO%20v1.0.0-8f9aa6?labelColor=140b07" alt="Ikemen GO v1.0.0">
   <img src="https://img.shields.io/badge/platform-Windows-8f9aa6?labelColor=140b07" alt="Windows">
@@ -22,11 +22,13 @@
 </p>
 
 > [!WARNING]
-> **This is BETA software (0.9.0-beta.1).** It is unfinished, it has bugs, and it has only ever run on one machine.
+> **This is BETA software. Source on main is 0.9.0-beta.2; the downloadable game is still 0.9.0-beta.1.** It is unfinished and has known bugs.
 > Fights, balance and file formats will change between betas without notice. The roster is a first cut (see below).
 > Please read [what BETA means here](#beta-what-that-means-here) before you try it, and report what you see.
 
 ## Download the game (BETA)
+
+The source update fixes round-result learning and test reliability. It is installed when using this checkout; the existing downloadable ZIPs still contain beta.1. See [CHANGELOG.md](CHANGELOG.md) for the source changes.
 
 The playable game is a **pre-release** made of 23 ZIP parts (39.7 GiB to download, about 58 GiB once extracted): **[download 0.9.0-beta.1](../../releases/tag/v0.9.0-beta.1)**.
 
@@ -89,6 +91,8 @@ other, canon partners team up, and nothing looks broken.
 Details: [docs/HOW-IT-WORKS.md](docs/HOW-IT-WORKS.md).
 
 ## How well does it work?
+
+The figures below are historical beta.1 reports. Its balance tools compared raw remaining health and could miss failed samples; treat tier/comeback percentages as provisional until rerun with the corrected beta.2 outcome checks. Current source regression commands are in [docs/TESTING.md](docs/TESTING.md).
 
 Automated results, headless AI-vs-AI at 4x speed, 2026-10-22, brain 0.9.0-beta.1, measured on the author's full 1,637-character
 development roster (the 996-character download is a subset of it). These measure the brain against its own goals; they are not a claim

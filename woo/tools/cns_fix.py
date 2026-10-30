@@ -118,7 +118,7 @@ def run_one(def_rel: str):
     m = re.search(r"^ENGINE PANIC: (.*)$", res.stdout, re.M)
     if m:
         return re.sub(r"^external/script/main\.lua:\d+: ", "", m.group(1).strip())
-    if "loadcheck ok P1" in res.stdout or "round 1 end" in res.stdout:
+    if res.returncode == 0 and ("loadcheck ok P1" in res.stdout or "round 1 end" in res.stdout):
         return None
     return "no fight: " + " | ".join(res.stdout.splitlines()[:6])
 

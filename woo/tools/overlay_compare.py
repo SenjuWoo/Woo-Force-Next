@@ -61,7 +61,7 @@ def _shoot(job, slot):
         p.unlink()
     subprocess.run([sys.executable, str(ROOT / "woo" / "tools" / "run_match.py"), "--p1", ov, "--p2", orig,
                     "--rounds", "1", "--time", "10", "--shot1", a.tick, "--endafter", str(int(a.tick) + 10), "--timeout", "150",
-                    "--log", log], cwd=ROOT, capture_output=True)
+                    "--log", log], cwd=ROOT, capture_output=True, check=True)
     got = sorted(shots.glob("*.png")) if shots.exists() else []
     if not got:
         return i, kind, ov, None

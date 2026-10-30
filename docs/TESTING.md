@@ -1,8 +1,25 @@
 # Testing (BETA)
 
 > [!WARNING]
-> BETA. Everything below is **automated, headless AI-vs-AI testing at 4x speed on the author's roster**. It measures whether the brain does what it
-> was designed to do. It does not measure how the fights look or feel, and a human play-test of 0.9.0-beta.1 is still pending.
+> BETA. Historical batch results below are from automated AI-vs-AI testing at 4x speed on the earlier development roster. Their balance percentages need a fresh baseline with beta.2's corrected outcome/failure checks. Human play-testing remains incomplete.
+
+## Source regressions (beta.2)
+
+From the project root, run `python -m unittest discover -s tests -v` for repository and Python tool/data regressions. CI also runs `lua5.1 tests/test_brain.lua`, which exercises the actual Lua summary, learning and second-wind functions with KO, time-over, draw and team-result fixtures.
+
+If the game download has generated profiles but no batch CSV, run `python woo/tools/roster_analyzer.py --summary-only` first. It reads selected profiles and writes only the CSV.
+
+A real-engine, two-round time-over regression is available on the full install:
+
+```text
+python woo/tools/run_match.py --p1 chars_fix/Naruto/Naruto.def --p2 chars_fix/Luffy/Luffy.def --rounds 2 --time 30 --speed 1 --timeout 120 --module tests/fixtures/timeout_result.lua --box timeout-result --log woo/logs/timeout-result.log
+```
+
+The isolated fixture forces the living underdog to lose on time, then asserts that its loss count is one and second wind is positive in the next round. It does not change character files or player configuration. Normal runs copy the player's learned-gate baseline into each sandbox, so parallel tests cannot change or share that data.
+
+`run_match.py` returns nonzero on engine error, timeout, brain error or incomplete match. Successful runs emit one `MATCH_RESULT:` JSON line with completed round winners (`1`/`2`, or `0` for a draw); intentional `--endafter` loader checks are marked `bounded` and cannot count as balance samples. `--rounds N` is first to N victories for normal single/simul/tag matches, not necessarily N rounds. Batch reporters reject failed, bounded, empty and malformed samples.
+
+For controlled KO or double-KO checks, replace the module above with `tests/fixtures/ko_result.lua` or `tests/fixtures/draw_result.lua`. Turns matches require one victory per opposing member; with legacy `TurnsLoading = 0`, reserves replace the active P1/P2 slot. `finisher_check.py` requires at least one qualifying damaging super as well as zero violations; no qualifying observations means an inconclusive, failing check.
 
 ## The harness
 

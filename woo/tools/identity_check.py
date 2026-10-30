@@ -15,12 +15,16 @@ import threading
 from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 
+from match_results import checked_result
+
 ROOT = Path(__file__).resolve().parents[2]
 ap = argparse.ArgumentParser()
 ap.add_argument("--n", type=int, default=8)
 ap.add_argument("--seed", type=int, default=5)
 ap.add_argument("--team", type=int, default=1)
 a = ap.parse_args()
+if a.n < 1:
+    ap.error("--n must be positive")
 
 rows = [r for r in csv.DictReader(open(ROOT / "woo" / "roster" / "summary.csv", encoding="utf-8"))
         if r.get("display") != "FAILED"]
@@ -39,7 +43,7 @@ def run(i):
     lp.parent.mkdir(exist_ok=True)
     lp.unlink(missing_ok=True)
     start = 0
-    subprocess.run(args, cwd=ROOT, capture_output=True)
+    checked_result(subprocess.run(args, cwd=ROOT, capture_output=True))
     text = lp.read_text(encoding="utf-8", errors="replace")[start:] if lp.exists() else ""
     return picks, text
 

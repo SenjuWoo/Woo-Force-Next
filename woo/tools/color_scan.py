@@ -67,7 +67,7 @@ def shoot(pair):
             p.unlink()
         subprocess.run([sys.executable, str(ROOT / "woo" / "tools" / "run_match.py"), "--p1", pair[0], "--p2", pair[1],
                         "--rounds", "1", "--time", "10", "--shot1", "2", "--endafter", "10", "--timeout", "150",
-                        "--log", f"woo/logs/cs{slot}.log"], cwd=ROOT, capture_output=True)
+                        "--log", f"woo/logs/cs{slot}.log"], cwd=ROOT, capture_output=True, check=True)
         got = sorted(shots.glob("*.png")) if shots.exists() else []
         if got:
             im = Image.open(got[-1]).convert("RGB")

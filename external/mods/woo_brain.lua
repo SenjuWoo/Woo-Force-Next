@@ -15,7 +15,7 @@ Flags:   -woo off            disable the brain for this run
          -woo.p<N> own|pilot  force a mode for player N (A/B tests)
 ]]
 
-local VERSION = '0.9.0-beta.1' -- keep in step with CHANGELOG.md (tests/check_repo.py enforces it)
+local VERSION = '0.9.0-beta.2' -- keep in step with CHANGELOG.md (tests/test_repo.py enforces it)
 
 local W = {
 	enabled = getCommandLineValue('-woo') ~= 'off',
@@ -48,7 +48,7 @@ local DEAD_INPUT_SLOT = 8 -- input slots past Config.Players read nothing: no ke
 -- ceiling for that cost is halved from the power it had (never under 100). A super that starts with almost no power,
 -- or leaks a second time, does not really need meter (Mr1_Daz_Bones' Atomic Spurt): it is marked free and left alone.
 -- Kept for good: <def> TAB <cost> TAB <ceiling>, or <def> TAB free TAB <state>.
-local LEAK_PATH = 'woo/roster/gate_learned.tsv'
+local LEAK_PATH = getCommandLineValue('-woo.learned') or 'woo/roster/gate_learned.tsv'
 W.leak, W.free = {}, {}
 do
 	local f = io.open(LEAK_PATH, 'r')
@@ -1736,11 +1736,6 @@ end
 
 -- ------------------------------------------------------------------ round log
 local function summary(S)
-	local wt -- winning side of the round (nil if the engine does not say)
-	if winnerTeam then
-		local ok, v = pcall(winnerTeam)
-		if ok and type(v) == 'number' and v > 0 then wt = v end
-	end
 	if (W.profN or 0) > 0 then
 		log(string.format('perf brain avg=%.3f ms max=%.2f ms, in the fight %.2f ms (tick %d), over %d ticks', 1000 * W.profT / W.profN,
 			1000 * W.profMax, 1000 * (W.profMaxF or 0), W.profMaxAt or 0, W.profN))
@@ -1750,7 +1745,12 @@ local function summary(S)
 		local banned = 0
 		for _ in pairs(F.ban) do banned = banned + 1 end
 		local s = S[pn]
-		local lost = s and ((wt and wt ~= s.side) or (not wt and s.life <= 0))
+		local lost, result = false, 'unknown'
+		if s and player(pn) then
+			lost = lose()
+			-- Native flags handle time-over, draws and KO members of a winning team.
+			result = win() and 'win' or lost and 'loss' or drawGame() and 'draw' or 'unknown'
+		end
 		if lost then -- how badly: the best enemy life share left (second wind grows with it)
 			F.lastDom = 0
 			for pn2, s2 in pairs(S) do
@@ -1758,11 +1758,12 @@ local function summary(S)
 			end
 		end
 		local learned = (F.mode == 'overmind' or F.mode == 'pilot') and learnRound(F, lost) or ''
-		log(string.format('round %d end P%d %s mode=%s life=%d tries=%d came_out=%d landed=%d guards=%d banned=%d',
-			W.round, pn, F.def or '?', F.mode, s and s.life or -1, F.tries, F.cameOut or 0, F.landed, F.guards, banned))
+		log(string.format('round %d end P%d %s mode=%s life=%d tries=%d came_out=%d landed=%d guards=%d banned=%d result=%s',
+			W.round, pn, F.def or '?', F.mode, s and s.life or -1, F.tries, F.cameOut or 0, F.landed, F.guards, banned, result))
 		log(string.format('activity P%d act=%d moved=%d life=%d maxcombo=%d loopbreaks=%d whiffs=%d supers=%d', pn, F.actTicks or 0,
 			math.floor(F.moved or 0), s and s.life or -1, s and s.maxHits or 0, s and s.breaks or 0, F.whiffs or 0, F.supersFired or 0))
-		if learned ~= '' then log(string.format('adapt P%d (%s round, lost so far %d, iq %.2f): %s', pn, lost and 'lost' or 'won', F.roundsLost, F.iq, learned)) end
+		local label = ({win = 'won', loss = 'lost', draw = 'drew'})[result] or 'unknown'
+		if learned ~= '' then log(string.format('adapt P%d (%s round, lost so far %d, iq %.2f): %s', pn, label, F.roundsLost, F.iq, learned)) end
 		F.whiffs, F.supersFired = 0, 0
 		local mp = {}
 		for k, v in pairs(F.momN or {}) do table.insert(mp, k .. '=' .. v) end
@@ -1862,7 +1863,8 @@ local function step()
 	if rn ~= W.round then
 		W.round, W.logged = rn, false
 	end
-	if rs >= 3 and not W.logged then
+	-- Round flags can still change during hit resolution (state 3); state 4 is final.
+	if rs >= 4 and not W.logged then
 		W.logged = true
 		summary(S)
 	end

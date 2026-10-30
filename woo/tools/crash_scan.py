@@ -82,7 +82,8 @@ def run(batch):
             f.seek(start)
             text = f.read().decode("utf-8", "replace")
     # pass = the fight actually started (loadcheck), or the round already ended (an OP character)
-    if all(f"loadcheck ok P{i} " in text for i in range(1, len(fighters) + 1)) or "round 1 end" in text:
+    if res.returncode == 0 and "ENGINE PANIC:" not in res.stdout and (
+            all(f"loadcheck ok P{i} " in text for i in range(1, len(fighters) + 1)) or "round 1 end" in text):
         stalls = {}  # intros the brain's watchdog had to cut (they hang the round in MUGEN)
         for m in re.finditer(r"intro watchdog: P(\d) .*? stuck in state (-?\d+) anim (-?\d+)", text):
             k = int(m.group(1)) - 1

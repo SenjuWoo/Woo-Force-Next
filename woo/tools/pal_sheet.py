@@ -47,7 +47,7 @@ def shoot(pal):
         subprocess.run([sys.executable, str(ROOT / "woo/tools/run_match.py"), "--p1", a.def_path, "--p2", a.foe,
                         "--pal1", str(pal), "--shot1", a.tick, "--endafter", str(int(a.tick) + 40),
                         "--log", f"woo/logs/{box}.log", "--timeout", "150"],
-                       cwd=ROOT, capture_output=True, text=True)
+                       cwd=ROOT, capture_output=True, text=True, check=True)
         png = sorted(shots.glob("*.png"))
         if not png:
             return pal, None

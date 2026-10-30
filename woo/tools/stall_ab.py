@@ -14,6 +14,8 @@ import sys
 from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 
+from match_results import checked_result
+
 ROOT = Path(__file__).resolve().parents[2]
 ap = argparse.ArgumentParser()
 ap.add_argument("--n", type=int, default=8)
@@ -23,6 +25,8 @@ ap.add_argument("--jobs", type=int, default=3)
 ap.add_argument("--timeout", type=int, default=260)
 ap.add_argument("--modes", default="on,off", help="comma list of on,off")
 a = ap.parse_args()
+if a.n < 1 or not a.modes or any(m not in ("on", "off") for m in a.modes.split(",")):
+    ap.error("--n must be positive and --modes must contain on and/or off")
 
 rows = [r for r in csv.DictReader(open(ROOT / "woo" / "roster" / "summary.csv", encoding="utf-8"))
         if r["display"] != "FAILED" and r["ai"] != "none" and int(r["moves"]) >= 5]
@@ -46,7 +50,7 @@ def run(job):
            "--speed", a.speed, "--timeout", str(a.timeout), "--log", str(log.relative_to(ROOT)).replace("\\", "/")]
     if mode == "off":
         cmd += ["--woo", "off"]
-    subprocess.run(cmd, cwd=ROOT, capture_output=True, text=True)
+    result = checked_result(subprocess.run(cmd, cwd=ROOT, capture_output=True, text=True))
     txt = log.read_text(encoding="utf-8", errors="replace").splitlines() if log.exists() else []
     start = next((secs(l) for l in txt if " round 1 start P1" in l), None)
     end = next((secs(l) for l in txt if " round 1 end P1" in l or " round 1 STALL" in l), None)
@@ -57,7 +61,9 @@ def run(job):
         if m:
             lives[m.group(1)] = int(m.group(2))
     dur = (end - start) if start is not None and end is not None else None
-    return i, mode, p1, p2, stall, dur, lives, bool(end)
+    if end is None:
+        raise RuntimeError(f"{p1} vs {p2} ({mode}): missing round-end log")
+    return i, mode, p1, p2, stall, dur, lives, result["rounds"][0]
 
 
 jobs = [(i, m, p) for i, p in enumerate(pairs) for m in a.modes.split(",")]
@@ -65,9 +71,9 @@ with ThreadPoolExecutor(a.jobs) as ex:
     res = sorted(ex.map(run, jobs), key=lambda r: (r[0], r[1]))
 name = lambda d: Path(d).stem
 tot = {}
-for i, mode, p1, p2, stall, dur, lives, ended in res:
+for i, mode, p1, p2, stall, dur, lives, winner in res:
     l1, l2 = lives.get("P1"), lives.get("P2")
-    kind = "STALL" if stall else ("KO" if ended else "NO-END")
+    kind = "STALL" if stall else ("DRAW" if winner == 0 else "KO")
     print(f"{i:>2} {mode:<3} {kind:<6} {str(dur) + 's':>6}  P1 {name(p1)[:22]:<22} life {l1}  P2 {name(p2)[:22]:<22} life {l2}")
     t = tot.setdefault(mode, [0, 0, 0])
     t[0] += 1

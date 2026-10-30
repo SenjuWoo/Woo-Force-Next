@@ -84,7 +84,7 @@ while i < len(todo):
     act = {}
     for m in re.finditer(r"activity P(\d) act=(\d+) moved=(\d+) life=(-?\d+)", text):
         act[int(m.group(1))] = (int(m.group(2)), int(m.group(3)), int(m.group(4)))
-    err = b"ENGINE PANIC" in res.stdout  # per process (save/logs is shared with parallel runs)
+    err = res.returncode != 0  # per process, including panic, timeout and incomplete matches
     # GL/window creation failed (display asleep, session ending): not the characters' fault, retry
     if b"glActiveTexture" in res.stdout or b"Loading module" not in res.stdout:
         env_fails += 1

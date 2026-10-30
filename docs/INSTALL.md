@@ -9,6 +9,8 @@
 
 ## What you need
 
+These source instructions describe beta.2. The existing full-game and brain-kit release ZIPs remain beta.1 until a new release is published.
+
 - Windows 10 or 11. Only Windows 11 has been tested.
 - [Ikemen GO v1.0.0](https://github.com/ikemen-engine/Ikemen-GO/releases/tag/v1.0.0) (the `Ikemen_GO.exe` release). Other versions are untested.
 - Your own characters and stages, listed in `data/select.def` the usual way. They are not part of this project.
@@ -40,11 +42,11 @@ for you (it carries only the two tools step 6 needs). You still have to do steps
    python woo/tools/roster_analyzer.py
    ```
 
-   It reads `data/select.def` and writes `woo/roster/chars/*.json` and `woo/roster/summary.csv`. Re-run it after you edit the lore files or add characters.
+   It reads `data/select.def` and writes `woo/roster/chars/*.json` and `woo/roster/summary.csv`. Re-run it after you edit the lore files or add characters. If the character profiles already exist and only the CSV is missing, use `python woo/tools/roster_analyzer.py --summary-only` to preserve those profiles.
 7. **Optional: the palette fix.** Stock Ikemen GO v1.0.0 picks a random palette for an AI fighter whose `pal.defaults` is blank. `patches/start-lua-palette-default.patch`
    makes it use the first free slot instead. Apply it to `external/script/start.lua` with `patch -l -p0 < patches/start-lua-palette-default.patch`, or paste the 9 added lines by hand
    (in `start.f_selectPal`, in the "default palette for AI" branch, right after the `pal_defaults` loop). The brain does not need it.
-8. **Play.** Start Ikemen GO, pick Watch mode (or any AI-controlled fight). The log `woo/logs/brain.log` should start with `woo_brain 0.9.0-beta.1 (BETA) loaded`.
+8. **Play.** Start Ikemen GO, pick Watch mode (or any AI-controlled fight). For this source version, `woo/logs/brain.log` should start with `woo_brain 0.9.0-beta.2 (BETA) loaded`.
 
 ## Switching it off
 

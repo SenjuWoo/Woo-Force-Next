@@ -18,6 +18,8 @@ import threading
 from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 
+from match_results import checked_result
+
 ROOT = Path(__file__).resolve().parents[2]
 ap = argparse.ArgumentParser()
 ap.add_argument("--n", type=int, default=12)
@@ -33,6 +35,8 @@ forced = [p.split("|") for p in a.pairs.split(";") if p]
 for old in (ROOT / "woo" / "logs" / "fin").glob("*.log"):  # a shorter run must not score the previous run's leftovers
     old.unlink()
 jobs = [[{"def": d} for d in f] for f in forced] + [rng.sample(rows, 2 * a.team) for _ in range(a.n)]
+if not jobs:
+    ap.error("at least one match is required")
 
 
 def run(i):
@@ -45,11 +49,11 @@ def run(i):
             "--log", log, "--box", "fin" + threading.current_thread().name.rsplit("_", 1)[-1]]
     for k in range(len(picks) // 2):
         args += [f"--p{2 * k + 1}", picks[2 * k]["def"], f"--p{2 * k + 2}", picks[2 * k + 1]["def"]]
-    subprocess.run(args, cwd=ROOT, capture_output=True)
+    checked_result(subprocess.run(args, cwd=ROOT, capture_output=True))
     return picks, lp.read_text(encoding="utf-8", errors="replace") if lp.exists() else ""
 
 
-bad, total, hist, vetoes, tail = [], 0, {}, [], []
+bad, total, hist, vetoes, tail, errors = [], 0, {}, [], [], []
 # states the brain found need no meter (entered with < 100 power, or leaked twice): not supers, not gated
 learned = ROOT / "woo" / "roster" / "gate_learned.tsv"
 free = set()
@@ -57,9 +61,12 @@ with ThreadPoolExecutor(2) as ex:
     for picks, text in ex.map(run, range(len(jobs))):
         names = " vs ".join(Path(p["def"]).parent.name for p in picks)
         errs = re.findall(r"ERROR.*", text)
+        if not text.strip():
+            raise RuntimeError(f"{names}: missing brain log")
+        errors.extend(errs)
         sup = re.findall(r'super P(\d+) (\S.*?) st=(\d+) "(.*?)" cost=(\d+) atk=(\d) foe_low=(\d+)% need=(\d+)% self=(\d+)% allies=(\d+).*? shut=(\w+)/', text)
         for pn, d, st, name, cost, atk, foe, need, me, allies, shut in sup:
-            if learned.exists():  # re-read for every super: a state freed during the run is not a violation
+            if learned.exists():  # baseline frees; new per-match frees are checked in that match's log below
                 free.update(tuple(ln.split("	")[::2]) for ln in learned.read_text(encoding="utf-8").splitlines()
                             if ln.count("	") == 2 and ln.split("	")[1] == "free")
             # cheap flash moves, buffs/summons, meter-free moves, big supers freed for this match (cancel loop)
@@ -78,7 +85,7 @@ with ThreadPoolExecutor(2) as ex:
         vetoes += [f"{Path(d).parent.name} '{n}' cost {c}: had {h} -> ceiling {k}" for _, d, n, c, h, k in vt]
         print(f"{names}: {len(sup)} supers, {len(vt)} vetoed{'  ERROR ' + errs[0] if errs else ''}")
 print(f"supers: {total}; by enemy life share (%): {dict(sorted(hist.items()))}")
-print(f"vetoed (cancelled at entry, ceiling learned into woo/roster/gate_learned.tsv): {len(vetoes)}")
+print(f"vetoed (cancelled at entry, ceiling learned into each match's sandbox): {len(vetoes)}")
 for v in vetoes[:12]:
     print("  ", v)
 print(f"tail (gate open, life swung back within 1.5 s): {len(tail)}")
@@ -87,3 +94,6 @@ for b in tail[:10]:
 print(f"violations: {len(bad)}")
 for b in bad[:20]:
     print("  ", b)
+if total == 0:
+    print("no qualifying supers observed; finisher discipline was not tested")
+sys.exit(1 if bad or errors or total == 0 else 0)

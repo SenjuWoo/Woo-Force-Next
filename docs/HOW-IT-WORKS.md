@@ -47,6 +47,8 @@ How it is enforced:
 
 ## Comebacks
 
+Round results come from the engine's per-player `win()`, `lose()` and `drawGame()` flags once round state reaches 4, after hit resolution settles. Remaining health does not identify a winner across fighters with different maximum health. The result feeds both the adaptation rate and the count of lost rounds; draws do not increment that count.
+
 - **Second wind:** after losing a round, the weaker fighter gets `min(0.50, (0.10 x min(tier gap, 3) + 0.25 x how badly it lost) x min(rounds lost, 2))`
   on top of its attack and defence.
 - **Fighting spirit:** once per round, at 25% life, a swing of 4-16% to attack and defence, bigger for the underdog.

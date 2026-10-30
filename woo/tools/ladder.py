@@ -1,7 +1,7 @@
 """Balance ladder: watch many AI-vs-AI matches across power tiers, measure who beats whom.
 
 Samples characters per tier (profiles' `tier`, 1-6), pairs them randomly across tiers, plays 2-round
-matches at --speed (2 at a time), takes each round's winner from the brain log (higher life at round end),
+matches at --speed (2 at a time), takes each round's winner from the engine result flags,
 then reports Elo per character and the tier-vs-tier round win rate. The lore order should hold (higher
 tier wins more) while upsets still happen: the TIER atk/def multipliers in woo_brain.lua are tuned
 against this table. Resumable: results append to woo/roster/ladder_rounds.tsv.
@@ -11,7 +11,6 @@ usage: python ladder.py [--per-tier 8] [--matches 120] [--seed 3] [--speed 4] [-
 import argparse
 import csv
 import random
-import re
 import subprocess
 import sys
 import threading
@@ -19,6 +18,8 @@ import time
 from collections import defaultdict
 from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
+
+from match_results import checked_result
 
 ROOT = Path(__file__).resolve().parents[2]
 OUT = ROOT / "woo" / "roster" / "ladder_rounds.tsv"
@@ -31,6 +32,8 @@ ap.add_argument("--report", action="store_true", help="only print the report fro
 ap.add_argument("--out", default=str(OUT), help="results file (keep runs of different brain versions apart)")
 ap.add_argument("--jobs", type=int, default=2)
 a = ap.parse_args()
+if not a.report and a.matches < 1:
+    ap.error("--matches must be positive")
 OUT = Path(a.out)
 
 rows = [r for r in csv.DictReader(open(ROOT / "woo" / "roster" / "summary.csv", encoding="utf-8"))
@@ -44,20 +47,11 @@ def play(job):
     lp = ROOT / log
     lp.parent.mkdir(exist_ok=True)
     lp.unlink(missing_ok=True)
-    start = 0
-    subprocess.run([sys.executable, str(ROOT / "woo" / "tools" / "run_match.py"), "--p1", p1, "--p2", p2,
+    result = checked_result(subprocess.run([sys.executable, str(ROOT / "woo" / "tools" / "run_match.py"), "--p1", p1, "--p2", p2,
                     "--rounds", "2", "--speed", a.speed, "--time", "99", "--timeout", "420", "--log", log,
                     "--box", "ladder" + threading.current_thread().name.rsplit("_", 1)[-1]],
-                   cwd=ROOT, capture_output=True)
-    text = lp.read_text(encoding="utf-8", errors="replace")[start:] if lp.exists() else ""
-    life = defaultdict(dict)
-    for m in re.finditer(r"round (\d+) end P([12]) \S.*? mode=\w+ life=(-?\d+)", text):
-        life[m.group(1)][int(m.group(2))] = int(m.group(3))
-    res = []
-    for rn, v in sorted(life.items()):
-        if 1 in v and 2 in v and v[1] != v[2]:
-            res.append((p1, p2, 1 if v[1] > v[2] else 2))
-    return res
+                   cwd=ROOT, capture_output=True))
+    return [(p1, p2, winner) for winner in result["rounds"]]
 
 
 if not a.report:
@@ -85,11 +79,13 @@ if not a.report:
 
 # report
 games = [ln.rstrip("\n").split("\t") for ln in OUT.read_text(encoding="utf-8").splitlines()] if OUT.exists() else []
+if not games:
+    raise SystemExit("no completed rounds to report")
 elo = defaultdict(lambda: 1500.0)
 for _ in range(20):  # iterate to convergence on a small sample
     for p1, p2, w in games:
         e1 = 1 / (1 + 10 ** ((elo[p2] - elo[p1]) / 400))
-        s1 = 1.0 if w == "1" else 0.0
+        s1 = 0.5 if w == "0" else float(w == "1")
         elo[p1] += 8 * (s1 - e1)
         elo[p2] -= 8 * (s1 - e1)
 mat = defaultdict(lambda: [0, 0])  # (tier_a, tier_b) -> [wins of a, rounds]
@@ -99,7 +95,7 @@ for p1, p2, w in games:
         continue
     hi, lo = (p1, p2) if t1 > t2 else (p2, p1)
     gap = abs(t1 - t2)
-    win_hi = (w == "1") == (hi == p1)
+    win_hi = 0.5 if w == "0" else (w == "1") == (hi == p1)
     mat[gap][0] += win_hi
     mat[gap][1] += 1
 print(f"{len(games)} rounds")
