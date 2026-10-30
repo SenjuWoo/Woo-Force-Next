@@ -21,7 +21,7 @@ local W, summary, applyRound, step = chunk()
 
 local function fighter(pn)
 	return {def = 'fixture' .. pn .. '.def', mode = 'overmind', ban = {}, stats = {},
-		tries = 0, guards = 0, iq = 0.5, roundsLost = 0, opp = {}, adapt = {},
+		tries = 0, landed = 0, guards = 0, iq = 0.5, roundsLost = 0, opp = {}, adapt = {},
 		mem = {enemy = {dmg = {melee = 100}, rounds = 0}}, T = {atk = 1, def = 1, ai = 6}}
 end
 
