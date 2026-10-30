@@ -9,16 +9,22 @@
 
 ## What you need
 
-These source instructions describe beta.2. The existing full-game and brain-kit release ZIPs remain beta.1 until a new release is published.
+These instructions describe beta.2. Its [upgrade ZIP](../../../releases/tag/v0.9.0-beta.2) updates the beta.1 full game; the existing full-game parts remain the base download.
 
 - Windows 10 or 11. Only Windows 11 has been tested.
 - [Ikemen GO v1.0.0](https://github.com/ikemen-engine/Ikemen-GO/releases/tag/v1.0.0) (the `Ikemen_GO.exe` release). Other versions are untested.
 - Your own characters and stages, listed in `data/select.def` the usual way. They are not part of this project.
 - Python 3.12 for the analyzer and tools: `pip install -r requirements.txt` (Pillow, NumPy). The brain itself needs no Python.
 
-## From the release zip
+## Updating the full Woo Force Next game
 
-`Woo-Force-Next-Brain-<version>.zip` has the same layout as the install: extract it into your Ikemen GO folder and merge the folders, which does steps 2, 3 and 5 below
+Close the game, back up `external/mods/woo_brain.lua`, `data/woo_brain.zss` and `woo/tools/`, then extract `Woo-Force-Next-Upgrade-0.9.0-beta.2.zip` into the existing game root and replace those files. It leaves settings, saves, generated profiles and learned data untouched. Verify the ZIP against its release's `SHA256SUMS.txt`. Playing needs no Python; optional tools use `pip install -r woo/tools/requirements.txt`.
+
+The upgrade is not a standalone game or a complete first-time brain kit for another roster. For your own Ikemen installation, use the source and follow the steps below. The historical beta.1 brain kit can also be installed first, then upgraded.
+
+## Historical brain-kit ZIP
+
+`Woo-Force-Next-Brain-0.9.0-beta.1.zip` has the same layout as the install: extract it into your Ikemen GO folder and merge the folders, which does steps 2, 3 and 5 below
 for you (it carries only the two tools step 6 needs). You still have to do steps 1, 4 and 6, and optionally 7.
 
 ## Steps

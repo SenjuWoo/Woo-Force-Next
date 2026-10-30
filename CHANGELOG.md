@@ -5,7 +5,7 @@ with `-beta.N` pre-releases. While the project is BETA (0.x), any release may ch
 
 ## [0.9.0-beta.2] - 2026-10-30
 
-Source update; the published full-game download remains 0.9.0-beta.1.
+Upgrade release for the 0.9.0-beta.1 full game. The upgrade ZIP contains the current brain, bridge and complete Python toolkit; it does not replace settings, generated profiles or learned data. The large full-game download remains the beta.1 base.
 
 ### Fixed
 - Round outcomes use the engine's per-fighter win/loss/draw flags after hit resolution settles. Positive-life time-over losses now count for adaptation and next-round second wind; draws and KO members of winning teams are classified correctly.
@@ -13,6 +13,9 @@ Source update; the published full-game download remains 0.9.0-beta.1.
 - Test matches use isolated learned-gate data and optional Lua regression modules in their copied configs, preserving the player's settings and learned baseline.
 - `roster_analyzer.py --summary-only` restores the batch roster CSV from existing selected profiles without regenerating or changing them.
 - Added Lua outcome/adaptation/second-wind regressions to CI and Python failure-path/data-preservation regressions. Historical balance figures require a fresh baseline with the corrected reporters.
+
+### Distribution
+- Added a deterministic upgrade pack built from an exact Git commit, with per-file provenance and SHA-256 checksums. Install over the existing beta.1 game; no full-game redownload is needed.
 
 ## [0.9.0-beta.1] - 2026-10-22
 

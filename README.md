@@ -12,6 +12,10 @@
   <a href="https://github.com/SenjuWoo/Woo-Force-Next/actions/workflows/ci.yml"><img src="https://github.com/SenjuWoo/Woo-Force-Next/actions/workflows/ci.yml/badge.svg" alt="CI"></a>
 </p>
 
+![Naruto and Luffy fighting in a native beta.2 AI-versus-AI regression match, with the stage, HUD and brain overlay visible.](docs/images/beta2-combat.png)
+
+*Actual normal-speed combat capture from the beta.2 verification run. Character and stage artwork belongs to its respective authors.*
+
 <p align="center">
   <a href="#download-the-game-beta">Download</a> ·
   <a href="docs/INSTALL.md">Install</a> ·
@@ -22,20 +26,23 @@
 </p>
 
 > [!WARNING]
-> **This is BETA software. Source on main is 0.9.0-beta.2; the downloadable game is still 0.9.0-beta.1.** It is unfinished and has known bugs.
+> **This is BETA software. The current brain and tools are 0.9.0-beta.2, installed over the 0.9.0-beta.1 full-game download.** It is unfinished and has known bugs.
 > Fights, balance and file formats will change between betas without notice. The roster is a first cut (see below).
 > Please read [what BETA means here](#beta-what-that-means-here) before you try it, and report what you see.
 
 ## Download the game (BETA)
 
-The source update fixes round-result learning and test reliability. It is installed when using this checkout; the existing downloadable ZIPs still contain beta.1. See [CHANGELOG.md](CHANGELOG.md) for the source changes.
+The [beta.2 upgrade](../../releases/tag/v0.9.0-beta.2) fixes round-result learning and test reliability. It contains the updated brain, bridge and complete Python toolkit; it preserves player settings, character profiles and learned data. A current source checkout already includes these fixes. See [CHANGELOG.md](CHANGELOG.md).
 
 The playable game is a **pre-release** made of 23 ZIP parts (39.7 GiB to download, about 58 GiB once extracted): **[download 0.9.0-beta.1](../../releases/tag/v0.9.0-beta.1)**.
 
 1. Make an empty folder (not inside Program Files).
 2. Download **every** `Woo-Force-Next-Game-0.9.0-beta.1-partNN.zip` and extract them all into that folder, in any order, merging folders.
 3. Optional: check the files against `SHA256SUMS.txt`.
-4. Run `Ikemen_GO.exe` and pick **Watch mode** (AI vs AI), or any other mode.
+4. Download `Woo-Force-Next-Upgrade-0.9.0-beta.2.zip` from the [beta.2 release](../../releases/tag/v0.9.0-beta.2). Close the game, back up your existing brain/bridge/tool files, then extract the upgrade into the same game folder and replace those files. Do not extract it into a second nested folder. Verify its checksum against the beta.2 `SHA256SUMS.txt`.
+5. Run `Ikemen_GO.exe` and pick **Watch mode** (AI vs AI), or any other mode. The brain log should identify `0.9.0-beta.2`.
+
+Already have the full beta.1 game? Download only the upgrade. It contains no characters, engine, saves, configuration, roster profiles or learned data. The development tools optionally need Python and `pip install -r woo/tools/requirements.txt`; playing needs no Python. To recover only the missing batch CSV from existing profiles, run `python woo/tools/roster_analyzer.py --summary-only`.
 
 Needs Windows 10/11 64-bit, a GPU with OpenGL 3.3, and about 60 GiB of free disk. It starts full screen at 1920x1080 with MSAA 4; change that in `save/config.ini`.
 
