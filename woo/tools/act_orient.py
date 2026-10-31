@@ -16,12 +16,7 @@ usage: python act_orient.py [--fix] [--only SUBSTR] [defs...]   report: woo/rost
 """
 import argparse
 import csv
-import io
-import struct
-import sys
 from pathlib import Path
-
-from PIL import Image
 
 ROOT = Path(__file__).resolve().parents[2]
 FIX = ROOT / "chars_fix"
