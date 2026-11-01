@@ -1,13 +1,12 @@
+<p align="center"><img src="assets/mark.svg" width="72" height="72" alt="Woo Force Next"></p>
+
+<h1 align="center">Woo Force Next</h1>
+
+<p align="center"><strong>A playable anime fighting game on Ikemen GO, with an AI brain that makes AI-vs-AI fights worth watching.</strong></p>
+
 <p align="center">
-  <img src="assets/mark.svg" width="72" height="72" alt="Woo Force Next">
-</p>
-
-<div align="center">
-
-# Woo Force Next
-
-<p>
   <img src="https://img.shields.io/badge/status-BETA-e23d2b?labelColor=140b07" alt="Status: BETA">
+  <img src="https://img.shields.io/badge/version-0.9.0--beta.2-ff7a18?labelColor=140b07" alt="Source version 0.9.0-beta.2">
   <img src="https://img.shields.io/badge/roster-996%20characters-53d7ff?labelColor=140b07" alt="996 characters">
   <img src="https://img.shields.io/badge/engine-Ikemen%20GO%20v1.0.0-8f9aa6?labelColor=140b07" alt="Ikemen GO v1.0.0">
   <img src="https://img.shields.io/badge/platform-Windows-8f9aa6?labelColor=140b07" alt="Windows">
@@ -15,23 +14,11 @@
   <a href="https://github.com/SenjuWoo/Woo-Force-Next/actions/workflows/ci.yml"><img src="https://github.com/SenjuWoo/Woo-Force-Next/actions/workflows/ci.yml/badge.svg" alt="CI"></a>
 </p>
 
-</div>
-
-<p align="center"><strong>A playable anime fighting game on Ikemen GO, with an AI brain that makes AI-vs-AI fights worth watching.</strong></p>
-
-
 ![Naruto and Luffy fighting in a native beta.2 AI-versus-AI regression match, with the stage, HUD and brain overlay visible.](docs/images/beta2-combat.png)
 
 *Actual normal-speed combat capture from the beta.2 verification run. Character and stage artwork belongs to its respective authors.*
 
-<p align="center">
-  <a href="#download-the-game-beta">Download</a> ·
-  <a href="docs/INSTALL.md">Install</a> ·
-  <a href="docs/HOW-IT-WORKS.md">How it works</a> ·
-  <a href="docs/TESTING.md">Testing</a> ·
-  <a href="docs/KNOWN-ISSUES.md">Known issues</a> ·
-  <a href="CHANGELOG.md">Changelog</a>
-</p>
+<p align="center"><a href="#download-the-game-beta">Download</a> · <a href="docs/INSTALL.md">Install</a> · <a href="docs/HOW-IT-WORKS.md">How it works</a> · <a href="docs/TESTING.md">Testing</a> · <a href="docs/KNOWN-ISSUES.md">Known issues</a> · <a href="CHANGELOG.md">Changelog</a></p>
 
 > [!WARNING]
 > **This is BETA software. The current brain and tools are 0.9.0-beta.2, installed over the 0.9.0-beta.1 full-game download.** It is unfinished and has known bugs.
