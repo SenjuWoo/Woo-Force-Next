@@ -1,40 +1,51 @@
-name: Bug report (BETA)
-description: Something looked wrong, stalled or crashed. This project is BETA, so reports are welcome and expected.
-labels: [bug]
+name: Bug report
+description: Something is broken or does not behave as documented.
+labels: ["bug"]
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for testing a BETA. The more of `woo/logs/brain.log` you can attach, the faster this can be fixed.
-        Try the same match with `-woo off` first: it tells us whether the brain is involved.
+        Check the README's troubleshooting section and search existing issues first.
+
+        For a security problem, do not open an issue — use the private advisory
+        link in SECURITY.md.
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened
+      description: What you saw, and what you expected instead.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: The shortest sequence that shows the problem.
+      placeholder: |
+        1.
+        2.
+        3.
+    validations:
+      required: true
   - type: input
     id: version
     attributes:
-      label: Brain version
-      description: The first line of woo/logs/brain.log, e.g. "woo_brain 0.9.0-beta.1 (BETA) loaded".
+      label: Version
+      description: The release tag or commit you are running.
     validations:
       required: true
-  - type: textarea
-    id: what
-    attributes:
-      label: What happened
-      description: Which characters, which mode (Watch, team size), what you saw, what you expected.
-    validations:
-      required: true
-  - type: dropdown
-    id: without
-    attributes:
-      label: Does it also happen with `-woo off`?
-      options: [Yes, No, Did not try]
-    validations:
-      required: true
-  - type: textarea
-    id: log
-    attributes:
-      label: Relevant lines from woo/logs/brain.log
-      render: text
   - type: input
-    id: env
+    id: environment
     attributes:
-      label: Setup
-      description: Windows version, Ikemen GO version, roster size (own roster? the author's? a few characters?).
+      label: Environment
+      description: OS, game build, runtime or toolchain version — whichever applies here.
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs
+      description: Paste the relevant lines. The README names where the log lives.
+      render: text
+    validations:
+      required: false
