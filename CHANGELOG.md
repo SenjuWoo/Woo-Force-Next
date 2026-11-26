@@ -3,6 +3,12 @@
 All notable changes to Woo Force Next. Format follows [Keep a Changelog](https://keepachangelog.com/); versions follow [Semantic Versioning](https://semver.org/)
 with `-beta.N` pre-releases. While the project is BETA (0.x), any release may change behaviour, balance and file formats.
 
+## [Unreleased]
+
+### Documentation
+- README reorganised around a cover image and section links, with the BETA notice still on the first screen. New proof images from real runs on the game install: a four-match `finisher_check.py` run (0 violations), the two-round time-over regression with its brain log, and the Watch-mode select screen. A tools table lists every developer command. No brain, bridge, data or tool changed.
+- README notes that a source checkout keeps the tool requirements in the root `requirements.txt` (the upgrade ZIP places it at `woo/tools/requirements.txt`).
+
 ## [0.9.0-beta.2] - 2026-10-30
 
 Upgrade release for the 0.9.0-beta.1 full game. The upgrade ZIP contains the current brain, bridge and complete Python toolkit; it does not replace settings, generated profiles or learned data. The large full-game download remains the beta.1 base.
